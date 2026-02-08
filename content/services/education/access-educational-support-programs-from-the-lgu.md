@@ -1,4 +1,4 @@
-# Access Educational Support Programs from the LGU — Lapu-Lapu City
+# Access Educational Support Programs from the LGU — Morong, Rizal
 
 Below are **city-led** or **LGU-facilitated** programs you can use for study support: free school supplies, e-library access, student employment (SPES) via PESO, scholarships, and cash/education assistance. Links point to official pages or recent announcements.
 
@@ -31,7 +31,7 @@ Below are **city-led** or **LGU-facilitated** programs you can use for study sup
 
 **How to access**
 
-1. Go to the **Lapu-Lapu City e-Library (Hoops Dome)** during operating hours.
+1. Go to the **Morong, Rizal e-Library (Hoops Dome)** during operating hours.
 2. Sign the logbook; follow usage limits (to give everyone a turn).
 
 **Links**
@@ -51,13 +51,13 @@ Below are **city-led** or **LGU-facilitated** programs you can use for study sup
 
 **How to access**
 
-1. Follow **PESO Lapu-Lapu City** on Facebook for **SPES application windows** and job fair advisories.
+1. Follow **PESO Morong, Rizal** on Facebook for **SPES application windows** and job fair advisories.
 2. Prepare IDs, school docs, and income/indigency proofs per announcement.
 3. Submit online or at the PESO office; attend orientation when shortlisted.
 
 **Links**
 
-- **PESO Lapu-Lapu City** Facebook page (official announcements)
+- **PESO Morong, Rizal** Facebook page (official announcements)
 - DepEd/BLSS-YFD: **SPES 2025 guidelines & timelines**
 - City press: **PESO career fair / youth employment events** — City Information Office
 
@@ -71,12 +71,12 @@ Below are **city-led** or **LGU-facilitated** programs you can use for study sup
 
 **How to access**
 
-1. Monitor the **Lapu-Lapu City Government / City Information Office** and the **Office of the Mayor / Congresswoman** for official **calls**.
+1. Monitor the **Morong, Rizal Government / City Information Office** and the **Office of the Mayor / Congresswoman** for official **calls**.
 2. Prepare residency and academic documents; submit by deadline; attend screening/orientation.
 
 **Links (examples & history)**
 
-- News: **Lapu-Lapu City offers college scholarship to poor residents** — The Freeman/Philstar (program history)
+- News: **Morong, Rizal offers college scholarship to poor residents** — The Freeman/Philstar (program history)
 - Sample: **Cindi “Skwela” Scholarship** highlights via official pages (video updates)
 - Also check school-based options in-city (e.g., **LCIC scholarships**, **UC scholarships**) which can complement LGU aid.
 
@@ -102,10 +102,10 @@ Below are **city-led** or **LGU-facilitated** programs you can use for study sup
 
 ## Quick Directory
 
-- **City Information Office (Lapu-Lapu City)** — city-wide program announcements
-- **PESO Lapu-Lapu City** — SPES, job fairs, recruitment & youth work programs
+- **City Information Office (Morong, Rizal)** — city-wide program announcements
+- **PESO Morong, Rizal** — SPES, job fairs, recruitment & youth work programs
 - **DepEd Lapu-Lapu Division** — school memos (SEF supplies, schedules)
-- **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** — free study space & digital access
+- **Morong, Rizal e-Library (Hoops Dome, Gun-ob)** — free study space & digital access
 
 ---
 

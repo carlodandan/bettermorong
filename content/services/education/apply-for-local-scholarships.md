@@ -1,20 +1,20 @@
-# Apply for Local Scholarships — Lapu-Lapu City
+# Apply for Local Scholarships — Morong, Rizal
 
-Use this guide to find **City/LGU**, **Congressional/partner**, **local college**, and **national** scholarship options you can apply for while based in **Lapu-Lapu City**.
+Use this guide to find **City/LGU**, **Congressional/partner**, **local college**, and **national** scholarship options you can apply for while based in **Morong, Rizal**.
 
 ---
 
 ## 1) City/LGU Scholarship Programs
 
-| Program                                           | Who it’s for                                                                                           | What it covers\*                                                          | Where to apply                  | Notes                                                                                                                                                                                                         |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City Government College Scholarship** | Lapu-Lapu City residents (typically Senior High / incoming college; priority to low-income households) | Tuition/fees or full scholarship, depending on intake and partner schools | City Hall / posted online calls | The city has historically opened slots for poor residents and tied these to local HEIs during certain intakes. Check latest calls from City Hall / Office of the Mayor. :contentReference[oaicite:0]{index=0} |
+| Program                                          | Who it’s for                                                                                          | What it covers\*                                                          | Where to apply                  | Notes                                                                                                                                                                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Morong, Rizal Government College Scholarship** | Morong, Rizal residents (typically Senior High / incoming college; priority to low-income households) | Tuition/fees or full scholarship, depending on intake and partner schools | City Hall / posted online calls | The city has historically opened slots for poor residents and tied these to local HEIs during certain intakes. Check latest calls from City Hall / Office of the Mayor. :contentReference[oaicite:0]{index=0} |
 
 \*Coverage varies by year/partner school; always verify the current announcement.
 
 **How to apply (typical flow)**
 
-1. Watch for the **official call for applications** from the **Lapu-Lapu City Government** (FB/website or City Information Office). :contentReference[oaicite:1]{index=1}
+1. Watch for the **official call for applications** from the **Morong, Rizal Government** (FB/website or City Information Office). :contentReference[oaicite:1]{index=1}
 2. Prepare documents (see **Common Requirements** below).
 3. Submit your application at the designated **LGU window/online form** and attend evaluation/orientation if shortlisted.
 
@@ -33,7 +33,7 @@ Use this guide to find **City/LGU**, **Congressional/partner**, **local college*
 
 | School                                         | Scholarship page/info                                                        | Notes                                                                                                                                 |
 | ---------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City College (LLCC)**              | School site lists contacts; ask registrar/scholarship desk for current slots | City college; scholarship rules and timing set per semester. :contentReference[oaicite:4]{index=4}                                    |
+| **Morong, Rizal College (LLCC)**               | School site lists contacts; ask registrar/scholarship desk for current slots | City college; scholarship rules and timing set per semester. :contentReference[oaicite:4]{index=4}                                    |
 | **University of Cebu** (Mactan/Main system)    | Public scholarship lists & requirements                                      | UC posts scholarship requirements (e.g., academic honors, docs). Availability varies by campus. :contentReference[oaicite:5]{index=5} |
 | **LCIC (Lapulapu-Cebu International College)** | Scholarship page with program specifics                                      | Has its own discounts/scholarships; separate from LGU. :contentReference[oaicite:6]{index=6}                                          |
 
@@ -91,7 +91,7 @@ Use this guide to find **City/LGU**, **Congressional/partner**, **local college*
 
 - LCIC’s website → “Scholarship” section
 - University of Cebu’s “Scholarship & Study Grants” page
-- DepEd Lapu-Lapu City’s official site / memorandums
+- DepEd Morong, Rizal’s official site / memorandums
 - City Government announcements (City Hall / Information Office)
 
 ---

@@ -164,8 +164,8 @@ VITE_FACEBOOK_PIXEL_ID=""
 # This file contains all the pages/services available under the Health Services category
 
 pages:
-  - name: 'Get free check-ups, basic medicines, and vaccines'
-    slug: 'get-free-check-ups-basic-medicines-and-vaccines'
+  - name: 'Get check-ups, basic medicines, and vaccines'
+    slug: 'get-check-ups-basic-medicines-and-vaccines'
     description: 'Access free medical check-ups, basic medicines, and vaccination services provided by your local government.'
     
   - name: 'Access maternal care and child immunization'
@@ -204,7 +204,7 @@ pages:
   );
   console.log('2. Customize the content in content/ with your local services');
   console.log('3. Update images and branding in public/ folder');
-  console.log('4. Run "npm run dev" to start development server');
+  console.log('4. Run "pnpm run dev" to start development server');
   console.log('5. Follow the DEPLOYMENT-GUIDE.md to deploy your website');
 
   console.log('\n📚 Documentation:');

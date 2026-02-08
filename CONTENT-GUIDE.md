@@ -30,7 +30,7 @@ This guide helps content contributors create clear, helpful, and accessible cont
 ### Service Page Template
 
 ```markdown
-# [Service Name] — [Your City Name]
+# [Service Name] — [Morong, Rizal]
 
 Brief, clear description of what this service is and who it's for.
 
@@ -137,9 +137,9 @@ A: [Clear, helpful answer]
 Use tables for structured information:
 
 ```markdown
-| Service         | Location           | Hours            | Contact        |
-| --------------- | ------------------ | ---------------- | -------------- |
-| Health Check-up | City Health Office | Mon-Fri, 8AM-5PM | (032) 123-4567 |
+| Service         | Location           | Hours            | Contact     |
+| --------------- | ------------------ | ---------------- | ----------- |
+| Health Check-up | City Health Office | Mon-Fri, 8AM-5PM | 09353477525 |
 ```
 
 #### Lists

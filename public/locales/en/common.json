@@ -1,9 +1,9 @@
 {
-  "site_name": "Lapu Lapu City Portal",
-  "site_description": "A community-run portal for the Lapu Lapu City",
+  "site_name": "Morong, Rizal Portal",
+  "site_description": "A community-run portal for the Morong, Rizal",
   "hero": {
     "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Lapu Lapu City Government",
+    "subtitle": "A community-run portal to find information of the Morong, Rizal Government",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -32,7 +32,7 @@
     "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
   },
   "navbar": {
-    "government": "Your Government",
+    "government": "Morong, Rizal",
     "services": "Services",
     "hotlines": "Hotlines",
     "holidays": "Holidays"

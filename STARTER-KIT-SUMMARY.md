@@ -21,11 +21,11 @@
 - Internationalization framework
 - Responsive design system
 
-### ❌ **Lapu-Lapu City Specific Content (15 files identified)**
+### ❌ **Morong, Rizal Specific Content (15 files identified)**
 
 **Files that need to be made generic:**
 
-- All service content files contain "Lapu-Lapu City" references
+- All service content files contain "Morong, Rizal" references
 - City-specific hospital names and facilities
 - Local government officials and programs
 - City-specific contact information
@@ -49,7 +49,7 @@
 
 ### **3. Setup Automation**
 
-- ✅ Interactive setup script (`npm run setup`)
+- ✅ Interactive setup script (`pnpm run setup`)
 - ✅ Automatic content template generation
 - ✅ Environment file creation
 - ✅ Government information replacement
@@ -288,4 +288,4 @@ local-government-starter-kit/
 
 ---
 
-**This starter kit transforms the current Lapu-Lapu City website into a reusable template that any local government can use to create their own professional, accessible, and multilingual website in just a few hours.**
+**This starter kit transforms the current Morong, Rizal website into a reusable template that any local government can use to create their own professional, accessible, and multilingual website in just a few hours.**

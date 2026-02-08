@@ -14,7 +14,7 @@
 
 ## Step 2: Apply for Business Permit
 
-Go to **Lapu-Lapu City BPLO** (Business Permit and Licensing Office).
+Go to **Morong, Rizal BPLO** (Business Permit and Licensing Office).
 
 **Requirements:**
 
@@ -62,4 +62,4 @@ Enroll with:
 - [ ] Lapu-Lapu BPLO Unified Application Form + CTC
 - [ ] BIR Form 1903, IDs, ATP/Books
 
-With these steps, your partnership in Lapu-Lapu City will be fully compliant and ready to operate!
+With these steps, your partnership in Morong, Rizal will be fully compliant and ready to operate!

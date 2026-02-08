@@ -4,7 +4,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 
 ## ✨ Features
 
-- **🌐 Multilingual Support**: English, Filipino, Cebuano, and other Philippine languages
+- **🌐 Multilingual Support**: English, Filipino, Rizalano, and other Philippine languages
 - **📱 Responsive Design**: Mobile-first approach with modern UI/UX
 - **♿ Accessibility**: WCAG 2.1 compliant design
 - **📝 Content Management**: YAML-based content system for easy updates
@@ -17,7 +17,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn
+- pnpm or yarn
 - Git
 
 ### Installation
@@ -32,7 +32,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 2. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm install
    # or
    yarn install
    ```
@@ -46,19 +46,19 @@ A modern, multilingual, and accessible website template designed specifically fo
    Edit `.env.local` with your government information:
 
    ```env
-   VITE_GOVERNMENT_NAME="Your City/Municipality Name"
+   VITE_GOVERNMENT_NAME="Morong, Rizal"
    VITE_GOVERNMENT_TYPE="City" # or "Municipality"
-   VITE_REGION="Region VII"
-   VITE_PROVINCE="Cebu"
-   VITE_WEBSITE_URL="https://your-website.gov.ph"
-   VITE_CONTACT_EMAIL="info@your-website.gov.ph"
-   VITE_CONTACT_PHONE="(032) 123-4567"
+   VITE_REGION="Region IV-A"
+   VITE_PROVINCE="Rizal"
+   VITE_WEBSITE_URL="https://bettermorong.org"
+   VITE_CONTACT_EMAIL="info@bettermorong.org"
+   VITE_CONTACT_PHONE="09353477525"
    ```
 
 4. **Start development server**
 
    ```bash
-   npm run dev
+   pnpm run dev
    # or
    yarn dev
    ```
@@ -102,12 +102,12 @@ colors: {
 Edit `src/data/government.yaml`:
 
 ```yaml
-name: 'Your City/Municipality Name'
+name: 'Morong, Rizal'
 type: 'City' # or "Municipality"
-region: 'Region VII'
-province: 'Cebu'
-mayor: "Your Mayor's Name"
-vice_mayor: "Your Vice Mayor's Name"
+region: 'Region IV-A'
+province: 'Rizal'
+mayor: 'Sidney Soriano'
+vice_mayor: 'Vice Mayor Name'
 established: '1950'
 population: '500,000'
 area: '58.10 km²'
@@ -149,7 +149,7 @@ categories:
 Each service page should follow this structure:
 
 ```markdown
-# Service Title — Your City Name
+# Service Title — Morong, Rizal
 
 Brief description of the service.
 
@@ -230,13 +230,13 @@ Brief description of the service.
    Set these in your Vercel project settings:
 
    ```
-   VITE_GOVERNMENT_NAME=Your City Name
+   VITE_GOVERNMENT_NAME=Morong, Rizal
    VITE_GOVERNMENT_TYPE=City
    VITE_REGION=Your Region
    VITE_PROVINCE=Your Province
    VITE_WEBSITE_URL=https://your-domain.vercel.app
-   VITE_CONTACT_EMAIL=info@your-city.gov.ph
-   VITE_CONTACT_PHONE=(032) 123-4567
+   VITE_CONTACT_EMAIL=info@bettermorong.org
+   VITE_CONTACT_PHONE=09353477525
    ```
 
 3. **Deploy**
@@ -248,14 +248,14 @@ Brief description of the service.
 #### Netlify
 
 ```bash
-npm run build
+pnpm run build
 # Upload dist/ folder to Netlify
 ```
 
 #### GitHub Pages
 
 ```bash
-npm run build
+pnpm run build
 # Push dist/ folder to gh-pages branch
 ```
 
@@ -263,13 +263,13 @@ npm run build
 
 ### Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint issues
-- `npm run format` - Format code with Prettier
-- `npm run convert-yaml` - Convert YAML to JSON
+- `pnpm run dev` - Start development server
+- `pnpm run build` - Build for production
+- `pnpm run preview` - Preview production build
+- `pnpm run lint` - Run ESLint
+- `pnpm run lint:fix` - Fix ESLint issues
+- `pnpm run format` - Format code with Prettier
+- `pnpm run convert-yaml` - Convert YAML to JSON
 
 ### Project Structure
 
@@ -297,7 +297,7 @@ src/
 1. **Fork the repository**
 2. **Create a content branch**: `git checkout -b content/update-health-services`
 3. **Edit content files** in `content/`
-4. **Test your changes**: `npm run dev`
+4. **Test your changes**: `pnpm run dev`
 5. **Submit a pull request**
 
 ### For Developers
@@ -305,7 +305,7 @@ src/
 1. **Fork the repository**
 2. **Create a feature branch**: `git checkout -b feature/new-component`
 3. **Make your changes**
-4. **Run tests**: `npm run lint && npm run build`
+4. **Run tests**: `pnpm run lint && pnpm run build`
 5. **Submit a pull request**
 
 ## 📋 Content Checklist

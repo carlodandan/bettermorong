@@ -1,16 +1,16 @@
-# Learn About Supplementary Activities for Schools in Your Area — Lapu-Lapu City
+# Learn About Supplementary Activities for Schools in Your Area — Morong, Rizal
 
-This guide shows where to find **clubs, student organizations, competitions, service groups, and enrichment programs** available to learners in Lapu-Lapu City.
+This guide shows where to find **clubs, student organizations, competitions, service groups, and enrichment programs** available to learners in Morong, Rizal.
 
 ---
 
 ## Where to Look First (Local)
 
 1. **Your school’s official page or FB** — most clubs post tryout/enlistment dates there.
-2. **DepEd Lapu-Lapu City Division** — division-wide contests, trainings, and circulars:
+2. **DepEd Morong, Rizal Division** — division-wide contests, trainings, and circulars:
    - Website: https://depedlapulapu.net.ph/
    - FB page: https://www.facebook.com/DepEDLLC/
-3. **City facilities** — the **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** runs study support and computer/printing access (open daily 8:00 a.m.–12:00 midnight):
+3. **City facilities** — the **Morong, Rizal e-Library (Hoops Dome, Gun-ob)** runs study support and computer/printing access (open daily 8:00 a.m.–12:00 midnight):
    - SunStar article: https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
    - The POST coverage: https://thepost.net.ph/news/nation/lapu-lapu-city-library-reopens-offers-free-study-space-and-digital-access-for-students/
 
@@ -81,7 +81,7 @@ This guide shows where to find **clubs, student organizations, competitions, ser
 
 - DepEd Lapu-Lapu Division — https://depedlapulapu.net.ph/
 - DepEd Lapu-Lapu FB — https://www.facebook.com/DepEDLLC/
-- Lapu-Lapu City e-Library news — https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
+- Morong, Rizal e-Library news — https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
 - YES-O overview — https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/
 - SPG/SSG policy (PDF) — https://www.deped.gov.ph/wp-content/uploads/2014/12/DO_s2014_47.pdf
 - Red Cross Youth — https://redcross.org.ph/red-cross-youth/

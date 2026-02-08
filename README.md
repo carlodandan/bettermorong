@@ -17,7 +17,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn
+- pnpm or yarn
 - Git
 
 ### Installation
@@ -32,7 +32,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 2. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm install
    # or
    yarn install
    ```
@@ -40,7 +40,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 3. **Run the setup script**
 
    ```bash
-   npm run setup
+   pnpm run setup
    ```
 
    This will guide you through configuring your government's information.
@@ -48,7 +48,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 4. **Start development server**
 
    ```bash
-   npm run dev
+   pnpm run dev
    # or
    yarn dev
    ```
@@ -79,13 +79,13 @@ A modern, multilingual, and accessible website template designed specifically fo
    ```bash
    git clone https://github.com/your-org/local-government-starter-kit.git
    cd local-government-starter-kit
-   npm install
+   pnpm install
    ```
 
 2. **Configure Your Government** (15 minutes)
 
    ```bash
-   npm run setup
+   pnpm run setup
    # Interactive setup guides you through configuration
    ```
 
@@ -126,15 +126,15 @@ A modern, multilingual, and accessible website template designed specifically fo
 
 ### Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint issues
-- `npm run format` - Format code with Prettier
-- `npm run setup` - Run setup script for new installations
-- `npm run convert-yaml` - Convert YAML to JSON
-- `npm run dev:yaml` - Convert YAML and start dev server
+- `pnpm run dev` - Start development server
+- `pnpm run build` - Build for production
+- `pnpm run preview` - Preview production build
+- `pnpm run lint` - Run ESLint
+- `pnpm run lint:fix` - Fix ESLint issues
+- `pnpm run format` - Format code with Prettier
+- `pnpm run setup` - Run setup script for new installations
+- `pnpm run convert-yaml` - Convert YAML to JSON
+- `pnpm run dev:yaml` - Convert YAML and start dev server
 
 ### Project Structure
 
@@ -209,7 +209,7 @@ We welcome contributions from everyone! Whether you're a developer, government o
 1. **Fork the repository**
 2. **Create a content branch**: `git checkout -b content/update-health-services`
 3. **Edit content files** in `content/`
-4. **Test your changes**: `npm run dev`
+4. **Test your changes**: `pnpm run dev`
 5. **Submit a pull request**
 
 #### Developers
@@ -217,7 +217,7 @@ We welcome contributions from everyone! Whether you're a developer, government o
 1. **Fork the repository**
 2. **Create a feature branch**: `git checkout -b feature/new-component`
 3. **Make your changes**
-4. **Run tests**: `npm run lint && npm run build`
+4. **Run tests**: `pnpm run lint && pnpm run build`
 5. **Submit a pull request**
 
 ### 📋 Contribution Guidelines

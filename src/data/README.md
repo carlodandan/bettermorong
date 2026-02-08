@@ -66,8 +66,8 @@ To add a new service to an existing category, simply add it to the subcategories
   slug: 'social-services'
   description: 'Where to go for free check-ups, vaccines, and medicines...'
   subcategories:
-    - name: 'Get free check-ups, basic medicines, and vaccines'
-      slug: 'get-free-check-ups-basic-medicines-and-vaccines'
+    - name: 'Get check-ups, basic medicines, and vaccines'
+      slug: 'get-check-ups-basic-medicines-and-vaccines'
     - name: 'New Health Service' # Add this new service
       slug: 'new-health-service' # Add this new slug
 ```

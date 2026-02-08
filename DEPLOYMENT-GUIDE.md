@@ -41,18 +41,18 @@ In your Vercel project dashboard:
 2. **Add the following variables:**
 
 ```env
-VITE_GOVERNMENT_NAME=Your City/Municipality Name
+VITE_GOVERNMENT_NAME=Morong, Rizal
 VITE_GOVERNMENT_TYPE=City
-VITE_REGION=Region VII
-VITE_PROVINCE=Cebu
+VITE_REGION=Region IV-A
+VITE_PROVINCE=Rizal
 VITE_WEBSITE_URL=https://your-project.vercel.app
-VITE_CONTACT_EMAIL=info@your-city.gov.ph
-VITE_CONTACT_PHONE=(032) 123-4567
+VITE_CONTACT_EMAIL=info@bettermorong.org
+VITE_CONTACT_PHONE=09353477525
 VITE_FACEBOOK_URL=https://facebook.com/your-government
 VITE_TWITTER_URL=https://twitter.com/your-government
 VITE_INSTAGRAM_URL=https://instagram.com/your-government
 VITE_YOUTUBE_URL=https://youtube.com/your-government
-VITE_SITE_DESCRIPTION=Official website of Your City/Municipality
+VITE_SITE_DESCRIPTION=Official website of Morong, Rizal/Municipality
 VITE_SITE_KEYWORDS=government, local government, services, your city
 ```
 
@@ -65,7 +65,7 @@ VITE_SITE_KEYWORDS=government, local government, services, your city
 ### Step 5: Custom Domain (Optional)
 
 1. **Go to Settings → Domains**
-2. **Add your custom domain** (e.g., `your-city.gov.ph`)
+2. **Add your custom domain** (e.g., `bettermorong.org`)
 3. **Follow DNS configuration instructions**
 4. **Enable SSL certificate** (automatic with Vercel)
 
@@ -91,10 +91,10 @@ Once connected, Vercel will automatically deploy:
 
 ```bash
 # Build the project
-npm run build
+pnpm run build
 
 # Install Netlify CLI
-npm install -g netlify-cli
+pnpm install -g netlify-cli
 
 # Deploy
 netlify deploy --prod --dir=dist
@@ -103,7 +103,7 @@ netlify deploy --prod --dir=dist
 #### Automatic Deployment
 
 1. **Connect GitHub repository to Netlify**
-2. **Set build command:** `npm run build`
+2. **Set build command:** `pnpm run build`
 3. **Set publish directory:** `dist`
 4. **Add environment variables** in Netlify dashboard
 
@@ -132,10 +132,10 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm ci
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
         env:
           VITE_GOVERNMENT_NAME: ${{ secrets.GOVERNMENT_NAME }}
           VITE_GOVERNMENT_TYPE: ${{ secrets.GOVERNMENT_TYPE }}
@@ -160,7 +160,7 @@ jobs:
 
 ```bash
 # Build the project
-npm run build
+pnpm run build
 
 # Upload dist/ folder to your web server
 # via FTP, cPanel, or hosting provider's file manager
@@ -179,27 +179,27 @@ npm run build
 
 ```env
 # .env.local
-VITE_GOVERNMENT_NAME=Your City (Development)
+VITE_GOVERNMENT_NAME=Morong, Rizal (Development)
 VITE_WEBSITE_URL=http://localhost:5173
-VITE_CONTACT_EMAIL=dev@your-city.gov.ph
+VITE_CONTACT_EMAIL=dev@bettermorong.org
 ```
 
 ### Staging Environment
 
 ```env
 # .env.staging
-VITE_GOVERNMENT_NAME=Your City (Staging)
-VITE_WEBSITE_URL=https://staging.your-city.gov.ph
-VITE_CONTACT_EMAIL=staging@your-city.gov.ph
+VITE_GOVERNMENT_NAME=Morong, Rizal (Staging)
+VITE_WEBSITE_URL=https://staging.bettermorong.org
+VITE_CONTACT_EMAIL=staging@bettermorong.org
 ```
 
 ### Production Environment
 
 ```env
 # .env.production
-VITE_GOVERNMENT_NAME=Your City
-VITE_WEBSITE_URL=https://your-city.gov.ph
-VITE_CONTACT_EMAIL=info@your-city.gov.ph
+VITE_GOVERNMENT_NAME=Morong, Rizal
+VITE_WEBSITE_URL=https://bettermorong.org
+VITE_CONTACT_EMAIL=info@bettermorong.org
 ```
 
 ## 🛡️ Security Considerations
@@ -231,7 +231,7 @@ VITE_CONTACT_EMAIL=info@your-city.gov.ph
 
 ```bash
 # Analyze bundle size
-npm run build -- --analyze
+pnpm run build -- --analyze
 
 # Optimize images
 # Use WebP format when possible
@@ -273,9 +273,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm ci
-      - run: npm run lint
-      - run: npm run build
+      - run: pnpm ci
+      - run: pnpm run lint
+      - run: pnpm run build
 
   deploy:
     if: github.ref == 'refs/heads/main'
@@ -286,8 +286,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm ci
-      - run: npm run build
+      - run: pnpm ci
+      - run: pnpm run build
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
@@ -305,8 +305,8 @@ jobs:
 ```bash
 # Clear cache and reinstall
 rm -rf node_modules package-lock.json
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
 
 #### Environment Variables Not Loading
@@ -331,7 +331,7 @@ npm run build
 ### Getting Help
 
 1. **Check deployment logs** in your platform dashboard
-2. **Test locally** with production build: `npm run preview`
+2. **Test locally** with production build: `pnpm run preview`
 3. **Verify environment variables** are set correctly
 4. **Check network connectivity** and DNS settings
 5. **Contact support** for your hosting platform
