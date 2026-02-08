@@ -25,11 +25,11 @@ export const mainNavigation: NavigationItem[] = [
     label: 'Government',
     href: '/about',
     children: [
-      { label: 'About', href: '/about/government' },
+      { label: 'About', href: '/about' },
       { label: 'History', href: '/about/history' },
-      { label: 'Map', href: '/philippines/map' },
+      { label: 'Map', href: '/map' },
       { label: 'Hotlines', href: '/about/hotlines' },
-      { label: 'Holidays', href: '/philippines/holidays' },
+      { label: 'Holidays', href: '/holidays' },
     ],
   },
 ];
@@ -57,8 +57,8 @@ export const footerNavigation = {
             label: category.category,
             href: `/services/${category.slug}`,
           })),
-        { label: 'Hotlines', href: '/philippines/hotlines' },
-        { label: 'Holidays', href: '/philippines/holidays' },
+        { label: 'Hotlines', href: '/about/hotlines' },
+        { label: 'Holidays', href: '/holidays' },
       ],
     },
     {
