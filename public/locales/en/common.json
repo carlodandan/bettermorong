@@ -1,9 +1,9 @@
 {
   "site_name": "Morong, Rizal Portal",
-  "site_description": "A community-run portal for the Morong, Rizal",
+  "site_description": "A community-run portal for Morong, Rizal",
   "hero": {
     "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Morong, Rizal Government",
+    "subtitle": "A community-run portal to find information of Morong, Rizal Government",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"

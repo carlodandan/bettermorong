@@ -1,4 +1,4 @@
-# Morong, Rizal Government: Health Services
+# Health Services in Morong, Rizal
 
 The Morong, Rizal Government offers **check-ups, medicines, vaccines, and health/medical certificates** through the Municipal Health Office (MHO), barangay health centers, and partner programs.
 
