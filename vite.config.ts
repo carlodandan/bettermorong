@@ -112,7 +112,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,jpg,jpeg,json,woff2}'],
+        globPatterns: [
+          '**/*.{js,css,html,svg,png,jpg,jpeg,json,woff2,txt,ico,xml,webmanifest}',
+        ],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/api\.open-meteo\.com\/.*/i,
