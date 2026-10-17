@@ -25,6 +25,7 @@ function getAllRoutes(): string[] {
     '/philippines/holidays',
     '/holidays',
     '/search',
+    '/sitemap',
   ];
 
   try {

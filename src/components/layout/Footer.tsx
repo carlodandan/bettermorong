@@ -107,14 +107,16 @@ const Footer: React.FC = () => {
               >
                 Terms of Use
               </a> */}
-              <Link
-                to="https://github.com/bettergovph/bettergov"
+              <a
+                href="https://github.com/bettergovph/bettergov"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Contribute at GitHub
-              </Link>
+              </a>
               <Link
-                to="/sitemap.xml"
+                to="/sitemap"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Sitemap

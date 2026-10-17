@@ -10,6 +10,7 @@ import Government from './pages/Government';
 import Search from './pages/Search';
 import Hotlines from './pages/Hotlines';
 import Holidays from './pages/Holidays';
+import Sitemap from './pages/Sitemap';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
                 path="/government/about"
                 element={<Navigate to="/government/about-morong" replace />}
               />
+              <Route path="/sitemap" element={<Sitemap />} />
               <Route path="/:lang/:documentSlug" element={<Document />} />
               <Route path="/:documentSlug" element={<Document />} />
             </Routes>
