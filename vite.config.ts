@@ -146,7 +146,7 @@ export default defineConfig({
       },
     }),
     Sitemap({
-      hostname: 'https://morongrizal.gov.ph',
+      hostname: 'https://staging-bettermorong.pages.dev',
       dynamicRoutes: allRoutes,
       exclude: ['/og-image-template'],
       changefreq: 'weekly',

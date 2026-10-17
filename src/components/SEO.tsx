@@ -28,7 +28,8 @@ export default function SEO({
     'government, local government, services, public services, civic services';
 
   const baseUrl =
-    import.meta.env.VITE_WEBSITE_URL || 'https://morongrizal.gov.ph';
+    import.meta.env.VITE_WEBSITE_URL ||
+    'https://staging-bettermorong.pages.dev';
   const fullTitle = title ? `${title} | ${siteName}` : defaultTitle;
   const fullDescription = description || defaultDescription;
   const fullKeywords = keywords || defaultKeywords;
