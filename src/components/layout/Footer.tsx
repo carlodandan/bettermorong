@@ -121,12 +121,12 @@ const Footer: React.FC = () => {
               >
                 Sitemap
               </Link>
-              <a
-                href="/accessibility"
+              <Link
+                to="/accessibility"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Accessibility
-              </a>
+              </Link>
             </div>
           </div>
         </div>

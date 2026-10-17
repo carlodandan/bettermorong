@@ -57,6 +57,13 @@ export default function Sitemap() {
           badge: 'You are here',
         },
         {
+          title: 'Accessibility Statement',
+          url: '/accessibility',
+          description:
+            'Our commitment to WCAG 2.1 Level AA digital accessibility standards, assistive features, and citizen feedback channels.',
+          badge: 'WCAG AA',
+        },
+        {
           title: 'Machine-Readable XML Sitemap',
           url: '/sitemap.xml',
           description:

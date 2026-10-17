@@ -26,6 +26,7 @@ function getAllRoutes(): string[] {
     '/holidays',
     '/search',
     '/sitemap',
+    '/accessibility',
   ];
 
   try {

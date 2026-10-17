@@ -11,6 +11,7 @@ import Search from './pages/Search';
 import Hotlines from './pages/Hotlines';
 import Holidays from './pages/Holidays';
 import Sitemap from './pages/Sitemap';
+import Accessibility from './pages/Accessibility';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router';
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
                 element={<Navigate to="/government/about-morong" replace />}
               />
               <Route path="/sitemap" element={<Sitemap />} />
+              <Route path="/accessibility" element={<Accessibility />} />
               <Route path="/:lang/:documentSlug" element={<Document />} />
               <Route path="/:documentSlug" element={<Document />} />
             </Routes>
