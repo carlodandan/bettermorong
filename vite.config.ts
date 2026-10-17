@@ -150,7 +150,7 @@ export default defineConfig({
       },
     }),
     Sitemap({
-      hostname: 'https://staging-bettermorong.pages.dev',
+      hostname: 'https://staging.bettermorong.org',
       dynamicRoutes: allRoutes,
       exclude: ['/og-image-template'],
       changefreq: 'weekly',

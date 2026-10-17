@@ -28,8 +28,7 @@ export default function SEO({
     'government, local government, services, public services, civic services';
 
   const baseUrl =
-    import.meta.env.VITE_WEBSITE_URL ||
-    'https://staging-bettermorong.pages.dev';
+    import.meta.env.VITE_WEBSITE_URL || 'https://staging.bettermorong.org';
   const fullTitle = title ? `${title} | ${siteName}` : defaultTitle;
   const fullDescription = description || defaultDescription;
   const fullKeywords = keywords || defaultKeywords;
