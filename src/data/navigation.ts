@@ -1,5 +1,8 @@
 import type { NavigationItem } from '../types';
-import { serviceCategories as servicesData } from './yamlLoader';
+import {
+  serviceCategories as servicesData,
+  governmentCategories as governmentData,
+} from './yamlLoader';
 
 interface Subcategory {
   name: string;
@@ -23,7 +26,13 @@ export const mainNavigation: NavigationItem[] = [
   },
   {
     label: 'Government',
-    href: '/government/departments',
+    href: '/government',
+    children: (governmentData.categories as Category[])
+      .filter(category => category.slug !== 'about-morong')
+      .map(category => ({
+        label: category.category,
+        href: `/government/${category.slug}`,
+      })),
   },
 ];
 
@@ -32,12 +41,27 @@ export const footerNavigation = {
     {
       title: 'About',
       links: [
-        { label: 'About the Portal', href: '/about' },
-        // { label: 'Privacy Policy', href: '/privacy' },
-        // { label: 'Terms of Use', href: '/terms' },
-        { label: 'Accessibility', href: '/accessibility' },
-        { label: 'Contact Us', href: '/about' },
-        { label: 'Community Discord', href: '/discord' },
+        { label: 'About Morong', href: '/government/about-morong' },
+        {
+          label: 'Vision & Mission',
+          href: '/government/about-morong/vision-and-mission',
+        },
+        {
+          label: 'Demographics & Barangays',
+          href: '/government/about-morong/demographics-and-barangays',
+        },
+        {
+          label: 'History & Heritage',
+          href: '/government/about-morong/history-and-heritage',
+        },
+        {
+          label: 'Tourist Spots & Dining',
+          href: '/government/about-morong/tourist-spots-and-local-attractions',
+        },
+        {
+          label: 'Municipal Offices Directory',
+          href: '/government/departments',
+        },
       ],
     },
     {
@@ -50,8 +74,11 @@ export const footerNavigation = {
             label: category.category,
             href: `/services/${category.slug}`,
           })),
-        { label: 'Hotlines', href: '/philippines/hotlines' },
-        { label: 'Holidays', href: '/philippines/holidays' },
+        {
+          label: 'Philippines & Emergency Hotlines',
+          href: '/philippines/hotlines',
+        },
+        { label: 'Philippines Holidays', href: '/philippines/holidays' },
       ],
     },
     {

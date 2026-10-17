@@ -1,49 +1,45 @@
-# Access Maternal Care & Child Immunization — Lapu-Lapu City
+# Access Maternal Care & Child Immunization — Morong, Rizal
 
-The City Health Office (CHO) and barangay health centers provide **prenatal care**, **family planning**, and **free routine child immunization** for residents.
-
----
-
-## Maternal Care (Prenatal & Related Services)
-
-| Service                                                             | Where                       | Schedule                                                               | Requirements                                    | Cost                                                       |
-| ------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
-| Prenatal check-ups (by midwife/nurse; physician referral as needed) | **Barangay Health Centers** | Mon–Fri (typical clinic hours; varies by center)                       | Prenatal record (issued/updated at first visit) | **Free**                                                   |
-| Family Planning counseling & methods                                | **Barangay Health Centers** | Mon–Fri **8:00 AM–4:00 PM**; Sat **8:00 AM–1:00 PM** (except holidays) | Personal appearance for counseling              | **Free** counseling (methods per DOH program availability) |
-
-**Tip:** Bring any previous prenatal card/records and a valid ID. If you’re new, staff will register you and issue the needed record at the health center.
+The **Morong Municipal Health Office (MHO)** and Rural Health Unit (RHU) in Brgy. San Pedro, together with Barangay Health Stations in the 8 barangays, provide comprehensive **maternal care, prenatal check-ups, family planning, and free routine child immunization** under the Department of Health (DOH) Expanded Program on Immunization (EPI).
 
 ---
 
-## Child Immunization (EPI)
+## 1. Maternal Care (Prenatal & Women's Health Services)
 
-Routine childhood vaccines are provided **free** under the Expanded Program on Immunization (EPI).
-
-| Age/Visit                          | Vaccines (examples)                                                        | Where                       | Regular Day/Time                                  | Requirements                          | Cost     |
-| ---------------------------------- | -------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------- | ------------------------------------- | -------- |
-| Birth–12 months (per DOH schedule) | **BCG**, **Pentavalent**, **OPV/IPV**, **MMR**, **Hepatitis B**, **PCV13** | **Barangay Health Centers** | **Wednesdays, 8:00 AM–4:00 PM** (except holidays) | **ECCD card** (issued on first visit) | **Free** |
-
-> First time? The health worker will **issue an ECCD card** and guide you on next-dose return dates.
-
----
-
-## How to Avail (Quick Steps)
-
-1. **Go to your Barangay Health Center** during clinic hours (or the posted EPI day for vaccines).
-2. **Register/Update your record:** Prenatal record for mothers, **ECCD card** for children (issued if first time).
-3. **Receive service:** Prenatal assessment, counseling (and TT vaccine/supplements per program), or child vaccination per EPI schedule.
-4. **Book your return date** for follow-ups and next vaccine doses as advised by the health staff.
+| Service                                         | Where                                 | Schedule                             | Requirements                                   | Cost     |
+| :---------------------------------------------- | :------------------------------------ | :----------------------------------- | :--------------------------------------------- | :------- |
+| **Prenatal Consultations & Check-ups**          | Morong RHU & Barangay Health Stations | **Every Tuesday**, 8:00 AM – 5:00 PM | Mother’s Pink Card / Prenatal Record; Valid ID | **Free** |
+| **Pap Smear & Cervical Cancer Screening**       | Morong RHU Maternal Clinic            | **Tuesdays**, 8:00 AM – 3:00 PM      | Personal appearance for screening              | **Free** |
+| **Tetanus-Diphtheria (Td) Immunization**        | Morong RHU & Barangay Health Stations | During prenatal visits               | Mother’s Record                                | **Free** |
+| **Iron & Folic Acid Micronutrient Supplements** | RHU Pharmacy                          | Tuesdays                             | Doctor / Midwife prescription                  | **Free** |
+| **Family Planning Counseling & Commodities**    | Morong RHU                            | Monday – Friday, 8:00 AM – 5:00 PM   | Informed choice counseling                     | **Free** |
 
 ---
 
-## Notes & Extras
+## 2. Child Immunization & Newborn Screening
 
-- **Medical consultations** at health centers are **free** (Mon–Fri, 8:00 AM–5:00 PM; center schedules apply). Useful if you need a doctor’s assessment alongside prenatal care.
-- The CHO and health centers also run **mother’s classes** and promote **facility-based delivery**; ask your midwife for schedules.
+Routine childhood vaccines are provided **free** to protect infants from vaccine-preventable diseases:
+
+| Service / Vaccine                                                                                | Target Age               | Where                                 | Regular Schedule                         | Requirements                                      |
+| :----------------------------------------------------------------------------------------------- | :----------------------- | :------------------------------------ | :--------------------------------------- | :------------------------------------------------ |
+| **Routine Childhood Immunization (EPI)**<br>_(BCG, Hepatitis B, Pentavalent, OPV/IPV, PCV, MMR)_ | 0 – 12 months            | Morong RHU & Barangay Health Stations | **Every Wednesday**, 8:00 AM – 4:00 PM   | Child Health Card / Baby Book (ECCD card)         |
+| **Newborn Screening (NBS)**                                                                      | 24 – 72 hours from birth | Morong RHU                            | **Monday – Thursday**, 8:00 AM – 3:00 PM | Birth details and referral from delivery facility |
+| **Vitamin A & Deworming**                                                                        | 1 – 4 years old          | Health Stations / Daycares            | Semiannual Garantisadong Pambata rounds  | Child record                                      |
 
 ---
 
-**References**
+## Step-by-Step Procedure
 
-- [Lapu-Lapu City Government – Services](https://lapulapucity.gov.ph)
-- [Department of Health – Expanded Program on Immunization](https://doh.gov.ph)
+1. **Visit RHU or Barangay Health Station**: Proceed to the Morong RHU in San Pedro or your local barangay health station.
+2. **Registration / Card Issuance**: For first-time mothers or babies, health personnel will issue a Mother’s Card or ECCD Baby Book.
+3. **Assessment**: Height, weight, blood pressure, fetal heartbeat monitoring, or baby developmental milestone assessment.
+4. **Vaccination / Treatment**: Administered by licensed midwives and municipal nurses.
+5. **Next Appointment**: Always note the return date recorded in your card for booster shots.
+
+---
+
+## Facility Contact & Location
+
+- **Facility**: Morong Rural Health Unit (RHU), Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
+- **Phone**: (02) 7212-5741
+- **Email**: `mho.morongrizal@gmail.com`

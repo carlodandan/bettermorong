@@ -1,98 +1,60 @@
-# Go to the Local Hospital for Treatment or Confinement — Lapu-Lapu City
+# Go to the Local Hospital for Treatment or Confinement — Morong, Rizal
 
-This guide covers **where to go**, **what to bring**, and **how admission works** at local hospitals in Lapu-Lapu City, including the city-run facility and nearby private hospitals.
-
----
-
-## A) Government Hospital (City-Run)
-
-### Sta. Rosa Community Hospital (Lapu-Lapu City)
-
-**Services & Hours**
-
-- **Emergency (Medical & Medico-legal):** 24/7
-- **Ward (In-patient confinement):** 24/7
-- **Out-Patient:** Mon–Fri, 8:00 AM–5:00 PM (except holidays)
-
-**Emergency (Medical cases) – Quick Steps**
-| Step | What you do | Hospital does | Typical time |
-|---|---|---|---|
-| 1 | Seek care at ER | Triage, vitals, initial MD orders | ~10–25 min |
-| 2 | Sign consent (treatment/admission if needed) | Prepare meds/tests; set for transfer to ward if admitted | ~20–25 min |
-| 3 | Transfer to ward (if for confinement) | ER endorses to Ward Nurse on duty | ~10 min |
-
-**Requirements (bring if available):** Registration data sheet (onsite), **PhilHealth ID/MDR (optional)**, doctor’s referral/admitting orders (if coming from clinic).
-
-**Ward (In-patient) – What to expect**
-
-- Follow doctor’s orders; nurses administer meds/tests; dietary issued as ordered.
-- For discharge: instructions & schedule for follow-ups are given; proceed to Billing for clearance; release at Ward/Nurse station.
-- **Fees:** Posted at Billing.
-- **Note:** If not enrolled in PhilHealth, staff will guide processing if a relative can provide documents.
+This guide provides practical information on **emergency rooms, hospital admissions, PhilHealth coverage, and contact details** for public and private hospitals serving residents of Morong, Rizal.
 
 ---
 
-## B) Private Hospitals Nearby
+## A) Government Hospital (Provincial System)
 
-| Hospital                                     | Where                 | Beds/Notes                            | Admissions basics                                                                                                                     |
-| -------------------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mactan Doctors’ Hospital (CebuDoc Group)** | Basak, Lapu-Lapu City | **151-bed tertiary** private hospital | Bring valid ID; company/HMO authorization if applicable; PhilHealth forms; fill out admission forms and submit to Admissions/Billing. |
-| **ARC Hospitals**                            | Lapu-Lapu City        | **~100-bed** private hospital         | Standard private-hospital admission flow; coordinate with Admissions/HMO/PhilHealth desk.                                             |
+### Rizal Provincial Hospital System (RPHS) – Morong Main
 
-> Private hospitals typically require **initial deposits** (varies by case/room) unless fully covered by HMO/PhilHealth arrangements. Confirm at the **Billing/Admissions** desk.
+The primary public hospital facility in the municipality, operating under the Provincial Government of Rizal.
 
----
+| Department                      | Schedule                           | Services                                                                           |
+| :------------------------------ | :--------------------------------- | :--------------------------------------------------------------------------------- |
+| **Emergency Room (ER)**         | 24 Hours / 7 Days                  | Triage, acute trauma, resuscitation, urgent surgical and medical emergencies.      |
+| **Inpatient Wards**             | 24 Hours / 7 Days                  | Confinement, OB-Gyne ward, pediatric ward, medical-surgical ward.                  |
+| **Outpatient Department (OPD)** | Monday – Friday, 8:00 AM – 5:00 PM | Non-emergency medical consultations, laboratory follow-ups, and specialty clinics. |
 
-## C) What to Bring (All Hospitals)
+**Emergency Admission Steps:**
 
-- **Valid ID** (with photo & signature)
-- **PhilHealth** ID and **MDR** (Member Data Record); if a dependent, bring proof of dependency
-- **Doctor’s referral/admitting order** (if elective admission)
-- **HMO/Company**: LOA/guarantee letter, membership/ID cards (if applicable)
-- **Personal necessities** (for confinement)
-
----
-
-## D) Costs & PhilHealth Coverage
-
-- **City hospital:** Fees are posted at **Billing**; **PhilHealth** benefits may apply at admission/discharge processing.
-- **No Balance Billing (NBB):** For **indigent/sponsored**, **senior citizens**, and certain categories in **government hospitals**, no other fees beyond PhilHealth package should be charged during confinement (subject to policy and facility capacity).
+1. **Triage & Evaluation**: Proceed directly to the Emergency Room. Medical staff record vital signs and evaluate urgency.
+2. **Medical Treatment / Stabilization**: Doctors administer emergency interventions, diagnostic tests (X-ray, blood tests), and medication.
+3. **Ward Admission**: If confinement is required, the admitting physician issues admission orders and endorses the patient to the floor ward.
+4. **PhilHealth Processing**: Submit patient’s PhilHealth ID and Member Data Record (MDR) to the PhilHealth / Billing window. Under the **No Balance Billing (NBB)** policy for sponsored, indigent, and senior citizens, eligible patients in basic accommodations pay zero out-of-pocket costs.
 
 ---
 
-## E) How to Avail — At a Glance
+## B) Private Hospital in Morong
 
-### Emergency (any hospital)
+### Morong Doctors Hospital
 
-1. **Go straight to ER** (24/7).
-2. **Triage & initial orders** → stabilization/tests.
-3. **If admitted:** sign consent → transfer to ward → submit IDs/PhilHealth/HMO at Admissions/Billing.
+A private healthcare facility offering specialized inpatient, outpatient, and diagnostic services in the poblacion.
 
-### Elective Admission (planned confinement/procedure)
-
-1. Obtain **doctor’s admitting order** & **referral**.
-2. Prepare **IDs, PhilHealth, HMO/LOA** (if any).
-3. Proceed to **Admissions** for room assignment, forms, and initial billing arrangements.
-
----
-
-## F) Useful Contacts
-
-- **Lapu-Lapu City Hospital / District Hospital (Gov’t)**
-  - A. Tumulak St., Gun-ob, Lapu-Lapu City
-  - **Tel:** (032) 340-0249 / 340-0248
-  - **Email:** lapulapucityhospital@yahoo.com
-
-- **Mactan Doctors’ Hospital (Private, CebuDoc Group)**
-  - Basak, Lapu-Lapu City
-  - **Trunkline:** +63 (32) 239-7002 to 7016
-
-- **ARC Hospitals (Private)**
-  - Lapu-Lapu City (100-bed facility)
+| Detail                 | Information                                                                                                                                                       |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Address**            | 491 Gov. Martinez Street, Morong, Rizal                                                                                                                           |
+| **Phone**              | **(02) 8653-2491** / **(02) 8699-7761**                                                                                                                           |
+| **Emergency Services** | 24/7 Emergency Room & Ambulance                                                                                                                                   |
+| **Facilities**         | Outpatient specialty clinics, Clinical Laboratory, Dialysis Center, 2D Echocardiography, Mammography, Inpatient private/semi-private rooms, and Physical Therapy. |
+| **Admissions**         | Bring valid ID, PhilHealth documents, and HMO guarantee letter (LOA) if covered by health insurance.                                                              |
 
 ---
 
-### Notes
+## C) What to Bring for Hospital Confinement
 
-- Bring your **PhilHealth** documents even for emergencies; if unavailable, the hospital can guide you on follow-up submission.
-- Schedules and processes can change; confirm by calling the hospital **Admissions/Billing** desk before a planned confinement.
+- **Valid Government ID** of the patient and immediate family member / companion.
+- **PhilHealth Member ID and MDR** (if registered member or dependent).
+- **Senior Citizen ID / PWD ID** (to apply statutory 20% discounts and VAT exemptions for non-covered items).
+- **Doctor’s Admitting Order or Referral** (for scheduled / elective admissions from clinics).
+- **HMO Card & Letter of Authorization (LOA)** if utilizing private health insurance.
+- **Personal care necessities** (clothing, toiletries, thermometer) for hospital stay.
+
+---
+
+## D) Emergency Medical Transport (Ambulance)
+
+If a patient cannot be safely moved by private vehicle, call for emergency ambulance dispatch:
+
+- **MDRRMO Morong 24/7 Hotlines**: **0917-135-0541** / **0919-081-7181** / **(02) 7212-5741**
+- **National Emergency**: **911**

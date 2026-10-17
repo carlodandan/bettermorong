@@ -3,7 +3,7 @@ import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';
 import { Banner } from '@bettergov/kapwa/banner';
-import { useParams } from 'react-router';
+import { useParams, Link } from 'react-router';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -12,7 +12,6 @@ import {
   type MarkdownContent,
 } from '../lib/markdownLoader';
 import { createMarkdownComponents } from '../lib/markdownComponents';
-import { Card, CardContent, CardHeader } from '@bettergov/kapwa/card';
 import { getTypographyTheme } from '../lib/typographyThemes';
 import {
   serviceCategories,
@@ -142,54 +141,80 @@ export default function Document({
 
   if (nestedIndex) {
     const nestedPages: Subcategory[] = nestedIndex.pages;
+    const isGovernment = categoryType === 'government';
+    const sectionHref = isGovernment ? '/government' : '/services';
+    const targetCategory = category || documentSlug;
     return (
       <>
         <SEO
           title={documentSlug}
           keywords={`${documentSlug}, government services, local government`}
         />
-        <Section className="p-3 mb-12">
-          <Breadcrumbs className="mb-8" items={breadcrumbs} />
+        <Section className="py-8 md:py-12">
+          <Breadcrumbs className="mb-6" items={breadcrumbs} />
           {nestedIndex.title && (
-            <Heading level={2}>{nestedIndex.title}</Heading>
+            <Heading
+              level={1}
+              className="text-2xl md:text-3xl font-bold text-gray-950"
+            >
+              {nestedIndex.title}
+            </Heading>
           )}
           {nestedIndex.description && (
-            <Text className="text-gray-600 mb-4">
+            <Text className="text-gray-600 text-sm md:text-base mt-1 mb-8 max-w-3xl">
               {nestedIndex.description}
             </Text>
           )}
           {nestedIndex.layout === 'grid' ? (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {nestedPages.map((page, i) => (
-                <Card hoverable key={page.slug ?? i} className="h-full">
-                  <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                <Link
+                  key={page.slug ?? i}
+                  to={`${sectionHref}/${targetCategory}/${page.slug}`}
+                  className="group flex flex-col justify-between bg-white border border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-xs transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-600"
+                >
+                  <div>
+                    <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors">
                       {page.name}
-                    </h4>
+                    </h3>
                     {page.description && (
-                      <p className="mt-2 text-sm text-gray-600">
+                      <p className="mt-2 text-xs md:text-sm text-gray-600 line-clamp-3 leading-relaxed">
                         {page.description}
                       </p>
                     )}
-                  </CardContent>
-                </Card>
+                  </div>
+                  <div className="mt-5 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-primary-700 font-medium">
+                    <span>View guide</span>
+                    <span className="inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                      Read <span aria-hidden="true">&rarr;</span>
+                    </span>
+                  </div>
+                </Link>
               ))}
             </div>
           ) : (
-            <div className="space-y-4">
+            <div className="space-y-3">
               {nestedPages.map((page, i) => (
-                <Card key={page.slug ?? i} className="mb-4">
-                  <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                <Link
+                  key={page.slug ?? i}
+                  to={`${sectionHref}/${targetCategory}/${page.slug}`}
+                  className="group flex flex-col sm:flex-row sm:items-center justify-between bg-white border border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-xs transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-600 gap-3"
+                >
+                  <div>
+                    <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors">
                       {page.name}
-                    </h4>
+                    </h3>
                     {page.description && (
-                      <p className="mt-2 text-sm text-gray-600">
+                      <p className="mt-1 text-xs md:text-sm text-gray-600 line-clamp-2 leading-relaxed">
                         {page.description}
                       </p>
                     )}
-                  </CardContent>
-                </Card>
+                  </div>
+                  <div className="text-xs text-primary-700 font-medium inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform shrink-0">
+                    <span>View guide</span>
+                    <span aria-hidden="true">&rarr;</span>
+                  </div>
+                </Link>
               ))}
             </div>
           )}
@@ -212,21 +237,23 @@ export default function Document({
         }
         keywords={`${documentSlug}, government services, public services, local government`}
       />
-      <Section className="p-3 mb-12">
-        <Breadcrumbs className="mb-8" items={breadcrumbs} />
-        <Card className="mb-8 markdown-content">
-          <CardHeader>
-            {markdownContent.description && (
-              <CardContent>{markdownContent.description}</CardContent>
-            )}
+      <Section className="py-8 md:py-12">
+        <Breadcrumbs className="mb-6" items={breadcrumbs} />
+        <article className="bg-white border border-gray-200 rounded-xl p-6 md:p-10 shadow-xs">
+          {markdownContent.description && (
+            <div className="mb-8 p-4 rounded-lg bg-blue-50/70 border-l-4 border-primary-600 text-gray-700 text-sm leading-relaxed">
+              {markdownContent.description}
+            </div>
+          )}
+          <div className="prose prose-slate max-w-none">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={markdownComponents}
             >
               {markdownContent.content}
             </ReactMarkdown>
-          </CardHeader>
-        </Card>
+          </div>
+        </article>
       </Section>
     </>
   );

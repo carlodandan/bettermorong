@@ -1,73 +1,37 @@
-# Guidelines for Proper Waste Segregation and Disposal — Lapu-Lapu City
+# Guidelines for Proper Waste Segregation and Disposal — Morong, Rizal
 
-Proper waste segregation is **mandatory** in Lapu-Lapu City under **Republic Act 9003 (Ecological Solid Waste Management Act)** and local ordinances. Following these rules helps keep the city clean, prevents flooding, and protects health.
-
----
-
-## 1) Waste Categories You Must Separate
-
-| Category                    | Examples                                                                         | How to Dispose                                                                                                     |
-| --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Biodegradable**           | Food scraps, vegetable/fruit peelings, garden waste, paper towels                | Place in green container/biodegradable bin; collected by trucks; can also be composted at home/barangay MRF        |
-| **Recyclable**              | Plastic bottles, glass, tin/aluminum cans, paper, cartons, scrap metal           | Clean and dry before disposal; place in blue container/recyclable bin; bring to junkshops or barangay MRF          |
-| **Residual**                | Used diapers, styrofoam, plastic wrappers, sachets, contaminated paper, ceramics | Place in black container/residual bin; collected by trucks and sent to sanitary landfill                           |
-| **Special/Hazardous Waste** | Batteries, light bulbs, e-waste, paint cans, chemicals, medical waste            | Do **not** mix with regular waste; bring to barangay/CENRO special collection drives or accredited drop-off points |
+Proper waste segregation at source is **mandatory** throughout the Municipality of Morong, Rizal under **Republic Act No. 9003 (Ecological Solid Waste Management Act)**, **Municipal Ordinance No. 5, S. 2014**, and local environmental regulations. Strict compliance prevents clogging of the Morong River drainage network, mitigates seasonal flooding, and preserves Laguna de Bay.
 
 ---
 
-## 2) General Rules for Segregation
+## 1) Four Core Waste Categories to Segregate
 
-- **Always use labeled bins** or color-coded plastic bags (green = biodegradable, blue = recyclable, black = residual).
-- **Rinse recyclables** to avoid pests and foul odor.
-- **Do not burn waste** — open burning is prohibited under RA 9003 and the Clean Air Act.
-- **Put garbage out only on your barangay’s collection day** to avoid clutter and flooding.
-- For **bulk items (furniture, appliances)** → request a **special pickup** through your Barangay Hall or CENRO.
-- **Construction debris** must be hauled by accredited haulers; not allowed in household collection.
-
----
-
-## 3) Barangay Materials Recovery Facilities (MRFs)
-
-- Each barangay is required to operate an **MRF** to handle recyclables and compostables.
-- Residents can bring segregated recyclables and kitchen/garden waste to the MRF.
-- Some barangays have **“exchange programs”** (e.g., recyclables for rice or grocery packs).
+| Waste Category                                  | Examples                                                                                                                  | Correct Storage & Disposal                                                                                                                       |
+| :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Biodegradable (Nabubulok)**                   | Food scraps, fruit peelings, vegetable trimmings, leaves, garden cuttings                                                 | Keep in designated green bins or biodegradable bags; prioritize backyard composting or transfer to Barangay Materials Recovery Facility (MRF).   |
+| **Recyclable (Mareresiklo)**                    | Plastic bottles (PET), glass bottles, tin and aluminum cans, clean cardboard, scrap paper, metal scrap                    | Rinse and dry thoroughly; store in blue bins or recyclable bags; sell to local scrap buyers (_magbobote_) or turn over to Barangay MRF.          |
+| **Residual (Di-nabubulok / Walang pakinabang)** | Soiled wrappers, single-use food packaging, sachets, worn-out footwear, broken ceramics, used sanitary napkins            | Place in black bins or durable trash bags; strictly brought out only on designated residual garbage truck collection days.                       |
+| **Special / Hazardous (Mapanganib)**            | Compact fluorescent lamps (CFL), LED bulbs, household batteries, paint cans, solvent bottles, motor oil, expired medicine | Keep separated in labeled containers; surrender during MENRO special hazardous collection drives; **NEVER** dispose into open waterways or burn. |
 
 ---
 
-## 4) For Businesses & Establishments
+## 2) Mandatory Segregation Rules
 
-- Must maintain **segregated waste bins** accessible to customers and staff.
-- Required to **contract accredited haulers** for industrial, medical, or hazardous waste.
-- Keep disposal receipts/hauler contracts for inspection by CENRO.
-- Restaurants/food-related establishments should explore **onsite composting** or regular turnover to barangay MRFs.
-
----
-
-## 5) Penalties for Non-Compliance
-
-- **Improper waste disposal or open dumping** can result in fines or penalties under city ordinances and RA 9003.
-- Repeated violations may lead to **business permit suspension** (for establishments).
+- **No Segregation, No Collection**: Municipal garbage trucks will refuse to pick up unsegregated or mixed garbage bags.
+- **Strictly No Open Burning (_Bawal Magsiga_)**: Republic Act No. 9003 and Republic Act No. 8749 (Clean Air Act) strictly prohibit burning dry leaves, plastics, and household trash. Violators face fines and community service penalties.
+- **Timing of Disposal**: Place garbage bins or sealed bags outside only on the morning of scheduled collection along your barangay route. Bags left out overnight attract stray animals and cause neighborhood litter.
 
 ---
 
-## 6) Quick Tips for Households
+## 3) Septage Management Compliance
 
-- Keep **3–4 labeled bins** at home (biodegradable, recyclable, residual, hazardous).
-- Reduce waste by avoiding single-use plastics; bring reusable bags/containers.
-- Compost biodegradable waste if you have space (simple backyard compost pit or container).
-- Encourage kids and household members to follow segregation as a habit.
+Under **Municipal Ordinance No. 7, S. 2017**, all residential and commercial buildings in Morong must maintain a functional septic tank and undergo desludging by accredited septage service providers every 3 to 5 years to protect groundwater tables and the Morong River basin.
 
 ---
 
-## Contact for Support
+## 4) Contact Information & Support
 
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (ask for CENRO)  
-  Updates via: [Lapu-Lapu City Information Office Facebook Page](https://www.facebook.com/lapulapucitygovernment)
-
----
-
-### Key Reminder
-
-✅ Proper segregation is a **shared responsibility**. By separating waste correctly, you help reduce landfill use, promote recycling, and keep Lapu-Lapu City safe and sustainable.
+- **Office**: Municipal Environment and Natural Resources Office (MENRO)
+- **Location**: Municipal Building Compound, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
+- **Phone**: (02) 7212-5741
+- **Email**: `menro.morongrizal@gmail.com`

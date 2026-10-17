@@ -1,0 +1,21 @@
+# About Morong - Municipality of Morong, Rizal
+layout: grid
+title: 'About Morong, Rizal'
+description: 'Discover the municipal profile, official vision and mission, demographic data, 8 barangays, and rich heritage of Morong, Rizal.'
+
+pages:
+  - name: 'Vision and Mission'
+    slug: 'vision-and-mission'
+    description: 'The official vision for Morong by 2030 and municipal mission statement guiding responsive and transparent local governance.'
+
+  - name: 'Demographics & 8 Barangays'
+    slug: 'demographics-and-barangays'
+    description: 'Population data (71,151 residents), 37.58 sq km land area, and directory of the 8 component barangays of Morong.'
+
+  - name: 'History & Cultural Heritage'
+    slug: 'history-and-heritage'
+    description: 'Historic background of Morong as the former capital of the Politico-Military District of Morong and home of St. Jerome Parish Church.'
+
+  - name: 'Tourist Spots, Local Dining & Attractions'
+    slug: 'tourist-spots-and-local-attractions'
+    description: 'Explore St. Jerome Church, Emma’s Panciteria, Bukid Cafe, Era Plaza, farm resorts, campsites, and local swimming resorts.'

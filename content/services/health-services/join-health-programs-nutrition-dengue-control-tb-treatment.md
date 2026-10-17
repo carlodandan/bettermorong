@@ -1,81 +1,66 @@
-# Join Health Programs — Lapu-Lapu City (Nutrition, Dengue Control, TB Treatment)
+# Join Health Programs — Municipality of Morong, Rizal (Nutrition, Dengue Control, TB-DOTS)
 
-Below are city-led and national programs you can join through your **Barangay Health Center** and the **City Health Office (CHO)**.
-
----
-
-## 1) Nutrition Programs
-
-**What’s offered**
-
-- Supplementary feeding for day-care children.
-- Community nutrition activities such as breastfeeding promotion, growth monitoring, and health education.
-- Special events during Nutrition Month (July) and city-wide wellness programs.
-
-**Who can join**
-
-- Day-care children and families identified by barangays or CSWD.
-- Residents may also take part in open city nutrition events.
-
-**How to join**
-
-1. Visit your **Barangay Health Center** or ask the **Barangay Nutrition Scholar (BNS)** about ongoing feeding programs.
-2. Join community activities and city-wide nutrition events announced by the **City Health Office (CHO)** or City Information Office.
-
-**Cost:** Free for eligible beneficiaries.
+The **Morong Municipal Health Office (MHO)**, together with Barangay Health Stations and the Municipal Social Welfare and Development Office (MSWDO), conducts year-round public health programs across all 8 barangays of Morong, Rizal.
 
 ---
 
-## 2) Dengue Control Programs
+## 1. Nutrition & Child Health Programs
 
-**What’s offered**
+**What’s Offered:**
 
-- Community clean-up drives under the **ABKD (Aksyon Barangay Kontra Dengue)** program.
-- Daily “4 o’clock habit” — searching and destroying mosquito breeding sites.
-- Misting, fogging, and entomological surveys led by the CHO.
-- Information campaigns during Dengue Awareness Month and rainy season.
+- **Supplementary Feeding Programs**: Nutritious hot meals and milk feeding for undernourished and daycare children in coordination with MSWDO and DepEd.
+- **Operation Timbang Plus (OPT Plus)**: Annual and quarterly growth monitoring (weight-for-age, height-for-age) conducted by **Barangay Nutrition Scholars (BNS)** and Barangay Health Workers (BHWs).
+- **Micronutrient Supplementation**: Distribution of Vitamin A capsules and deworming tablets every 6 months during _Garantisadong Pambata_ rounds.
+- **Infant and Young Child Feeding (IYCF)**: Counseling and support groups for exclusive breastfeeding and complementary feeding.
 
-**How to join**
+**How to Join:**
 
-1. Take part in barangay clean-up drives and follow the **4S strategy** (Search & Destroy, Self-protection, Seek early consultation, Support fogging/misting).
-2. Cooperate when CHO teams conduct **misting** or **house-to-house larval checks**.
+1. Visit your local **Barangay Health Station** or connect with your designated **Barangay Nutrition Scholar (BNS)**.
+2. Attend community health assemblies and Nutrition Month activities every July.
 
-**Cost:** Free; no registration needed.
-
----
-
-## 3) TB Treatment (NTP TB-DOTS)
-
-**What’s offered**
-
-- Free consultations, diagnostic tests, and full course of anti-TB medicines under the **National Tuberculosis Program (NTP)**.
-- Supervised treatment through the **Directly Observed Therapy Short-course (DOTS)** approach.
-
-**Where**
-
-- Lapu-Lapu City Health Office (DOTS facility) and affiliated barangay health centers.
-
-**How to join**
-
-1. Go to your **Barangay Health Center** or the **CHO DOTS Clinic** for TB screening.
-2. If diagnosed, you will be enrolled in DOTS — treatment and medicines are given for free.
-3. Regular follow-up visits will be scheduled to monitor your recovery.
-
-**Cost:** Free for all TB patients.
+**Cost:** **Free** for all eligible children and mothers.
 
 ---
 
-## Contact & Updates
+## 2. Dengue Prevention & Vector Control
 
-- **Barangay Health Centers** — First point of contact for nutrition, dengue, and TB programs.
-- **Lapu-Lapu City Health Office (CHO)** — Main office for program schedules and services.
-- **City Information Office** — Posts updates on city-wide campaigns and health events.
+**What’s Offered:**
+
+- **Dengue Surveillance & Rapid Response**: Monitoring and immediate investigation of suspected dengue cases across Morong's 8 barangays.
+- **4S Strategy Implementation**:
+  - _Search and Destroy_ mosquito breeding grounds in stagnant water receptacles.
+  - _Self-protection measures_ (long sleeves, insect repellent).
+  - _Seek early consultation_ at the Morong RHU for fever lasting more than 2 days.
+  - _Say YES to targeted fogging / misting_ in outbreak or hotspot areas designated by MHO.
+- **NS1 Early Dengue Rapid Testing**: Available at the Morong RHU for immediate detection of dengue virus antigen during the first days of acute fever.
+
+**How to Participate:**
+
+1. Join weekly clean-up drives (_Aksyon Barangay Kontra Dengue_) in your neighborhood.
+2. Cooperate with municipal sanitary inspectors and BHWs during house-to-house larval container surveys.
+
+**Cost:** **Free** consultations, testing, and public vector control operations.
 
 ---
 
-### Quick Tips
+## 3. TB-DOTS Clinic (National Tuberculosis Program)
 
-- Bring a **valid ID** and your **barangay health record** (if you already have one).
-- For TB symptoms (cough for 2 weeks or more, weight loss, night sweats), seek screening immediately.
-- Join community clean-up drives and practice the 4 o’clock habit to prevent dengue.
-- Attend barangay nutrition events and feeding programs for your children’s growth and wellness.
+**What’s Offered:**
+
+- **Free Diagnostic Testing**: GeneXpert molecular testing and direct sputum smear microscopy for individuals experiencing unexplained cough for 2 weeks or more, night sweats, unexplained weight loss, or fever.
+- **Free Anti-TB Medications**: Standard 6-month fixed-dose combination antibiotic regimen provided at zero cost under the National Tuberculosis Program.
+- **Directly Observed Therapy (DOTS)**: Supportive daily medicine intake supervision by trained health personnel and treatment partners.
+
+**Where & Schedule:**
+
+- **Facility**: TB-DOTS Clinic, Morong Rural Health Unit (RHU), Brgy. San Pedro, Morong, Rizal.
+- **Schedule**: Monday to Friday, 8:00 AM – 5:00 PM.
+
+---
+
+## Useful Contacts & Office Information
+
+- **Municipal Health Office (MHO)**: Morong RHU, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
+- **Phone**: (02) 7212-5741
+- **Email**: `mho.morongrizal@gmail.com`
+- **Barangay Health Stations**: Available in Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, and San Pedro.
