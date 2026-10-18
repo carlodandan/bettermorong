@@ -41,8 +41,8 @@ Staging and Production are **two completely separate environments**. Maintaining
 | :------------------------- | :---------------------------------------------------------------- | :------------------------------------------------- |
 | **Primary Purpose**        | Internal testing, QA, mayor's office review, content verification | Live public citizen portal for Morong residents    |
 | **Git Branch**             | `staging` (or pull request branches)                              | `main` (or `production`)                           |
-| **Default Cloudflare URL** | `https://staging.bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
-| **Custom Domain**          | `https://staging.bettermorong.org` (optional)                   | `https://bettermorong.org`                       |
+| **Default Cloudflare URL** | `https://staging-bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
+| **Custom Domain**          | `https://staging-bettermorong.org` (optional)                   | `https://bettermorong.org`                       |
 | **Vite Mode & Env File**   | `--mode staging` (`.env.staging`)                                 | `--mode production` (`.env.production`)            |
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
 | **Search Engine Crawling** | **Blocked** (`X-Robots-Tag: noindex, nofollow` auto-applied)      | **Indexed** (`sitemap.xml` & `robots.txt` enabled) |
@@ -99,7 +99,7 @@ In the Cloudflare setup wizard (or under **Project Settings** > **Environment Va
 ```env
 NODE_VERSION = 20
 VITE_GOVERNMENT_NAME = BetterMorong
-VITE_WEBSITE_URL = https://staging.bettermorong.org
+VITE_WEBSITE_URL = https://bettermorong.org
 VITE_CONTACT_EMAIL = info@morongrizal.gov.ph
 VITE_CONTACT_PHONE = (02) 7212-5741
 VITE_OG_IMAGE_URL = /og-image.png
@@ -110,7 +110,7 @@ VITE_OG_IMAGE_URL = /og-image.png
 ```env
 NODE_VERSION = 20
 VITE_GOVERNMENT_NAME = BetterMorong (Staging)
-VITE_WEBSITE_URL = https://staging.bettermorong.pages.dev
+VITE_WEBSITE_URL = https://staging-bettermorong.pages.dev
 VITE_CONTACT_EMAIL = info@morongrizal.gov.ph
 VITE_CONTACT_PHONE = (02) 7212-5741
 VITE_OG_IMAGE_URL = /og-image.png
@@ -145,7 +145,7 @@ To compile using `.env.staging` and deploy to the `staging` branch alias:
 pnpm pages:deploy:staging
 ```
 
-- **Output**: Generates a dedicated preview URL, typically `https://staging.bettermorong.pages.dev` or `https://<unique-hash>.bettermorong.pages.dev`.
+- **Output**: Generates a dedicated preview URL, typically `https://staging-bettermorong.pages.dev` or `https://<unique-hash>.bettermorong.pages.dev`.
 - **Search Protection**: Cloudflare automatically serves `X-Robots-Tag: noindex` on preview deployments so Google won't index unfinished work.
 
 #### B. Deploying to Production
@@ -156,7 +156,7 @@ To compile using `.env.production` and deploy live to the production domain:
 pnpm pages:deploy:prod
 ```
 
-- **Output**: Publishes directly to `https://bettermorong.pages.dev` and any linked custom domains (`https://staging.bettermorong.org`).
+- **Output**: Publishes directly to `https://bettermorong.pages.dev` and any linked custom domains (`https://bettermorong.org`).
 
 #### C. Local Cloudflare Edge Simulation
 
@@ -179,7 +179,7 @@ Once your Cloudflare Pages project is running, connect your official municipal d
 1. Go to your `bettermorong` project in the Cloudflare Dashboard.
 2. Navigate to **Custom domains** > **Set up a custom domain**.
 3. Enter your domain: `morongrizal.gov.ph` (and optionally `www.morongrizal.gov.ph`).
-4. (Optional) Repeat for staging: `staging.bettermorong.orgh`.
+4. (Optional) Repeat for staging: `staging.morongrizal.gov.ph`.
 
 ### 2. Configure DNS Records in Your Domain Registrar
 
@@ -294,4 +294,4 @@ Before pointing production traffic to your live domain, verify the following:
 - [ ] **PWA & Offline Assets**: Open Chrome DevTools > Application > Service Workers to confirm `sw.js` registers successfully.
 - [ ] **Emergency Contacts**: Test all one-tap `tel:` emergency hotlines (MDRRMO, Police, Fire, 911).
 - [ ] **Search Autocomplete**: Verify the search bar in the Hero returns results without layout clipping.
-- [ ] **Custom Domain SSL**: Confirm HTTPS padlocks and HSTS headers are active on `https://staging.bettermorong.org`.
+- [ ] **Custom Domain SSL**: Confirm HTTPS padlocks and HSTS headers are active on `https://bettermorong.org`.
