@@ -46,7 +46,7 @@ export default function MunicipalHallMapSection() {
                   <p className="text-sm font-semibold text-gray-900 mt-0.5">
                     Morong Municipal Building
                   </p>
-                  <p className="text-xs text-gray-600 leading-relaxed mt-0.5">
+                  <p className="text-sm text-gray-600 leading-relaxed mt-0.5">
                     T. Claudio St., Sitio Paglabas, Barangay San Pedro, Morong,
                     Rizal 1960 Philippines
                   </p>
@@ -68,7 +68,7 @@ export default function MunicipalHallMapSection() {
                   <p className="text-sm font-semibold text-gray-900 mt-0.5">
                     Monday to Friday: 8:00 AM – 5:00 PM
                   </p>
-                  <p className="text-xs text-gray-600 leading-relaxed mt-0.5">
+                  <p className="text-sm text-gray-600 leading-relaxed mt-0.5">
                     No noon break (Continuous frontline transactions pursuant to
                     RA 11032 / Anti-Red Tape Act).
                   </p>
@@ -87,24 +87,24 @@ export default function MunicipalHallMapSection() {
                   <h3 className="text-xs font-bold uppercase tracking-wider text-gray-500">
                     Frontline Contact Lines
                   </h3>
-                  <p className="text-xs text-gray-700 mt-1">
+                  <p className="text-sm text-gray-700 mt-1">
                     <span className="font-semibold text-gray-900">
                       Administration:
                     </span>{' '}
                     <a
                       href="tel:0287869398"
-                      className="text-primary-700 hover:underline"
+                      className="text-primary-700 hover:underline font-medium"
                     >
                       (02) 8786-9398
                     </a>
                   </p>
-                  <p className="text-xs text-gray-700 mt-0.5">
+                  <p className="text-sm text-gray-700 mt-0.5">
                     <span className="font-semibold text-gray-900">
                       24/7 Disaster Center:
                     </span>{' '}
                     <a
                       href="tel:09171350541"
-                      className="text-primary-700 hover:underline"
+                      className="text-primary-700 hover:underline font-medium"
                     >
                       0917-135-0541
                     </a>
@@ -124,14 +124,14 @@ export default function MunicipalHallMapSection() {
                   <h3 className="text-xs font-bold uppercase tracking-wider text-gray-500">
                     Building Directory
                   </h3>
-                  <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                  <p className="text-sm text-gray-600 leading-relaxed mt-1">
                     <span className="font-medium text-gray-900">
                       Ground Floor:
                     </span>{' '}
                     Mayor's Office, Treasury, BOSS, Civil Registry, MSWDO,
                     Agriculture (MAO), Engineering, MENRO.
                   </p>
-                  <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                  <p className="text-sm text-gray-600 leading-relaxed mt-1">
                     <span className="font-medium text-gray-900">
                       2nd Floor:
                     </span>{' '}

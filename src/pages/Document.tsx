@@ -1,12 +1,11 @@
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
-import { Heading } from '../components/ui/Heading';
-import { Text } from '../components/ui/Text';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useParams, Link } from 'react-router';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import {
   loadMarkdownContent,
   type MarkdownContent,
@@ -22,6 +21,92 @@ import {
   type CategoryIndex,
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
+import BudgetDashboard from '../components/government/BudgetDashboard';
+import TransparencyHeroBanner, {
+  type TransparencyTag,
+} from '../components/ui/TransparencyHeroBanner';
+
+function getTransparencyBannerConfig(slug?: string): {
+  badge: string;
+  tags: TransparencyTag[];
+  action?: { label: string; href: string; external?: boolean };
+} {
+  switch (slug) {
+    case 'dpwh-infrastructure-projects':
+      return {
+        badge: 'DPWH National Infrastructure Projects & Monitoring',
+        tags: [
+          { label: 'GAA 2025 Active Portfolio' },
+          { label: 'GAA 2026 Pipeline', highlight: true },
+          { label: 'Rizal 1st & 2nd DEO' },
+        ],
+        action: {
+          label: 'DPWH Portal',
+          href: 'https://transparency.dpwh.gov.ph/',
+          external: true,
+        },
+      };
+    case 'citizens-charter-2025':
+      return {
+        badge: 'Anti-Red Tape Authority & Ease of Doing Business',
+        tags: [
+          { label: 'Republic Act No. 11032', highlight: true },
+          { label: 'All Municipal Frontline Offices' },
+          { label: 'Guaranteed Processing Windows' },
+        ],
+      };
+    case 'procurement-monitoring-reports':
+      return {
+        badge: 'Bids & Awards Committee (BAC) Monitoring',
+        tags: [
+          { label: 'RA 9184 & GPPB Compliance', highlight: true },
+          { label: 'Public Bidding Records' },
+          { label: 'Consolidated PMR Reports' },
+        ],
+      };
+    case 'assistance-to-municipalities':
+      return {
+        badge: 'DILG Assistance to Municipalities (AM)',
+        tags: [
+          { label: 'DILG Priority Assistance Program', highlight: true },
+          { label: 'Flood Control & Potable Water' },
+          { label: 'Disaster Resilience' },
+        ],
+      };
+    case 'full-disclosure-policy':
+      return {
+        badge: 'DILG Full Disclosure Policy (FDP)',
+        tags: [
+          { label: 'Mandatory Financial Disclosures', highlight: true },
+          { label: 'Annual Budgets & AIP' },
+          { label: 'DILG FDP Portal Verified' },
+        ],
+        action: {
+          label: 'DILG FDP Portal',
+          href: 'https://fdpp.dilg.gov.ph/',
+          external: true,
+        },
+      };
+    case 'lgsf-falgu-and-drrap-projects':
+      return {
+        badge: 'Local Government Support Fund (DBM & DILG)',
+        tags: [
+          { label: 'LGSF-FALGU & DRRAP Grants', highlight: true },
+          { label: 'Public Market & Emergency Response' },
+          { label: 'Special Local Development' },
+        ],
+      };
+    default:
+      return {
+        badge: 'Transparency & Public Accountability',
+        tags: [
+          { label: 'Municipality of Morong, Rizal' },
+          { label: 'Full Disclosure Policy' },
+          { label: 'Official Public Record', highlight: true },
+        ],
+      };
+  }
+}
 
 interface DocumentProps {
   theme?: string;
@@ -152,19 +237,36 @@ export default function Document({
         />
         <Section className="py-8 md:py-12">
           <Breadcrumbs className="mb-6" items={breadcrumbs} />
-          {nestedIndex.title && (
-            <Heading
-              level={1}
-              className="text-2xl md:text-3xl font-bold text-gray-950"
-            >
-              {nestedIndex.title}
-            </Heading>
-          )}
-          {nestedIndex.description && (
-            <Text className="text-gray-600 text-sm md:text-base mt-1 mb-8 max-w-3xl">
-              {nestedIndex.description}
-            </Text>
-          )}
+          <TransparencyHeroBanner
+            title={
+              nestedIndex.title || documentSlug || 'Public Guide & Information'
+            }
+            description={nestedIndex.description}
+            badge={
+              targetCategory === 'transparency-documents'
+                ? 'DILG Full Disclosure Policy'
+                : isGovernment
+                  ? 'Government Public Directory'
+                  : 'Citizen Services Guide'
+            }
+            tags={
+              targetCategory === 'transparency-documents'
+                ? [
+                    { label: 'Municipality of Morong, Rizal' },
+                    { label: 'DILG Full Disclosure Portal', highlight: true },
+                    { label: 'Official Public Records' },
+                  ]
+                : [
+                    { label: 'Municipality of Morong, Rizal' },
+                    { label: targetCategory || 'Morong', highlight: true },
+                    {
+                      label: isGovernment
+                        ? 'Public Directory'
+                        : 'Frontline Service',
+                    },
+                  ]
+            }
+          />
           {nestedIndex.layout === 'grid' ? (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {nestedPages.map((page, i) => (
@@ -178,7 +280,7 @@ export default function Document({
                       {page.name}
                     </h3>
                     {page.description && (
-                      <p className="mt-2 text-xs md:text-sm text-gray-600 line-clamp-3 leading-relaxed">
+                      <p className="mt-2 text-sm text-gray-600 line-clamp-3 leading-relaxed">
                         {page.description}
                       </p>
                     )}
@@ -205,7 +307,7 @@ export default function Document({
                       {page.name}
                     </h3>
                     {page.description && (
-                      <p className="mt-1 text-xs md:text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      <p className="mt-1 text-sm text-gray-600 line-clamp-2 leading-relaxed">
                         {page.description}
                       </p>
                     )}
@@ -223,9 +325,39 @@ export default function Document({
     );
   }
 
+  if (documentSlug === 'blgf-statement-of-receipts-and-expenditures') {
+    return (
+      <>
+        <SEO
+          title="Statement of Receipts & Expenditures (FY 2025 Preliminary) — Morong, Rizal"
+          description="Official FY 2025 financial performance, municipal revenues, expenditures, and fund balances of Morong, Rizal from the Bureau of Local Government Finance."
+          keywords="Morong budget, statement of receipts and expenditures, BLGF, municipal finances, Morong Rizal transparency"
+        />
+        <Section className="py-8 md:py-12">
+          <Breadcrumbs className="mb-6" items={breadcrumbs} />
+          <BudgetDashboard />
+        </Section>
+      </>
+    );
+  }
+
   if (!markdownContent) {
     return null;
   }
+
+  const isGovernment = categoryType === 'government';
+  const isTransparency = category === 'transparency-documents';
+  const transparencyConfig = isTransparency
+    ? getTransparencyBannerConfig(documentSlug)
+    : null;
+
+  // Clean content when hero banner is rendered to avoid duplicate title and notice block
+  const displayContent = markdownContent.content
+    ? markdownContent.content
+        .replace(/^#\s+.+$/m, '')
+        .replace(/^>\s*.+(?:\n>\s*.*)*\n---/m, '')
+        .trim()
+    : '';
 
   return (
     <>
@@ -239,18 +371,44 @@ export default function Document({
       />
       <Section className="py-8 md:py-12">
         <Breadcrumbs className="mb-6" items={breadcrumbs} />
+        <TransparencyHeroBanner
+          badge={
+            isTransparency && transparencyConfig
+              ? transparencyConfig.badge
+              : isGovernment
+                ? `Government Directory • ${breadcrumbs[2]?.label || category}`
+                : `Public Services • ${breadcrumbs[2]?.label || category}`
+          }
+          title={markdownContent.title || documentSlug || 'Official Document'}
+          description={markdownContent.description}
+          tags={
+            isTransparency && transparencyConfig
+              ? transparencyConfig.tags
+              : [
+                  { label: 'Municipality of Morong, Rizal' },
+                  {
+                    label: breadcrumbs[2]?.label || category || 'Information',
+                    highlight: true,
+                  },
+                  {
+                    label: isGovernment ? 'Public Document' : "Citizen's Guide",
+                  },
+                ]
+          }
+          action={
+            isTransparency && transparencyConfig
+              ? transparencyConfig.action
+              : undefined
+          }
+        />
         <article className="bg-white border border-gray-200 rounded-xl p-6 md:p-10 shadow-xs">
-          {markdownContent.description && (
-            <div className="mb-8 p-4 rounded-lg bg-blue-50/70 border-l-4 border-primary-600 text-gray-700 text-sm leading-relaxed">
-              {markdownContent.description}
-            </div>
-          )}
           <div className="prose prose-slate max-w-none">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
               components={markdownComponents}
             >
-              {markdownContent.content}
+              {displayContent || ''}
             </ReactMarkdown>
           </div>
         </article>

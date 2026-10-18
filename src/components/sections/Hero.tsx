@@ -134,7 +134,7 @@ export default function Hero() {
                       >
                         <div className="space-y-0.5 pr-2">
                           <div className="flex items-center gap-1.5">
-                            <span className="text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
+                            <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
                               {item.category}
                             </span>
                           </div>

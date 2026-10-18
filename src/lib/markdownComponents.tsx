@@ -310,7 +310,7 @@ export function createMarkdownComponents(theme: TypographyTheme) {
       children?: ReactNode;
     } & HTMLAttributes<HTMLTableHeaderCellElement>) => (
       <th className={theme.components.th} {...props}>
-        {children}
+        {replaceBrString(children)}
       </th>
     ),
     td: ({
@@ -318,8 +318,30 @@ export function createMarkdownComponents(theme: TypographyTheme) {
       ...props
     }: { children?: ReactNode } & HTMLAttributes<HTMLTableDataCellElement>) => (
       <td className={theme.components.td} {...props}>
-        {children}
+        {replaceBrString(children)}
       </td>
     ),
+    br: () => <br />,
   };
+}
+
+function replaceBrString(node: ReactNode): ReactNode {
+  if (typeof node === 'string') {
+    if (!/<br\s*\/?>/i.test(node)) {
+      return node;
+    }
+    const parts = node.split(/<br\s*\/?>/gi);
+    return parts.map((part, index) => (
+      <span key={index}>
+        {index > 0 && <br />}
+        {part}
+      </span>
+    ));
+  }
+  if (Array.isArray(node)) {
+    return node.map((child, index) => (
+      <span key={index}>{replaceBrString(child)}</span>
+    ));
+  }
+  return node;
 }

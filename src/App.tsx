@@ -37,6 +37,15 @@ function App() {
                 element={<Document categoryType="government" />}
               />
               <Route path="/search" element={<Search />} />
+              <Route
+                path="/budget"
+                element={
+                  <Navigate
+                    to="/government/transparency-documents/blgf-statement-of-receipts-and-expenditures"
+                    replace
+                  />
+                }
+              />
               <Route path="/philippines/hotlines" element={<Hotlines />} />
               <Route path="/hotlines" element={<Hotlines />} />
               <Route path="/philippines/holidays" element={<Holidays />} />

@@ -18,15 +18,20 @@ const extractTextFromChildren = (children: ReactNode): string[] => {
 
   const processNode = (node: ReactNode): void => {
     if (typeof node === 'string') {
-      const trimmed = node.trim();
-      if (trimmed) texts.push(trimmed);
+      const cleaned = node.replace(/<br\s*\/?>/gi, '\n').trim();
+      if (cleaned) texts.push(cleaned);
     } else if (typeof node === 'number') {
       texts.push(node.toString());
     } else if (Array.isArray(node)) {
       node.forEach(processNode);
     } else if (node && typeof node === 'object' && 'props' in node) {
-      const nodeProps = node as { props?: { children?: ReactNode } };
-      if (nodeProps.props?.children) {
+      const nodeProps = node as {
+        type?: unknown;
+        props?: { children?: ReactNode };
+      };
+      if (nodeProps.type === 'br') {
+        texts.push('\n');
+      } else if (nodeProps.props?.children) {
         processNode(nodeProps.props.children);
       }
     }
@@ -34,6 +39,20 @@ const extractTextFromChildren = (children: ReactNode): string[] => {
 
   processNode(children);
   return texts;
+};
+
+const renderCellContent = (text: string) => {
+  if (!text) return '';
+  if (text.includes('<br') || text.includes('\n')) {
+    const parts = text.split(/<br\s*\/?>|\n/gi);
+    return parts.map((part, index) => (
+      <span key={index}>
+        {index > 0 && <br />}
+        {part}
+      </span>
+    ));
+  }
+  return text;
 };
 
 const extractRowsFromChildren = (
@@ -55,13 +74,20 @@ const extractRowsFromChildren = (
         nodeProps.key?.includes('tr') ||
         nodeProps.props?.className?.includes('tr')
       ) {
-        // Extract text from all direct children (td/th elements)
-        const cellTexts = extractTextFromChildren(nodeProps.props?.children);
+        // Extract each cell individually to prevent multi-line content from shifting column indexes
+        const rawCells = Array.isArray(nodeProps.props?.children)
+          ? nodeProps.props.children
+          : [nodeProps.props?.children];
 
-        if (cellTexts.length > 0) {
+        const cells = rawCells.filter(Boolean);
+        if (cells.length > 0) {
           const row: Record<string, string> = {};
-          cellTexts.forEach((text, index) => {
-            row[`column_${index}`] = text;
+          cells.forEach((cell, index) => {
+            const cellTexts = extractTextFromChildren(cell);
+            row[`column_${index}`] = cellTexts
+              .join(' ')
+              .replace(/\s*\n\s*/g, '\n')
+              .trim();
           });
           rows.push(row);
         }
@@ -84,32 +110,22 @@ export const TableWithToggle = ({
   children: ReactNode;
   theme: TypographyTheme;
 } & HTMLAttributes<HTMLTableElement>) => {
-  const [viewMode, setViewMode] = useState<'table' | 'list'>('table');
-  const [isMobile, setIsMobile] = useState(false);
+  const [viewMode, setViewMode] = useState<'table' | 'list'>(() =>
+    typeof window !== 'undefined' && window.innerWidth < 640 ? 'list' : 'table'
+  );
 
-  // Set responsive default view
+  // Sync responsive view on resize without triggering cascading setState on initial render
   useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 640); // sm breakpoint
+    const handleResize = () => {
+      const mobile = window.innerWidth < 640;
+      setViewMode(prev =>
+        mobile ? 'list' : prev === 'list' && !mobile ? 'table' : prev
+      );
     };
 
-    // Check on mount
-    checkScreenSize();
-
-    // Listen for resize events
-    window.addEventListener('resize', checkScreenSize);
-
-    return () => window.removeEventListener('resize', checkScreenSize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  // Set default view based on screen size
-  useEffect(() => {
-    if (isMobile) {
-      setViewMode('list');
-    } else {
-      setViewMode('table');
-    }
-  }, [isMobile]);
 
   // Extract table data for list view
   const tableData = useMemo(() => {
@@ -261,8 +277,8 @@ export const TableWithToggle = ({
                       <div className="font-semibold text-gray-800 text-sm mb-1 sm:mb-0 sm:w-1/3 sm:pr-4">
                         {header}:
                       </div>
-                      <div className="text-gray-700 text-sm sm:w-2/3">
-                        {row[header] || ''}
+                      <div className="text-gray-700 text-sm sm:w-2/3 whitespace-pre-line">
+                        {renderCellContent(row[header] || '')}
                       </div>
                     </div>
                   ))}

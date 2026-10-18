@@ -95,7 +95,7 @@ export default function ServicesSection({
                   {category.category}
                 </h3>
               </div>
-              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed line-clamp-3">
+              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
                 {category.description}
               </p>
             </div>

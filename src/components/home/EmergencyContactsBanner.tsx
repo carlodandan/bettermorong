@@ -14,17 +14,17 @@ export default function EmergencyContactsBanner() {
             </span>
             <h2
               id="emergency-contacts-title"
-              className="text-xl font-bold mt-1 text-white"
+              className="text-xl sm:text-2xl font-bold mt-1 text-white"
             >
               24/7 Morong Emergency Hotlines
             </h2>
-            <p className="text-xs sm:text-sm text-primary-100 mt-1">
+            <p className="text-sm text-primary-100 mt-1">
               Direct dispatch for disaster response, emergency medical
               assistance, peace & order, and fire rescue in Morong, Rizal.
             </p>
             <Link
               to="/philippines/hotlines"
-              className="inline-flex items-center text-xs font-bold text-primary-200 hover:text-white mt-2 transition-colors underline underline-offset-2"
+              className="inline-flex items-center text-xs sm:text-sm font-semibold text-primary-200 hover:text-white mt-2 transition-colors underline underline-offset-2"
             >
               View all National &amp; Philippines Hotlines →
             </Link>
@@ -37,7 +37,7 @@ export default function EmergencyContactsBanner() {
               </span>
               <a
                 href="tel:09171350541"
-                className="text-sm font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors"
+                className="text-sm sm:text-base font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors font-mono"
                 aria-label="Call Morong MDRRMO at 0917-135-0541"
               >
                 0917-135-0541
@@ -53,7 +53,7 @@ export default function EmergencyContactsBanner() {
               </span>
               <a
                 href="tel:09065130718"
-                className="text-sm font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors"
+                className="text-sm sm:text-base font-bold font-mono text-white hover:text-primary-200 block mt-0.5 transition-colors"
                 aria-label="Call Morong Police Station at 0906-513-0718"
               >
                 0906-513-0718
@@ -69,7 +69,7 @@ export default function EmergencyContactsBanner() {
               </span>
               <a
                 href="tel:09084417754"
-                className="text-sm font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors"
+                className="text-sm sm:text-base font-bold font-mono text-white hover:text-primary-200 block mt-0.5 transition-colors"
                 aria-label="Call Morong Fire Station at 0908-441-7754"
               >
                 0908-441-7754
@@ -85,7 +85,7 @@ export default function EmergencyContactsBanner() {
               </span>
               <a
                 href="tel:911"
-                className="text-sm font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors"
+                className="text-sm sm:text-base font-bold text-white hover:text-primary-200 block mt-0.5 transition-colors"
                 aria-label="Call National Emergency 911"
               >
                 911

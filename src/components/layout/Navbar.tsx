@@ -174,7 +174,7 @@ const Navbar: React.FC = () => {
               <select
                 value={currentLanguage}
                 onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-[11px] border border-gray-300 rounded px-1.5 py-0.5 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600"
+                className="text-xs border border-gray-300 rounded px-1.5 py-0.5 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600"
               >
                 {Object.entries(LANGUAGES).map(([code, lang]) => (
                   <option key={code} value={code}>

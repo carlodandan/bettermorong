@@ -1,0 +1,95 @@
+{
+  "source": "Bureau of Local Government Finance (BLGF)",
+  "sourceUrl": "https://blgf.gov.ph/",
+  "title": "Statement of Receipts and Expenditures by LGU",
+  "fiscalYear": "FY 2025 (Preliminary)",
+  "currency": "Philippine Peso (₱)",
+  "unit": "In Php Million",
+  "lgu": {
+    "region": "Region IV-A",
+    "province": "Rizal",
+    "name": "Morong",
+    "type": "Municipality"
+  },
+  "currentOperatingIncome": {
+    "localSources": {
+      "taxRevenue": {
+        "realPropertyTax": {
+          "generalFund": 10.85,
+          "specialEducationFund": 13.56,
+          "total": 24.4
+        },
+        "taxOnBusiness": 38.24,
+        "otherTaxes": 1.28,
+        "totalTaxRevenue": 63.92
+      },
+      "nonTaxRevenue": {
+        "regulatoryFees": 14.37,
+        "serviceUserCharges": 4.39,
+        "receiptsFromEconomicEnterprises": 6.74,
+        "otherReceipts": 0.0,
+        "totalNonTaxRevenue": 25.51
+      },
+      "totalLocalSources": 89.42
+    },
+    "externalSources": {
+      "nationalTaxAllotment": 264.55,
+      "otherSharesFromNationalTaxCollection": 0.03,
+      "interLocalTransfers": 0.1,
+      "extraordinaryReceiptsGrantsDonationsAids": 0.0,
+      "totalExternalSources": 264.69
+    },
+    "totalCurrentOperatingIncome": 354.11
+  },
+  "totalCurrentOperatingExpenditures": {
+    "generalPublicServices": 204.58,
+    "socialServices": {
+      "educationCultureSportsManpowerDevelopment": 12.05,
+      "healthNutritionPopulationControl": 23.63,
+      "laborAndEmployment": 0.0,
+      "housingAndCommunityDevelopment": 0.0,
+      "socialServicesAndSocialWelfare": 7.88,
+      "totalSocialServices": 43.56
+    },
+    "economicServices": 27.19,
+    "debtServiceInterestExpense": 10.17,
+    "totalCurrentOperatingExpenditures": 285.51
+  },
+  "netOperatingIncomeFromCurrentOperations": 68.6,
+  "nonIncomeReceipts": {
+    "capitalInvestmentReceipts": {
+      "proceedsFromSaleOfAssets": 0.0,
+      "proceedsFromSaleOfDebtSecurities": 0.0,
+      "collectionOfLoansReceivables": 0.0,
+      "totalCapitalInvestmentReceipts": 0.0
+    },
+    "receiptsFromLoansAndBorrowings": {
+      "acquisitionOfLoans": 0.0,
+      "issuanceOfBonds": 0.0,
+      "totalReceiptsFromLoansAndBorrowings": 0.0
+    },
+    "otherNonIncomeReceipts": 0.0,
+    "totalNonIncomeReceipts": 0.0
+  },
+  "nonOperatingExpenditures": {
+    "capitalInvestmentExpenditures": {
+      "purchaseConstructPropertyPlantEquipment": 52.59,
+      "purchaseOfDebtSecurities": 0.0,
+      "grantMakeLoanToOtherEntities": 0.0,
+      "totalCapitalInvestmentExpenditures": 52.59
+    },
+    "debtServicePrincipalCost": {
+      "paymentOfLoanAmortization": 0.0,
+      "retirementRedemptionOfBonds": 0.0,
+      "totalDebtServicePrincipalCost": 0.0
+    },
+    "otherNonOperatingExpenditures": 0.0,
+    "totalNonOperatingExpenditures": 52.59
+  },
+  "netIncreaseDecreaseInFunds": 16.0,
+  "cashBalanceBeginning": 102.27,
+  "fundCashAvailable": 118.27,
+  "lessPaymentOfPriorYearAccountsPayable": 8.99,
+  "continuingAppropriation": 20.23,
+  "fundCashBalanceEnd": 89.05
+}

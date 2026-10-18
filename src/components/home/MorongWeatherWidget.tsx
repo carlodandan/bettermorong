@@ -114,13 +114,13 @@ export const MorongWeatherWidget: React.FC = () => {
               <Clock className="h-5 w-5" aria-hidden="true" />
             </div>
             <div>
-              <div className="text-[11px] font-bold uppercase tracking-wider text-primary-800">
+              <div className="text-xs font-bold uppercase tracking-wider text-primary-800">
                 Philippine Standard Time (PST / PHT)
               </div>
               <div className="text-sm md:text-base font-mono font-bold text-gray-900 leading-tight">
                 {pst.timeString}
               </div>
-              <div className="text-[11px] text-gray-500">
+              <div className="text-xs text-gray-500">
                 {pst.dayString}, {pst.dateString} • UTC+8
               </div>
             </div>
@@ -185,7 +185,7 @@ export const MorongWeatherWidget: React.FC = () => {
                   <div className="text-xs font-bold text-gray-900">
                     {weather.current.humidity}%
                   </div>
-                  <div className="text-[10px] text-gray-500 uppercase tracking-wider">
+                  <div className="text-xs text-gray-500 font-medium uppercase tracking-wider">
                     Humidity
                   </div>
                 </div>
@@ -197,7 +197,7 @@ export const MorongWeatherWidget: React.FC = () => {
                   <div className="text-xs font-bold text-gray-900">
                     {weather.current.windSpeed} km/h
                   </div>
-                  <div className="text-[10px] text-gray-500 uppercase tracking-wider">
+                  <div className="text-xs text-gray-500 font-medium uppercase tracking-wider">
                     Wind
                   </div>
                 </div>
@@ -209,7 +209,7 @@ export const MorongWeatherWidget: React.FC = () => {
                   <div className="text-xs font-bold text-gray-900">
                     {weather.current.feelsLike}°C
                   </div>
-                  <div className="text-[10px] text-gray-500 uppercase tracking-wider">
+                  <div className="text-xs text-gray-500 font-medium uppercase tracking-wider">
                     Heat Index
                   </div>
                 </div>
@@ -222,7 +222,7 @@ export const MorongWeatherWidget: React.FC = () => {
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
                   5-Day Morong Forecast Outlook
                 </span>
-                <span className="text-[11px] text-gray-500">
+                <span className="text-xs text-gray-500">
                   Public Meteorological Model
                 </span>
               </div>
@@ -243,7 +243,7 @@ export const MorongWeatherWidget: React.FC = () => {
                     <div className="my-1.5">
                       {getWeatherIcon(day.weatherCode, 'h-7 w-7')}
                     </div>
-                    <span className="text-[11px] font-medium text-gray-600 line-clamp-1 h-4">
+                    <span className="text-xs font-medium text-gray-600 line-clamp-1 h-4">
                       {day.condition}
                     </span>
                     <div className="mt-2 text-xs font-bold text-gray-900">
@@ -253,7 +253,7 @@ export const MorongWeatherWidget: React.FC = () => {
                       </span>
                     </div>
                     {day.rainProbability > 0 && (
-                      <div className="mt-1.5 inline-flex items-center gap-0.5 text-[10px] font-semibold text-blue-600">
+                      <div className="mt-1.5 inline-flex items-center gap-0.5 text-xs font-semibold text-blue-600">
                         <Droplets className="h-2.5 w-2.5" aria-hidden="true" />
                         <span>{day.rainProbability}%</span>
                       </div>
