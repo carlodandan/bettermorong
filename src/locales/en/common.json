@@ -4,6 +4,9 @@
   "hero": {
     "title": "Welcome to BetterMorong",
     "subtitle": "A citizen-first portal to find public services, office contacts, and municipal information in Morong, Rizal",
+    "searchPlaceholder": "Search permits, health centers, civil registry, ordinances...",
+    "searchButton": "Search",
+    "quickLinks": "Quick links:",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -29,13 +32,17 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
+    "copyright": "© 2026 BetterGov. All content is public domain unless otherwise specified."
   },
   "navbar": {
     "government": "Government",
     "services": "Services",
     "hotlines": "Hotlines",
-    "holidays": "Holidays"
+    "holidays": "Holidays",
+    "about": "About",
+    "search": "Search",
+    "sitemap": "Sitemap",
+    "accessibility": "Accessibility"
   },
   "joinUs": {
     "stripTitle": "Join the Civic Tech Movement",

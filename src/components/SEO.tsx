@@ -17,9 +17,11 @@ export default function SEO({
   image,
   url,
   type = 'website',
-  siteName = import.meta.env.VITE_GOVERNMENT_NAME || 'Local Government Website',
+  siteName = import.meta.env.VITE_SITE_NAME ||
+    import.meta.env.VITE_GOVERNMENT_NAME ||
+    'BetterMorong',
 }: SEOProps) {
-  const defaultTitle = `${siteName} - Official Government Website`;
+  const defaultTitle = `${siteName} | Municipality of Morong, Rizal | Citizen Services & Government Portal`;
   const defaultDescription =
     import.meta.env.VITE_SITE_DESCRIPTION ||
     `Official website of ${siteName}. Access government services, information, and resources.`;
@@ -29,7 +31,13 @@ export default function SEO({
 
   const baseUrl =
     import.meta.env.VITE_WEBSITE_URL || 'https://staging.bettermorong.org';
-  const fullTitle = title ? `${title} | ${siteName}` : defaultTitle;
+
+  // Format: "BetterMorong | Health Services" (Site Title | Page Title)
+  const fullTitle = !title
+    ? defaultTitle
+    : title === siteName || title.startsWith(`${siteName} |`)
+      ? title
+      : `${siteName} | ${title}`;
   const fullDescription = description || defaultDescription;
   const fullKeywords = keywords || defaultKeywords;
   const fullUrl = url
@@ -84,7 +92,7 @@ export default function SEO({
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content={`${fullTitle} - BetterMorong`} />
+      <meta property="og:image:alt" content={fullTitle} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:locale" content="en_PH" />
 
@@ -94,7 +102,7 @@ export default function SEO({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={fullDescription} />
       <meta name="twitter:image" content={absoluteImage} />
-      <meta name="twitter:image:alt" content={`${fullTitle} - BetterMorong`} />
+      <meta name="twitter:image:alt" content={fullTitle} />
       {twitterHandle && <meta name="twitter:site" content={twitterHandle} />}
 
       {/* Additional Meta Tags */}

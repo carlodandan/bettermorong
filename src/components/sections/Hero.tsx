@@ -106,7 +106,10 @@ export default function Hero() {
                   onKeyDown={e => {
                     if (e.key === 'Escape') setIsOpen(false);
                   }}
-                  placeholder="Search permits, health centers, civil registry, ordinances..."
+                  placeholder={
+                    t('hero.searchPlaceholder') ||
+                    'Search permits, health centers, civil registry, ordinances...'
+                  }
                   className="w-full pl-11 pr-24 py-3.5 bg-white text-gray-900 rounded-lg shadow-sm border border-transparent focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-500 text-sm font-normal placeholder-gray-500"
                   aria-label="Search Morong municipal services and information"
                 />
@@ -114,7 +117,7 @@ export default function Hero() {
                   type="submit"
                   className="absolute right-1.5 top-1/2 -translate-y-1/2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-md text-xs sm:text-sm font-medium transition-colors cursor-pointer shadow-xs"
                 >
-                  Search
+                  {t('hero.searchButton') || 'Search'}
                 </button>
               </form>
 
@@ -176,7 +179,9 @@ export default function Hero() {
 
             {/* Popular Tasks / Quick Service Tags */}
             <div className="mt-4 flex flex-wrap items-center gap-2 text-xs">
-              <span className="text-primary-200 font-medium">Quick links:</span>
+              <span className="text-primary-200 font-medium">
+                {t('hero.quickLinks') || 'Quick links:'}
+              </span>
               {popularSearchTags.slice(0, 5).map(tag => (
                 <Link
                   key={tag.label}

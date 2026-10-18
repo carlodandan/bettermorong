@@ -47,7 +47,7 @@ Staging and Production are **two completely separate environments**. Maintaining
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
 | **Search Engine Crawling** | **Blocked** (`X-Robots-Tag: noindex, nofollow` auto-applied)      | **Indexed** (`sitemap.xml` & `robots.txt` enabled) |
 | **Build Command**          | `npm run build:staging`                                           | `npm run build`                                    |
-| **Deploy Command**         | `npm run pages:deploy:staging`                                    | `npm run pages:deploy:prod`                        |
+| **Deploy Command**         | `pnpm pages:deploy:staging`                                    | `pnpm pages:deploy:prod`                        |
 
 ---
 
@@ -86,7 +86,7 @@ Set the build configurations:
 - **Project name**: `bettermorong`
 - **Production branch**: `main`
 - **Framework preset**: `Vite`
-- **Build command**: `npm run build`
+- **Build command**: `pnpm run build`
 - **Build output directory**: `dist`
 - **Root directory**: `/` (leave blank)
 
@@ -127,12 +127,12 @@ Click **Save and Deploy**. Cloudflare Pages will execute the build in ~1–2 min
 
 ### Method 2: Direct Command Line Deployment via Wrangler CLI
 
-If you prefer deploying directly from your local terminal or a self-hosted CI pipeline without linking GitHub, use the pre-configured npm scripts.
+If you prefer deploying directly from your local terminal or a self-hosted CI pipeline without linking GitHub, use the pre-configured pnpm scripts.
 
 #### Prerequisites: Login to Wrangler (One-time)
 
 ```powershell
-npx wrangler login
+pnpm dlx wrangler login
 ```
 
 A browser window will open asking you to authorize Wrangler with your Cloudflare account.
@@ -142,7 +142,7 @@ A browser window will open asking you to authorize Wrangler with your Cloudflare
 To compile using `.env.staging` and deploy to the `staging` branch alias:
 
 ```powershell
-npm run pages:deploy:staging
+pnpm pages:deploy:staging
 ```
 
 - **Output**: Generates a dedicated preview URL, typically `https://staging.bettermorong.pages.dev` or `https://<unique-hash>.bettermorong.pages.dev`.
@@ -153,7 +153,7 @@ npm run pages:deploy:staging
 To compile using `.env.production` and deploy live to the production domain:
 
 ```powershell
-npm run pages:deploy:prod
+pnpm pages:deploy:prod
 ```
 
 - **Output**: Publishes directly to `https://bettermorong.pages.dev` and any linked custom domains (`https://staging.bettermorong.org`).
@@ -163,7 +163,7 @@ npm run pages:deploy:prod
 To test the exact production build on your local machine with Cloudflare edge headers and redirects simulated:
 
 ```powershell
-npm run pages:preview
+pnpm pages:preview
 ```
 
 This serves `dist/` at `http://localhost:8788`.
