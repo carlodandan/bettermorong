@@ -1,9 +1,9 @@
 {
-  "site_name": "Lapu Lapu City Portal",
-  "site_description": "A community-run portal for the Lapu Lapu City",
+  "site_name": "BetterMorong",
+  "site_description": "Municipality of Morong, Rizal — Citizen Services & Portal",
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Lapu Lapu City Government",
+    "title": "Welcome to BetterMorong",
+    "subtitle": "A citizen-first portal to find public services, office contacts, and municipal information in Morong, Rizal",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -38,16 +38,16 @@
     "holidays": "Holidays"
   },
   "joinUs": {
-    "stripTitle": "🚀 Join the #CivicTech Revolution",
-    "stripSubtitle": "Help build the future of the Philippines and governance through technology",
+    "stripTitle": "Join the Civic Tech Movement",
+    "stripSubtitle": "Help build the future of municipal digital services through technology",
     "joinNow": "Join Now",
     "discord": "Discord",
-    "bannerTitle": "Join the #CivicTech Revolution",
-    "bannerSubtitle": "Help build the future of the Philippines and governance through technology.",
+    "bannerTitle": "Join the Civic Tech Movement",
+    "bannerSubtitle": "Help build the future of local government services through open technology.",
     "bannerHighlight": "Volunteer-led. Open source. Community-driven.",
     "joinMovement": "Join Our Movement",
     "or": "or",
     "joinDiscord": "Join Discord",
-    "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
+    "features": "Infrastructure • Mentorship • Community • Civic Technology"
   }
 }

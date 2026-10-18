@@ -5,19 +5,96 @@ import {
   ChevronDown,
   Globe,
   Search,
-  CheckCircle2,
+  Clock,
+  PhoneCall,
+  Sun,
+  CloudSun,
+  Cloud,
+  CloudRain,
+  CloudLightning,
+  CloudDrizzle,
+  CloudFog,
 } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '../../i18n/languages';
-import { isMeilisearchEnabled } from '../../lib/meilisearch';
+import { usePhilippineTime } from '../../hooks/usePhilippineTime';
+import { useMorongWeather } from '../../hooks/useMorongWeather';
+
+function getWeatherIcon(code: number, className = 'h-3.5 w-3.5') {
+  switch (code) {
+    case 0:
+      return (
+        <Sun className={`${className} text-amber-500`} aria-hidden="true" />
+      );
+    case 1:
+    case 2:
+      return (
+        <CloudSun
+          className={`${className} text-amber-500`}
+          aria-hidden="true"
+        />
+      );
+    case 3:
+      return (
+        <Cloud className={`${className} text-slate-500`} aria-hidden="true" />
+      );
+    case 45:
+    case 48:
+      return (
+        <CloudFog
+          className={`${className} text-slate-400`}
+          aria-hidden="true"
+        />
+      );
+    case 51:
+    case 53:
+    case 55:
+      return (
+        <CloudDrizzle
+          className={`${className} text-blue-400`}
+          aria-hidden="true"
+        />
+      );
+    case 61:
+    case 63:
+    case 65:
+    case 80:
+    case 81:
+    case 82:
+      return (
+        <CloudRain
+          className={`${className} text-blue-500`}
+          aria-hidden="true"
+        />
+      );
+    case 95:
+    case 96:
+    case 99:
+      return (
+        <CloudLightning
+          className={`${className} text-purple-600`}
+          aria-hidden="true"
+        />
+      );
+    default:
+      return (
+        <CloudSun
+          className={`${className} text-amber-500`}
+          aria-hidden="true"
+        />
+      );
+  }
+}
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const { t, i18n } = useTranslation('common');
+  const pst = usePhilippineTime();
+  const { data: weather } = useMorongWeather();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -40,46 +117,61 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50">
-      {/* Top bar with language switcher and additional links */}
-      <div className="border-b border-gray-200">
-        <div className="container mx-auto px-4 flex justify-end items-center h-10">
-          <div className="flex items-center space-x-4">
-            <a
-              href="https://bettergov.ph/join-us"
-              className="text-xs text-primary-600 hover:text-primary-700 font-semibold transition-colors"
-              target="_blank"
-            >
-              🚀 Join Us
-            </a>
-            <a
-              href="https://bettergov.ph/about"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank"
-            >
-              About BetterGov
-            </a>
+    <nav className="bg-white shadow-xs sticky top-0 z-50">
+      {/* Top bar with Philippine Standard Time, Live Weather, and Links */}
+      <div className="bg-slate-50 border-b border-gray-200">
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row sm:justify-between items-center py-1 sm:h-9 gap-1 sm:gap-4 text-xs">
+          {/* Left: Dynamic Philippine Standard Time & Morong Weather */}
+          <div className="flex items-center space-x-3 text-gray-600 overflow-x-auto w-full sm:w-auto py-0.5">
+            <div className="flex items-center gap-1.5 font-medium text-gray-700 whitespace-nowrap">
+              <Clock
+                className="h-3.5 w-3.5 text-primary-600 shrink-0"
+                aria-hidden="true"
+              />
+              <span className="font-semibold text-primary-800">PHT:</span>
+              <span className="font-mono text-gray-900">
+                {pst.fullFormatted}
+              </span>
+            </div>
+            <span className="text-gray-300 hidden md:inline">|</span>
+            <div className="hidden md:flex items-center gap-1 text-gray-700 whitespace-nowrap">
+              {getWeatherIcon(
+                weather.current.weatherCode,
+                'h-3.5 w-3.5 shrink-0'
+              )}
+              <span className="font-semibold text-gray-800">Morong:</span>
+              <span className="font-bold text-gray-950">
+                {weather.current.temperature}°C
+              </span>
+              <span className="text-gray-500">
+                ({weather.current.condition})
+              </span>
+            </div>
+          </div>
+
+          {/* Right: Action links */}
+          <div className="flex items-center space-x-3 text-xs w-full sm:w-auto justify-end">
             <a
               href="https://www.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-gray-700 hover:text-primary-600 transition-colors hidden sm:inline"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Official Gov.ph
             </a>
-
             <a
-              href="https://bettergov.ph/philippines/hotlines"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              href="https://bettergov.ph"
+              className="text-gray-700 hover:text-primary-600 transition-colors hidden sm:inline"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              Hotlines
+              BetterGov.ph
             </a>
             <div className="hidden md:block">
               <select
                 value={i18n.language}
                 onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                className="text-[11px] border border-gray-300 rounded px-1.5 py-0.5 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600"
               >
                 {Object.entries(LANGUAGES).map(([code, lang]) => (
                   <option key={code} value={code}>
@@ -96,18 +188,17 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center">
-              <CheckCircle2 className="h-12 w-12 mr-3" />
-              {/* <img
-                src="/ph-logo.webp"
-                alt="Philippines Coat of Arms"
-                className="h-12 w-12 mr-3"
-              /> */}
+            <Link to="/" className="flex items-center group">
+              <img
+                src="/Morong-Logo.svg"
+                alt="BetterMorong Logo"
+                className="h-12 w-12 mr-3 object-contain shrink-0 group-hover:scale-105 transition-transform"
+              />
               <div>
-                <div className="text-black font-bold">
-                  {import.meta.env.VITE_GOVERNMENT_NAME}
+                <div className="text-gray-950 font-bold text-lg leading-tight group-hover:text-primary-600 transition-colors">
+                  {import.meta.env.VITE_GOVERNMENT_NAME || 'BetterMorong'}
                 </div>
-                <div className="text-xs text-gray-800">
+                <div className="text-xs text-gray-600">
                   {t('site_description')}
                 </div>
               </div>
@@ -152,26 +243,32 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden lg:flex items-center space-x-6">
             <Link
-              to="/about"
+              to="/philippines/hotlines"
+              className="flex items-center text-red-700 hover:text-red-800 font-bold transition-colors"
+            >
+              <PhoneCall
+                className="h-4 w-4 mr-1 text-red-600"
+                aria-hidden="true"
+              />
+              Hotlines
+            </Link>
+            <Link
+              to="/government/about-morong"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
               About
             </Link>
-            {isMeilisearchEnabled && (
-              <Link
-                to="/search"
-                className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
-              >
-                <Search className="h-4 w-4 mr-1" />
-                Search
-              </Link>
-            )}
-            {/* <Link
-              to="/sitemap"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+            <Link
+              to="/search"
+              className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-primary-700 px-3 py-1.5 rounded-md hover:bg-gray-100 transition-colors"
+              aria-label="Search portal"
             >
-              Sitemap
-            </Link> */}
+              <Search
+                className="h-4 w-4 mr-1.5 text-gray-500"
+                aria-hidden="true"
+              />
+              Search
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -226,28 +323,35 @@ const Navbar: React.FC = () => {
             </div>
           ))}
           <Link
-            to="/join-us"
+            to="/philippines/hotlines"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-semibold text-primary-600 hover:bg-primary-50 hover:text-primary-700"
+            className="flex items-center gap-2 px-4 py-2 text-base font-bold text-red-700 hover:bg-red-50"
           >
-            🚀 Join Us
+            <PhoneCall className="h-4 w-4 text-red-600" aria-hidden="true" />
+            Emergency Hotlines
           </Link>
           <Link
-            to="/about"
+            to="/join-us"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+            className="block px-4 py-2 text-base font-semibold text-primary-700 hover:bg-primary-50"
+          >
+            Join Us
+          </Link>
+          <Link
+            to="/government/about-morong"
+            onClick={closeMenu}
+            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
           >
             About
           </Link>
-          {isMeilisearchEnabled && (
-            <Link
-              to="/search"
-              onClick={closeMenu}
-              className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
-            >
-              Search
-            </Link>
-          )}
+          <Link
+            to="/search"
+            onClick={closeMenu}
+            className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+          >
+            <Search className="h-4 w-4 mr-2 text-gray-500" aria-hidden="true" />
+            Search
+          </Link>
           <Link
             to="/sitemap"
             onClick={closeMenu}

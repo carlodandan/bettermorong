@@ -43,7 +43,9 @@ import environmentIndex from '../../content/services/environment/index.yaml?raw'
 import disasterPreparednessIndex from '../../content/services/disaster-preparedness/index.yaml?raw';
 import housingLandUseIndex from '../../content/services/housing-land-use/index.yaml?raw';
 import governmentDepartmentsIndex from '../../content/government/departments/index.yaml?raw';
-import governmentDepartmentsLegislativeIndex from '../../content/government/departments/legislative/index.yaml?raw';
+import governmentTransparencyDocumentsIndex from '../../content/government/transparency-documents/index.yaml?raw';
+import governmentOrdinancesResolutionsIndex from '../../content/government/ordinances-and-resolutions/index.yaml?raw';
+import governmentAboutMorongIndex from '../../content/government/about-morong/index.yaml?raw';
 
 // Create a mapping of category slugs to their YAML content
 const categoryIndexMap: { [key: string]: string } = {
@@ -58,7 +60,9 @@ const categoryIndexMap: { [key: string]: string } = {
   'disaster-preparedness': disasterPreparednessIndex,
   'housing-land-use': housingLandUseIndex,
   departments: governmentDepartmentsIndex,
-  legislative: governmentDepartmentsLegislativeIndex,
+  'transparency-documents': governmentTransparencyDocumentsIndex,
+  'ordinances-and-resolutions': governmentOrdinancesResolutionsIndex,
+  'about-morong': governmentAboutMorongIndex,
 };
 
 // Parse the YAML content

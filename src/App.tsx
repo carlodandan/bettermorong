@@ -8,8 +8,11 @@ import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
 import Search from './pages/Search';
-import { isMeilisearchEnabled } from './lib/meilisearch';
-import { BrowserRouter as Router, Routes, Route } from 'react-router';
+import Hotlines from './pages/Hotlines';
+import Holidays from './pages/Holidays';
+import Sitemap from './pages/Sitemap';
+import Accessibility from './pages/Accessibility';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router';
 
 function App() {
   return (
@@ -33,9 +36,25 @@ function App() {
                 path="/government/:category/:documentSlug"
                 element={<Document categoryType="government" />}
               />
-              {isMeilisearchEnabled && (
-                <Route path="/search" element={<Search />} />
-              )}
+              <Route path="/search" element={<Search />} />
+              <Route path="/philippines/hotlines" element={<Hotlines />} />
+              <Route path="/hotlines" element={<Hotlines />} />
+              <Route path="/philippines/holidays" element={<Holidays />} />
+              <Route path="/holidays" element={<Holidays />} />
+              <Route
+                path="/about"
+                element={<Navigate to="/government/about-morong" replace />}
+              />
+              <Route
+                path="/about-morong"
+                element={<Navigate to="/government/about-morong" replace />}
+              />
+              <Route
+                path="/government/about"
+                element={<Navigate to="/government/about-morong" replace />}
+              />
+              <Route path="/sitemap" element={<Sitemap />} />
+              <Route path="/accessibility" element={<Accessibility />} />
               <Route path="/:lang/:documentSlug" element={<Document />} />
               <Route path="/:documentSlug" element={<Document />} />
             </Routes>

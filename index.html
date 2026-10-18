@@ -1,23 +1,118 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Morong-Logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-        BetterGov.ph | Republic of the Philippines | Community Powered Government
-        Portal
+      BetterMorong | Municipality of Morong, Rizal | Citizen Services &
+      Government Portal
     </title>
-    <meta name="description" content="Community-powered portal of the Republic of the Philippines. Access government services, stay updated with the latest news, and find information about the Philippines." />
+    <meta
+      name="description"
+      content="Citizen-first portal of the Municipality of Morong, Rizal. Direct access to local public services, offices, ordinances, health programs, and community assistance without political clutter."
+    />
+    <meta name="theme-color" content="#1E40AF" />
+    <link rel="canonical" href="https://bettermorong.org/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BetterMorong" />
+    <meta property="og:url" content="https://bettermorong.org/" />
+    <meta
+      property="og:title"
+      content="BetterMorong | Municipality of Morong, Rizal | Citizen Services & Government Portal"
+    />
+    <meta
+      property="og:description"
+      content="Citizen-first portal of the Municipality of Morong, Rizal. Direct access to local public services, offices, ordinances, health programs, and community assistance."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="BetterMorong Portal — Municipality of Morong, Rizal"
+    />
+    <meta property="og:locale" content="en_PH" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="BetterMorong | Municipality of Morong, Rizal"
+    />
+    <meta
+      name="twitter:description"
+      content="Citizen-first portal of the Municipality of Morong, Rizal. Direct access to public services, local offices, ordinances, and 24/7 hotlines."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:image:alt" content="BetterMorong Portal Preview" />
+
+    <!-- Apple Web App -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="BetterMorong" />
+    <link rel="apple-touch-icon" href="/Morong-Logo.svg" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "GovernmentOrganization",
+            "@id": "https://bettermorong.org/#organization",
+            "name": "Municipality of Morong",
+            "alternateName": ["BetterMorong", "LGU Morong", "Morong Rizal"],
+            "url": "https://bettermorong.org",
+            "logo": "https://bettermorong.org/Morong-Logo.svg",
+            "image": "https://bettermorong.org/og-image.png",
+            "description": "Local Government Unit of the Municipality of Morong, Province of Rizal, Region IV-A CALABARZON, Philippines.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Sitio Paglabas, San Pedro",
+              "addressLocality": "Morong",
+              "addressRegion": "Rizal",
+              "postalCode": "1960",
+              "addressCountry": "PH"
+            },
+            "telephone": "+63-2-7212-5741",
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Morong, Rizal"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://bettermorong.org/#website",
+            "url": "https://bettermorong.org",
+            "name": "BetterMorong",
+            "publisher": {
+              "@id": "https://bettermorong.org/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://bettermorong.org/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        ]
+      }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-</body>
-
+  </body>
 </html>

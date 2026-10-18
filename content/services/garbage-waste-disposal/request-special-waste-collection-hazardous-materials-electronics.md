@@ -1,67 +1,37 @@
-# Request Special Collection Services for Hazardous Waste & E-Waste — Lapu-Lapu City
+# Request Special Collection Services — Morong, Rizal (Hazardous Materials & Electronics)
 
-Hazardous and electronic wastes (e-waste) cannot be disposed of with regular garbage. The City Environment and Natural Resources Office (CENRO) and barangays coordinate **special collection drives** and drop-off services for these items.
-
----
-
-## 1) What Counts as Hazardous & E-Waste?
-
-| Category                       | Examples                                                                           | Notes                                                       |
-| ------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **Household Hazardous Waste**  | Batteries, fluorescent bulbs, used paints/solvents, pesticides, cleaning chemicals | Toxic and can pollute soil/water                            |
-| **Electronic Waste (E-Waste)** | Old cellphones, computers, printers, TVs, chargers, cables                         | May contain lead, mercury, cadmium                          |
-| **Medical Waste (Household)**  | Used syringes, sharps, soiled bandages                                             | Should be turned over to health centers for proper disposal |
+Hazardous materials, electronic waste (e-waste), and bulky discarded furniture cannot be mixed with standard household collection in Morong. These materials require specialized handling to prevent environmental toxic exposure and soil/water contamination under **Republic Act No. 6969 (Toxic Substances and Hazardous and Nuclear Wastes Control Act)** and **RA 9003**.
 
 ---
 
-## 2) How to Request Special Collection
+## 1) Types of Special & Hazardous Waste Handled
 
-1. **Contact your Barangay Hall**
-   - Ask for the **Barangay Environment Committee** or Solid Waste desk.
-   - Provide details: type of waste, approximate volume, and your address.
-
-2. **Barangay forwards request to CENRO**
-   - CENRO schedules a **special truck pickup** or directs you to the next citywide collection event.
-   - Some barangays coordinate with **accredited junkshops/recyclers**.
-
-3. **Prepare items for pickup/drop-off**
-   - Store in sealed, clearly labeled containers or boxes.
-   - Do not mix hazardous waste with household garbage.
-
-4. **Follow the scheduled collection**
-   - Place items outside only when instructed, or bring them to the barangay/CENRO drop-off point.
+| Category                                | Typical Items                                                                         | Special Handling Instructions                                                                    |
+| :-------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------- |
+| **Electronic Waste (E-waste)**          | Old computers, laptops, TVs, mobile phones, printers, chargers, electronic appliances | Keep intact; do NOT smash CRT screens or dismantle circuit boards to avoid heavy metal leaching. |
+| **Lighting & Mercury-Containing Waste** | Fluorescent tubes (CFL), mercury-containing lamps, broken thermometers                | Wrap carefully in cardboard/paper to prevent breakage and inhalation of mercury vapor.           |
+| **Household Chemicals & Solvents**      | Spent motor oil, paints, paint thinners, chemical pesticides, cleaning acids          | Keep tightly sealed in original or clearly labeled leak-proof containers.                        |
+| **Spent Batteries**                     | Lead-acid automotive batteries, rechargeable lithium batteries, dry cell alkalines    | Tape terminals of button and lithium batteries; store in a dry plastic container.                |
 
 ---
 
-## 3) Other Disposal Options
+## 2) How to Request Collection or Surrender Waste
 
-- **Barangay E-Waste Drives** — many barangays organize quarterly e-waste collection campaigns.
-- **School/NGO Drives** — occasionally schools or civic groups run e-waste donation drives in coordination with the City.
-- **Accredited Junkshops/Collectors** — some accept electronics for recycling; ask CENRO for the accredited list.
-
----
-
-## 4) Contact Information
-
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)  
-  Updates: [Lapu-Lapu City Government Facebook Page](https://www.facebook.com/lapulapucitygovernment)
-
-- **Barangay Halls** — Environment/Solid Waste desk for barangay-level pickup scheduling.
+1. **Coordinate with Your Barangay**:
+   - Check with your **Barangay Hall** (Committee on Environment) if a scheduled community e-waste collection drive or Material Recovery Facility (MRF) drop-off day is coming up.
+2. **Direct Scheduling with MENRO**:
+   - Contact the **Municipal Environment and Natural Resources Office (MENRO)**:
+   - Location: Morong Municipal Hall Compound, Sitio Paglabas, San Pedro, Morong, Rizal.
+   - Phone: (02) 7212-5741 | Email: `menro.morongrizal@gmail.com`.
+3. **Specify Waste Inventory**:
+   - Provide an itemized summary of the hazardous items (types, estimated quantities, and location).
+4. **Drop-off or Supervised Pickup**:
+   - Surrender items at the designated municipal collection point or await the scheduled hazardous waste hauler vehicle.
 
 ---
 
-## 5) Tips for Households
+## 3) Important Safety Reminders
 
-- Keep a **separate box** for batteries, bulbs, and small electronics.
-- Do not break bulbs or dismantle devices — this increases risk of contamination.
-- Join **barangay or school e-waste drives** regularly to avoid stockpiling.
-- Encourage neighbors to **bundle requests together** — barangays often schedule collection faster for group requests.
-
----
-
-### Reminder
-
-✅ Never dispose of hazardous waste or e-waste with your regular garbage.  
-✅ Always coordinate with your **Barangay Hall** or **CENRO** for proper and safe collection.
+- **Never Burn or Bury**: Burning plastic electronics releases carcinogenic dioxins and furans; burying batteries contaminates local groundwater.
+- **Do Not Throw in Waterways**: Keeping hazardous chemicals out of drains directly protects the Morong River and Laguna de Bay fishing communities.
+- **Safe Household Storage**: Keep a designated sturdy container out of reach of children and pets for storing spent batteries and bulbs until collection day.

@@ -1,74 +1,48 @@
-# Check Garbage Collection Schedules and Request Pickup — Lapu-Lapu City
+# Check Garbage Collection Schedules and Request Pickup — Morong, Rizal
 
-The City Government of Lapu-Lapu manages **regular garbage collection** through the **City Environment and Natural Resources Office (CENRO)** and barangays. Residents and business owners are encouraged to follow the schedule and proper segregation rules.
-
----
-
-## 1) Regular Garbage Collection
-
-**How it works**
-
-- Collection schedules vary **by barangay** (usually **every other day** or **3 times per week**).
-- Trucks assigned to barangays cover **household waste**, **biodegradable**, and **residual/non-recyclable** garbage.
-- Segregation at source is **mandatory** — separate biodegradable, recyclable, residual, and special/hazardous waste.
-
-**Where to check schedules**
-
-1. **Barangay Hall** — each barangay posts its official collection schedule.
-2. **Barangay Facebook Pages** — most update residents when trucks are delayed or rescheduled.
-3. **City Information Office (CIO)** or **CENRO** announcements for citywide advisories (e.g., during holidays or typhoon disruptions).
-
-> Tip: Post the collection calendar on your fridge or gate to remind the household which days to take bins out.
+The Municipal Government of Morong, through the **Municipal Environment and Natural Resources Office (MENRO)** in coordination with the 8 barangays, manages municipal solid waste collection pursuant to Republic Act No. 9003 (Ecological Solid Waste Management Act) and **Municipal Ordinance No. 5, S. 2014** (Imposing Garbage Collection Fee at the Municipality of Morong, Rizal).
 
 ---
 
-## 2) Special Garbage Pickup (Bulk or Non-Routine Waste)
+## 1) Regular Household Garbage Collection
 
-For **bulk waste** (e.g., furniture, appliances, construction debris, yard trimmings), collection is not part of the regular schedule.
+**How It Works:**
 
-**How to request**
+- Collection trucks service designated routes across Morong's 8 barangays according to weekly schedules.
+- **Mandatory Source Segregation**: Unsegregated garbage will NOT be collected. Households must segregate waste into:
+  - **Biodegradable / Composting Waste** (kitchen scraps, food leftovers, garden trimmings)
+  - **Recyclable Materials** (plastic bottles, cardboard, paper, glass bottles, scrap metal)
+  - **Residual Waste** (sachets, soiled wrappers, worn-out shoes/rags)
+  - **Special / Hazardous Household Waste** (fluorescent lamps, batteries, aerosol cans)
 
-1. Visit your **Barangay Hall** or contact the **Barangay Environment Committee**.
-2. Provide details: type of waste, estimated volume, and address.
-3. Barangay coordinates with **CENRO** for scheduling a **special truck pickup**.
-4. Some barangays may require a **minimal fee** for bulk or special disposal.
+**Where to Check Your Schedule:**
 
-**Items usually needing special pickup**
-
-- Large furniture, mattresses, appliances, e-waste
-- Construction/demolition debris
-- Hazardous household waste (paints, chemicals, batteries)
-
----
-
-## 3) Contact Information
-
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)  
-  Updates: via **City Information Office** FB page
-
-- **Barangay Halls** — each barangay has an Environment/ Solid Waste desk for local schedules and pickup requests.
+1. **Your Barangay Hall**: Every barangay (Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, San Pedro) posts its specific day and time routes.
+2. **Designated Collection Points**: Bring out segregated garbage bins/bags only on the designated collection morning to prevent animal scavenging and littering.
+3. **Municipal Garbage Fee**: Ensure updated payment of municipal garbage collection fees as authorized under Municipal Ordinance No. 5, S. 2014.
 
 ---
 
-## 4) Quick Tips for Residents
+## 2) Special Bulk & Hazardous Waste Collection
 
-- Put garbage out **only on collection day**, early morning or night before.
-- Use durable, closed containers to prevent animal scattering.
-- For recyclables, check if your barangay has a **Materials Recovery Facility (MRF)** or partner junkshop.
-- During **rainy season/typhoons**, expect **schedule adjustments** — follow CIO or barangay announcements.
-- Avoid burning waste (strictly prohibited under RA 9003 / Clean Air Act).
+Large non-routine items cannot be loaded onto standard daily collection trucks:
+
+- **Bulky Items**: Broken furniture, old mattresses, construction/demolition debris, large tree branches.
+- **Electronic Waste (E-waste)**: Defunct computers, television sets, discarded electronics.
+- **Chemical / Special Waste**: Paint cans, solvent containers, automotive batteries.
+
+**How to Request Special Pickup:**
+
+1. Visit your **Barangay Hall** or file a request with the **MENRO Office**.
+2. Specify the nature, volume, and pickup location of the waste.
+3. Schedule an accredited truck collection. Note that tipping fees or transport fees may apply for commercial-scale bulk waste.
 
 ---
 
-## 5) Businesses & Establishments
+## 3) Contact & Coordinating Office
 
-- Businesses must comply with **segregation** and may need to contract **accredited private haulers** for bulk/industrial waste.
-- Keep proof of disposal (receipts/hauling contracts) for compliance inspections by CENRO.
-
----
-
-### Key Reminder
-
-Following your barangay’s **garbage collection schedule** and properly requesting **special pickups** keeps the city clean and prevents flooding, pests, and health risks.
+- **Office**: Municipal Environment and Natural Resources Office (MENRO)
+- **Location**: Municipal Building Compound, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
+- **Phone**: (02) 7212-5741
+- **Email**: `menro.morongrizal@gmail.com`
+- **Barangay Halls**: Coordinate with your Barangay Committee on Environment.

@@ -1,6 +1,9 @@
 import Hero from '../components/sections/Hero';
 import ServicesSection from '../components/home/ServicesSection';
+import MorongWeatherWidget from '../components/home/MorongWeatherWidget';
+import EmergencyContactsBanner from '../components/home/EmergencyContactsBanner';
 import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
+import MunicipalHallMapSection from '../components/home/MunicipalHallMapSection';
 import SEO from '../components/SEO';
 
 const Home: React.FC = () => {
@@ -8,13 +11,16 @@ const Home: React.FC = () => {
     <>
       <SEO
         title="Home"
-        description="Official website of your local government. Access government services, information, and resources."
-        keywords="government, local government, services, public services, civic services"
+        description="Citizen-first portal of BetterMorong (Municipality of Morong, Rizal). Direct access to local public services, offices, ordinances, health programs, and community assistance."
+        keywords="BetterMorong, Morong Rizal, citizen portal, Morong services, local government, civic services"
       />
       <main className="flex-grow">
         <Hero />
-        <ServicesSection />
+        <ServicesSection limit={4} />
+        <EmergencyContactsBanner />
         <GovernmentActivitySection />
+        <MunicipalHallMapSection />
+        <MorongWeatherWidget />
       </main>
     </>
   );

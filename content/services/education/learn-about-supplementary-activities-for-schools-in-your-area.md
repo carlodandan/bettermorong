@@ -1,89 +1,42 @@
-# Learn About Supplementary Activities for Schools in Your Area — Lapu-Lapu City
+# Learn About Supplementary Activities for Schools in Your Area — Morong, Rizal
 
-This guide shows where to find **clubs, student organizations, competitions, service groups, and enrichment programs** available to learners in Lapu-Lapu City.
-
----
-
-## Where to Look First (Local)
-
-1. **Your school’s official page or FB** — most clubs post tryout/enlistment dates there.
-2. **DepEd Lapu-Lapu City Division** — division-wide contests, trainings, and circulars:
-   - Website: https://depedlapulapu.net.ph/
-   - FB page: https://www.facebook.com/DepEDLLC/
-3. **City facilities** — the **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** runs study support and computer/printing access (open daily 8:00 a.m.–12:00 midnight):
-   - SunStar article: https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
-   - The POST coverage: https://thepost.net.ph/news/nation/lapu-lapu-city-library-reopens-offers-free-study-space-and-digital-access-for-students/
+This guide details **student organizations, competitions, service groups, and cultural enrichment activities** available to learners across public and private schools in the **Municipality of Morong, Rizal**.
 
 ---
 
-## Core Student Organizations (DepEd-recognized)
+## Where to Look First (Local & Division Level)
 
-| Organization                                              | What it does                                                                        | Learn more                                                                                                                         |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Supreme Pupil/Student Government (SPG/SSG)**            | Student leadership, school/community projects, assemblies, advocacy campaigns       | DepEd policy brief (PDF): https://www.deped.gov.ph/wp-content/uploads/2014/12/DO_s2014_47.pdf                                      |
-| **YES-O (Youth for Environment in Schools Organization)** | Environmental projects: clean-ups, waste management, tree-planting, 4 o’clock habit | Overview: https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/ |
-| **Campus Journalism (School Papers)**                     | Writing, editing, layout, radio/TV script, participation in press conferences       | Start with your English/Filipino department; division circulars are posted on DepEd Lapu-Lapu site/FB                              |
-
----
-
-## Service & Skills Organizations (Often School-Based Chapters)
-
-| Organization                             | Typical activities                                         | Learn more                               |
-| ---------------------------------------- | ---------------------------------------------------------- | ---------------------------------------- |
-| **Red Cross Youth**                      | First aid basics, disaster preparedness, volunteer service | https://redcross.org.ph/red-cross-youth/ |
-| **Boy Scouts of the Philippines (BSP)**  | Scouting skills, leadership camps, community service       | National site: https://scouts.gov.ph/    |
-| **Girl Scouts of the Philippines (GSP)** | Leadership, life skills, community projects, camping       | https://girlscouts.org.ph/               |
-
-> Ask your school for **recognition and membership schedules** if you want to start or reactivate a chapter.
+1. **Your School’s Administration or Supreme Secondary Learner Government (SSLG)**: Clubs and teams announce auditions, tryouts, and recruitment schedules at the beginning of each school year.
+2. **DepEd Schools Division of Rizal (Morong District)**: Division Schools Press Conferences (DSPC), Division Science and Math Fairs, and District athletic meets.
+3. **Morong Town Plaza & Tanghalang Francisco F. Feliciano**: Central community venue for municipal music festivals, school theater presentations, and cultural commemorations.
+4. **Museong Pambayan ng Morong**: Educational heritage visits, historical exhibits, and community art workshops managed in partnership with LIKAS Morong, Inc.
+5. **Morong Youth Development Office (MYDO)**: Coordinates youth leadership councils, student sports clinics, and registration under the **National Youth Commission's YORP** program (`steventantiongcodeleon@gmail.com`).
 
 ---
 
-## Academic & Interest Clubs (examples you’ll commonly find)
+## Core Student Organizations (DepEd-Recognized)
 
-- **STEM/Math/Science clubs** — science fairs, investigatory projects, robotics/ICT showcases
-- **Araling Panlipunan & Social Science clubs** — quiz bowls, heritage walks, civic advocacy
-- **MAPEH / Arts, Music, Dance & Theater** — talent showcases, chorale, dance troupe, theater guild
-- **TLE/ICT clubs** — coding basics, multimedia, entrepreneurship pop-ups
-- **Sports teams** — tryouts announced by the school’s MAPEH/sports coordinator (division meets posted by DepEd)
-
-> Tip: Most schools post **club enlistment** in the first month of classes and **tryout notices** before division meets. Keep an eye on your school’s channels.
-
----
-
-## Enrichment & Alternative Pathways
-
-- **ALS (Alternative Learning System)** — if you’re out-of-school youth or need flexible learning.
-  - DepEd Lapu-Lapu Division contact page lists ALS focal persons: https://depedlapulapu.net.ph/contact-us/
-- **City e-Library Programs** — occasional **digital skills** and study support activities (ask staff at Hoops Dome).
-- **Youth & Environment / Disaster Readiness** — often led by YES-O, RCY, and school DRRM coordinators.
+| Organization                                                        | Purpose & Typical Activities                                                                            | How to Join                                                                |
+| :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------- |
+| **Supreme Secondary / Elementary Learner Government (SSLG / SELG)** | Student leadership, school representation, campus projects, and student welfare advocacy.               | Annual school-wide student elections held at the start of the school year. |
+| **Youth for Environment in Schools Organization (YES-O)**           | Environmental initiatives: school clean-ups, waste segregation, tree planting, and nursery maintenance. | Register with your school's YES-O faculty adviser.                         |
+| **Campus Journalism (School Publications)**                         | News, feature, and editorial writing, photojournalism, and broadcasting competing in DSPC / RSPC.       | Tryouts conducted by school publication moderators (English & Filipino).   |
+| **Barkada Kontra Droga (BKD)**                                      | Peer support and substance abuse prevention campaigns among students.                                   | Guidance office or BKD faculty coordinator.                                |
 
 ---
 
-## How to Join (Quick Steps)
+## Service, Community & Scouting Organizations
 
-1. **Scan your school’s bulletin/FB** for club fair dates, sign-up links, or adviser contacts.
-2. **Prepare simple requirements** (school ID, parent consent form if needed).
-3. **Attend the orientation/tryouts** and take note of meeting schedules.
-4. **Commit to service hours or outputs** (e.g., events, training, competitions).
-5. **Track division-level announcements** via DepEd Lapu-Lapu for contests and training invitations.
-
----
-
-## Parent/Guardian Pointers
-
-- Ask advisers about **safety protocols**, **meeting times**, and **fees (if any)**. Many activities are free or school-supported.
-- Balance: set a weekly schedule so academics and extracurriculars both thrive.
-- Encourage roles that build **leadership and documentation** (e.g., secretary, treasurer, logistics head).
+| Organization                                                | Activities & Skills                                                                   |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Boy Scouts of the Philippines (BSP) & Girl Scouts (GSP)** | Outdoor survival skills, leadership camps, discipline, and community service.         |
+| **Red Cross Youth (RCY)**                                   | Basic first aid training, disaster preparedness, and voluntary blood donation drives. |
+| **Disaster Resilience Student Brigade**                     | Fire and earthquake drill marshals trained in coordination with MDRRMO Morong.        |
 
 ---
 
-### Quick Links Recap
+## Culture, Heritage & Arts
 
-- DepEd Lapu-Lapu Division — https://depedlapulapu.net.ph/
-- DepEd Lapu-Lapu FB — https://www.facebook.com/DepEDLLC/
-- Lapu-Lapu City e-Library news — https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
-- YES-O overview — https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/
-- SPG/SSG policy (PDF) — https://www.deped.gov.ph/wp-content/uploads/2014/12/DO_s2014_47.pdf
-- Red Cross Youth — https://redcross.org.ph/red-cross-youth/
-- Boy Scouts — https://scouts.gov.ph/
-- Girl Scouts — https://girlscouts.org.ph/
+- **Marching Bands & Drum and Lyre Corps**: Morong has a proud tradition of musical bands performing during town fiestas and regional band competitions.
+- **Cultural Dance Guilds & Folkloric Groups**: Preserving traditional folk dances and performing during the annual **Sanrok sa Ringring Festival**.
+- **Visual Arts Guilds**: Community mural painting, student art exhibits, and competitions supported by local cultural groups.

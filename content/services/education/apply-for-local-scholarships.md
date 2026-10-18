@@ -1,112 +1,58 @@
-# Apply for Local Scholarships — Lapu-Lapu City
+# Apply for Local Scholarships & Educational Assistance — Morong, Rizal
 
-Use this guide to find **City/LGU**, **Congressional/partner**, **local college**, and **national** scholarship options you can apply for while based in **Lapu-Lapu City**.
-
----
-
-## 1) City/LGU Scholarship Programs
-
-| Program                                           | Who it’s for                                                                                           | What it covers\*                                                          | Where to apply                  | Notes                                                                                                                                                                                                         |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City Government College Scholarship** | Lapu-Lapu City residents (typically Senior High / incoming college; priority to low-income households) | Tuition/fees or full scholarship, depending on intake and partner schools | City Hall / posted online calls | The city has historically opened slots for poor residents and tied these to local HEIs during certain intakes. Check latest calls from City Hall / Office of the Mayor. :contentReference[oaicite:0]{index=0} |
-
-\*Coverage varies by year/partner school; always verify the current announcement.
-
-**How to apply (typical flow)**
-
-1. Watch for the **official call for applications** from the **Lapu-Lapu City Government** (FB/website or City Information Office). :contentReference[oaicite:1]{index=1}
-2. Prepare documents (see **Common Requirements** below).
-3. Submit your application at the designated **LGU window/online form** and attend evaluation/orientation if shortlisted.
+This guide details municipal, provincial, state university, and national scholarship programs available to students residing in the **Municipality of Morong, Province of Rizal**.
 
 ---
 
-## 2) Congressional / Partner Scholarship Slots
+## 1) Municipal Educational Assistance Program (Morong LGU)
 
-| Program                                                                                       | Who it’s for                                   | What it covers                                          | Where to apply                                                                   | Notes                                                                                                                |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Mayor Junard “Ahong” Chan & First Lady Ma. Cynthia King-Chan Scholarship** (periodic calls) | City residents, course/partner-school specific | Tuition assistance/full scholarship depending on cohort | Calls posted by the **Office of the Mayor** / **Office of Rep. Cindi King-Chan** | Look for official FB announcements with the **requirements and deadlines**. :contentReference[oaicite:2]{index=2}    |
-| **International/partner school opportunities**                                                | Senior High/college grads                      | Tuition discounts/scholarships via MOUs                 | Via partner school announcements & City coordination                             | Example: Taiwan partner university opportunities highlighted by city partners. :contentReference[oaicite:3]{index=3} |
-
----
-
-## 3) Local Colleges & Their In-House Scholarships
-
-| School                                         | Scholarship page/info                                                        | Notes                                                                                                                                 |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City College (LLCC)**              | School site lists contacts; ask registrar/scholarship desk for current slots | City college; scholarship rules and timing set per semester. :contentReference[oaicite:4]{index=4}                                    |
-| **University of Cebu** (Mactan/Main system)    | Public scholarship lists & requirements                                      | UC posts scholarship requirements (e.g., academic honors, docs). Availability varies by campus. :contentReference[oaicite:5]{index=5} |
-| **LCIC (Lapulapu-Cebu International College)** | Scholarship page with program specifics                                      | Has its own discounts/scholarships; separate from LGU. :contentReference[oaicite:6]{index=6}                                          |
-
-> Tip: Even if you’re targeting an **LGU scholarship**, apply to your target school’s **in-house scholarship** too. Slots stack or complement depending on rules.
+| Detail                   | Information                                                                                                                                                                                                                                            |
+| :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Administering Office** | Office of the Municipal Mayor & MSWDO                                                                                                                                                                                                                  |
+| **Target Beneficiaries** | Disadvantaged, indigent, or deserving senior high school and tertiary students residing in Morong                                                                                                                                                      |
+| **Assistance Type**      | One-time semester financial grant or tuition/allowance support                                                                                                                                                                                         |
+| **Where to Apply**       | Municipal Social Welfare & Development Office (MSWDO) / Office of the Mayor                                                                                                                                                                            |
+| **Requirements**         | • Barangay Certificate of Indigency / Residency<br>• Certificate of Registration / Enrollment Assessment Form from school<br>• Latest Certified Copy of Grades (General Weighted Average)<br>• Photocopy of Student ID & Parent/Guardian Government ID |
 
 ---
 
-## 4) National Programs You Can Apply For While Based in Lapu-Lapu
+## 2) University of Rizal System (URS) – Morong Campus (Free Higher Education)
 
-| Program                                                             | Who it’s for                                                  | Typical coverage                                          | Where to file                                                                                                               |
-| ------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **CHED Merit Scholarship (CMSP)**                                   | Incoming/continuing college with merit + income criteria      | Stipend + book/tuition assistance (per CHED rules)        | CHED’s official calls/portals (watch national page) :contentReference[oaicite:7]{index=7}                                   |
-| **OWWA EDSP/ODSP** (for OFW dependents)                             | Qualified dependents of active OWWA members                   | EDSP up to ₱60k/yr; ODSP up to ₱20k/yr (amounts per call) | OWWA Scholarship portal; local **PESO Lapu-Lapu** often posts the call window :contentReference[oaicite:8]{index=8}         |
-| **Cebu Province scholarships** (if eligible as provincial resident) | Cebu Province residents (check city/province residency rules) | Tuition/stipend per program                               | Province announcements; verify residency eligibility vs. highly urbanized city status :contentReference[oaicite:9]{index=9} |
+The **University of Rizal System (URS) – Morong Campus** is the main and largest campus of the state university system of Rizal Province, located directly in Morong.
 
----
-
-## Common Requirements (have these ready)
-
-- **Proof of residency** (Barangay Certificate)
-- **Birth certificate** (PSA)
-- **Report card/grades** (JHS/SHS/college)
-- **Good moral certificate** (from school)
-- **Income documents** (parents’ ITR/Certificate of Non-Filing/indigency, depending on program)
-- **Photos/ID** (2×2 or passport size)
-- **Admission/Enrollment proof** (if already admitted)
-
-(Exact lists vary per program; always follow the posted checklist.)
+- **Republic Act No. 10931 (Universal Access to Quality Tertiary Education Act)**:
+  - Filipino undergraduate students enrolled in state universities (SUCs) are exempt from paying tuition and other school fees.
+  - URS Morong offers diverse baccalaureate programs in Engineering, Teacher Education, Industrial Technology, Science, and Business.
+- **Academic & In-House Scholarships**:
+  - Dean’s List / President’s List tuition stipends.
+  - Student Assistantship Programs (Office of Student Affairs).
+- **Campus Address**: J. Sumulong St., Brgy. San Juan, Morong, Rizal.
 
 ---
 
-## Step-by-Step: How to Apply
+## 3) Rizal Provincial Government — Ynares Scholarship Program (YSP)
 
-1. **Pick your target programs**
-   - City/LGU scholarship (watch City Hall channels), school-based scholarship, and at least one national program.
+The Provincial Government of Rizal offers the **Ynares Scholarship Program** across all municipalities:
 
-2. **Check the current call**
-   - Read the **eligibility, coverage, and deadline**. Save the announcement.
-
-3. **Assemble documents**
-   - Use the checklist above; request certificates early (Barangay, School Registrar, BIR/Barangay for income).
-
-4. **Submit**
-   - Follow the **specified portal or window**. Keep digital scans (PDF) for online filing.
-
-5. **Monitor & attend screening**
-   - Answer calls/emails, attend orientation/interviews, and **sign the scholarship agreement** if accepted.
-
-6. **Comply every term**
-   - Maintain the **required GWA**, submit grade reports on time, and **renew** each semester/year.
+- **Academic Honors Scholarship**: Open to valedictorians, salutatorians, and high-ranking graduates from Morong public and private senior high schools.
+- **Special Grant Assistance**: Financial subsidies for eligible college students enrolled in accredited higher education institutions across Region IV-A and Metro Manila.
+- **Application Window**: Typically opens prior to the start of the academic year; coordinated via the Provincial Social Welfare and Development Office (PSWDO) and Morong Municipal Hall.
 
 ---
 
-## Where to Watch for Announcements
+## 4) National Government Scholarship Programs
 
-- LCIC’s website → “Scholarship” section
-- University of Cebu’s “Scholarship & Study Grants” page
-- DepEd Lapu-Lapu City’s official site / memorandums
-- City Government announcements (City Hall / Information Office)
-
----
-
-### Example Applications Available Now
-
-- [LCIC Scholarship Page](https://lcic.edu.ph/scholarship.html)
-- [UC Scholarships & Study Grants](https://www.universityofcebu.net/p/scholarship.html)
-- [DOST-SEI S&T Scholarship (Grade 12 applicants)](https://depedlapulapu.net.ph/download/dm-no-723-s-2024-2025-dost-sei-s-t-undergraduate-scholarship-applications-for-grade-12-senior-high-school-students/)
-- [English Access Program (DepEd Lapu-Lapu)](https://depedlapulapu.net.ph/download/dm-no-064-s-2025-english-access-scholarship-program/)
+| Program                                        | Eligibility Criteria                                                       | Benefits                                                     | Application Portal                                   |
+| :--------------------------------------------- | :------------------------------------------------------------------------- | :----------------------------------------------------------- | :--------------------------------------------------- |
+| **CHED Merit Scholarship Program (CMSP)**      | High school graduates with General Weighted Average of at least 93% or 96% | Full or partial tuition and monthly living stipend           | [CHED Region IV Portal](https://ched.gov.ph)         |
+| **CHED Tulong Dunong Program (TDP)**           | Economically challenged college students in state or private HEIs          | ₱7,500 per semester stipend support                          | Coordinated via CHED / Congressional District Office |
+| **DOST-SEI S&T Undergraduate Scholarships**    | Graduating STEM senior high students or top 5% of non-STEM strand          | Monthly stipend (₱8,000/mo), tuition subsidy, book allowance | [DOST-SEI Portal](https://www.sei.dost.gov.ph)       |
+| **OWWA Education for Development (EDSP/ODSP)** | Dependents of active Overseas Filipino Workers (OFWs) from Morong          | Up to ₱60,000 / school year assistance                       | Local PESO / OWWA Regional Office IV-A               |
 
 ---
 
-### Reminders
+## Key Tips for Applicants
 
-- **Deadlines change every cycle.** Always follow the **current** call post.
-- **Coverage differs by program & year.** Read the fine print (tuition vs. full).
-- **Apply to multiple programs** to improve your chances and coverage.
+1. **Prepare Standard Documents Ahead**: Keep authenticated copies of your PSA Birth Certificate, latest Certificate of Grades, and Barangay Residency Clearances ready before application deadlines.
+2. **Combine with Free Tuition**: Since undergraduate tuition at URS Morong is covered by RA 10931, municipal and provincial grants can be utilized directly for transportation, lodging, books, and living allowances.
+3. **Inquiries**: Visit the MSWDO window at the Morong Municipal Building, Sitio Paglabas, San Pedro, Morong, Rizal.

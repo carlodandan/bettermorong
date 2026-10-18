@@ -1,0 +1,13 @@
+# Ordinances and Resolutions - Municipality of Morong, Rizal
+layout: grid
+title: 'Municipal Ordinances & Resolutions'
+description: 'Official repository of ordinances, resolutions, zoning policies, environmental regulations, and local laws enacted by the Sangguniang Bayan ng Morong, Rizal.'
+
+pages:
+  - name: 'Approved Municipal Ordinances'
+    slug: 'approved-ordinances'
+    description: 'Compilation of key enacted municipal ordinances covering zoning, children’s code, traffic, septage management, fisheries, and garbage collection.'
+
+  - name: 'Sangguniang Bayan Resolutions'
+    slug: 'legislative-resolutions'
+    description: 'Council resolutions approving agreements, municipal programs, project authorizations, and public welfare declarations.'

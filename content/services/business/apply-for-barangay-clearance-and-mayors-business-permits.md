@@ -1,65 +1,74 @@
-# How to Set Up a Business Partnership
+# Apply for Barangay Business Clearance and Mayor’s Business Permit — Morong, Rizal
 
-## Step 1: Register with SEC
+This guide provides the complete, step-by-step procedure for registering a new business, partnership, or enterprise in the **Municipality of Morong, Province of Rizal**.
 
-**Prepare documents:**
+---
 
-- Partnership name (check via [SEC eSPARC](https://espac.sec.gov.ph/))
-- Notarized Articles of Partnership
-- IDs/TINs of partners, office address, capital structure
+## Step 1: Business Name Registration
 
-**File online** through [SEC eSPARC](https://espac.sec.gov.ph/) and pay fees.
+Before transacting with local offices, secure national business registration based on your entity type:
 
-**Output:** SEC Certificate of Recording + Approved Business Name
+- **Sole Proprietorship**: Register your business name with the Department of Trade and Industry (DTI) via the [DTI BNRS Portal](https://bnrs.dti.gov.ph/).
+- **Partnerships & Corporations**: Register with the Securities and Exchange Commission via [SEC eSPARC](https://esparc.sec.gov.ph/).
+- **Cooperatives**: Register with the Cooperative Development Authority (CDA).
 
-## Step 2: Apply for Business Permit
+---
 
-Go to **Lapu-Lapu City BPLO** (Business Permit and Licensing Office).
+## Step 2: Secure Barangay Business Clearance
+
+Visit the **Barangay Hall** where your business establishment will be physically located (Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, or San Pedro).
 
 **Requirements:**
 
-- Unified Application Form
-- SEC Certificate of Registration + Articles of Partnership
-- Occupancy Permit (if owner) OR Lease Contract (if renting)
-- Community Tax Certificate (CTC)
+- Copy of DTI Certificate or SEC Registration.
+- Proof of Right over the Property (Transfer Certificate of Title, Tax Declaration, or Notarized Contract of Lease).
+- Valid Government-Issued ID.
+- Payment of Barangay Business Clearance fee.
 
-Apply in person or online via [Lapu-Lapu Online Business Permit Portal](https://businesspermit.lapulapucity.gov.ph/).
+---
 
-> Note: Inspections may include zoning, sanitary, and fire safety checks.
+## Step 3: Apply for Mayor’s Business Permit (Morong BPLS)
 
-## Step 3: Register with BIR
+Proceed to the **Business Permits and Licensing Section (BPLS) / Business One-Stop Shop (BOSS)** at the Morong Municipal Hall, Sitio Paglabas, Brgy. San Pedro.
 
-File at the **BIR Revenue District Office (RDO)** where your office is located.
+**Core Requirements:**
 
-- Fill out [BIR Form 1903](https://www.bir.gov.ph/images/1903%20Jan%202024.pdf)
-- Submit SEC Certificate + Articles of Partnership + valid IDs
-- Pay registration fee + Documentary Stamp Tax (DST)
+1. Accomplished Unified Business Permit Application Form.
+2. DTI Certificate / SEC Certificate of Registration with Articles.
+3. Original Barangay Business Clearance.
+4. Proof of Property Ownership or Notarized Contract of Lease with lessor’s Tax Declaration.
+5. Community Tax Certificate (Cedula) for the current year from the Municipal Treasurer’s Office.
+6. Ancillary Municipal Clearances (processed within the one-stop shop):
+   - **Locational / Zoning Clearance** (MPDO)
+   - **Sanitary Permit & Health Certificates** (Municipal Health Office)
+   - **MENRO Environmental Clearance** (MENRO)
+   - **Fire Safety Inspection Certificate (FSIC)** (Bureau of Fire Protection - Morong Fire Station)
 
-**Within 30 days of receiving BIR Certificate:**
+---
 
-- Apply for Authority to Print Receipts (Form 1906) OR enroll in e-invoicing
-- Register your Books of Accounts
+## Step 4: Register with BIR (Revenue District Office)
 
-## Step 4: Register as Employer (if hiring)
+Register with the Bureau of Internal Revenue (BIR) district covering Morong, Rizal:
 
-Enroll with:
+- **BIR RDO**: Complete [BIR Form 1901 (Sole Prop) or Form 1903 (Corporation/Partnership)](https://www.bir.gov.ph).
+- Secure Certificate of Registration (COR / BIR Form 2303).
+- Apply for Authority to Print (ATP) Official Receipts and register Books of Accounts.
 
-- [SSS](https://www.sss.gov.ph/)
-- [PhilHealth](https://www.philhealth.gov.ph/)
-- [Pag-IBIG](https://www.pagibigfund.gov.ph/)
+---
 
-## Process Flow
+## Step 5: Mandatory Employer Registration (If Hiring Workers)
 
-1. SEC name check + register via [SEC eSPARC](https://espac.sec.gov.ph/)
-2. Secure Barangay Certification + site/lease documents
-3. Apply for Business Permit at [Lapu-Lapu BPLO](https://businesspermit.lapulapucity.gov.ph/)
-4. File BIR Form 1903 → apply ATP → register books
+Enroll your enterprise as an employer with statutory government agencies:
 
-## Document Checklist
+- **Social Security System (SSS)**
+- **Philippine Health Insurance Corporation (PhilHealth)**
+- **Home Development Mutual Fund (Pag-IBIG Fund)**
 
-- [ ] SEC Articles of Partnership + SEC Certificate
-- [ ] Lease Contract OR Occupancy/Building docs
-- [ ] Lapu-Lapu BPLO Unified Application Form + CTC
-- [ ] BIR Form 1903, IDs, ATP/Books
+---
 
-With these steps, your partnership in Lapu-Lapu City will be fully compliant and ready to operate!
+## Office Contact & Location
+
+- **Office**: Business Permits & Licensing Section (BPLS), Office of the Municipal Mayor
+- **Address**: Ground Floor, Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
+- **Phone**: (02) 7212-5741
+- **Email**: `bplo.morongrizal@gmail.com` / `info@morongrizal.gov.ph`

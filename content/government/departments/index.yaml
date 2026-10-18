@@ -1,10 +1,55 @@
-# Department Pages
-# This file contains all the pages/governments available under the Department
+# Department Pages - Municipality of Morong, Rizal
+# This file contains all local government offices and departments
+
+layout: grid
+title: 'Local Government Offices & Departments'
+description: 'Official directory, mandates, key officials, and services of the departments and offices of the Municipality of Morong, Rizal.'
 
 pages:
-  - name: 'Executive'
+  - name: 'Office of the Municipal Mayor (Executive)'
     slug: 'executive'
-    description: "Find out about your Mayor and Vice Mayor, including upcoming events, the Mayor's Community Assistance Program, mayoral history, and information about other historic roles in the local government unit."
-  - name: 'Legislative'
+    description: 'Executive administration, policy implementation, community assistance programs, and local leadership led by Hon. Sidney B. Soriano.'
+
+  - name: 'Office of the Sangguniang Bayan (Legislative)'
     slug: 'legislative'
-    description: 'As of the 2025–2028 term, the Sangguniang Panlungsod (City Council) of Lapu-Lapu City has 12 elected councilors, with the Vice Mayor as the presiding officer of the council.'
+    description: 'Legislative council, municipal ordinances, resolutions, and policy committees presided over by Vice Mayor Hon. Joeven G. Condez.'
+
+  - name: 'Municipal Health Office (MHO & RHU)'
+    slug: 'municipal-health-office'
+    description: 'Primary healthcare services, Rural Health Unit clinics, maternal and child health, immunization, TB-DOTS, and animal bite care.'
+
+  - name: 'Local Civil Registry Office'
+    slug: 'local-civil-registry'
+    description: 'Registration and certified copies of birth, marriage, and death certificates, legitimation, and legal corrections.'
+
+  - name: 'Municipal Social Welfare & Development Office (MSWDO)'
+    slug: 'municipal-social-welfare-development-office'
+    description: 'Assistance to individuals in crisis situations (AICS), senior citizen IDs, PWD welfare, Solo Parent services, and child protection.'
+
+  - name: 'Municipal Agriculture Office'
+    slug: 'municipal-agriculture-office'
+    description: 'Technical support for local farmers and fisherfolk, seeds, fertilizer distribution, livestock vaccination, and aquaculture programs.'
+
+  - name: 'Municipal Disaster Risk Reduction & Management Office (MDRRMO)'
+    slug: 'municipal-disaster-risk-reduction-office'
+    description: '24/7 disaster response operations, emergency hotlines, typhoon/flood monitoring, rescue, and community safety training.'
+
+  - name: 'Office of the Municipal Treasurer'
+    slug: 'municipal-treasurer-office'
+    description: 'Collection of local business taxes, Real Property Tax (amilyar), municipal fees, issuance of tax clearances, and revenue management.'
+
+  - name: 'Office of the Municipal Assessor'
+    slug: 'municipal-assessor-office'
+    description: 'Assessment and appraisal of real properties, issuance of tax declarations, property transfer evaluations, and cadastral records.'
+
+  - name: 'Office of the Municipal Engineer'
+    slug: 'municipal-engineering-office'
+    description: 'Issuance of building permits, occupancy certificates, structural inspections, and municipal infrastructure project management.'
+
+  - name: 'Municipal Planning & Development Office (MPDO)'
+    slug: 'municipal-planning-development-office'
+    description: 'Zoning compliance, Comprehensive Land Use Plan (CLUP), socio-economic profiling, and municipal project planning.'
+
+  - name: 'Municipal Environment & Natural Resources Office (MENRO)'
+    slug: 'municipal-environment-office'
+    description: 'Solid waste management, garbage collection scheduling, environmental compliance, and tree planting/preservation.'

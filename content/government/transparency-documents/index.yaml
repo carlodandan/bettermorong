@@ -1,0 +1,25 @@
+# Transparency Documents - Municipality of Morong, Rizal
+layout: grid
+title: 'Transparency & Public Accountability'
+description: 'Official procurement monitoring reports, public bidding awards, Assistance to Municipalities (AM) projects, and Citizen’s Charter of Morong, Rizal.'
+
+pages:
+  - name: 'PMR – Procurement Monitoring Reports'
+    slug: 'procurement-monitoring-reports'
+    description: 'Bids and Awards Committee (BAC) consolidated procurement monitoring reports for infrastructure, goods, and consulting services.'
+
+  - name: 'Assistance to Municipalities (AM) Projects'
+    slug: 'assistance-to-municipalities'
+    description: 'National and local funding disclosures for flood control structures, water systems, and local development programs.'
+
+  - name: 'Citizen’s Charter 2025'
+    slug: 'citizens-charter-2025'
+    description: 'Service standards, processing times, required fees, and step-by-step procedures across all municipal frontline offices.'
+
+  - name: 'Full Disclosure Policy & Annual Investment Plans'
+    slug: 'full-disclosure-policy'
+    description: 'Access municipal budget summaries, Annual Investment Plans (AIP), LGSF-FALGU, and DILG Full Disclosure Portal disclosures.'
+
+  - name: 'LGSF-FALGU, DRRAP & Special Development Disclosures'
+    slug: 'lgsf-falgu-and-drrap-projects'
+    description: 'Disclosures on the PhP 9M Public Market fruit/vegetable section, ALS ambulance, Ulysses shelter assistance, and LCAT-VAWC reports.'

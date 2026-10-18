@@ -1,78 +1,67 @@
-# Enroll Children in LGU Daycare or Preschool Programs — Lapu-Lapu City
+# Enroll Children in LGU Daycare or Preschool Programs — Morong, Rizal
 
-The Lapu-Lapu City Government, through the **City Social Welfare and Development Office (CSWDO)** and barangays, operates **daycare centers** and supports **public preschool education**.
-
----
-
-## 1) LGU Daycare Programs
-
-**What’s offered**
-
-- Early childhood care and development for children aged **3–4 years old**.
-- Daily activities on socialization, basic learning skills, play-based lessons, and health/nutrition monitoring.
-- Free or minimal-cost supplementary feeding (depending on barangay program).
-
-**Who can join**
-
-- Children aged **3–4 years old** who are residents of the barangay.
-- Priority is often given to **indigent families** or those referred by barangay officials.
-
-**Requirements (typical)**
-
-- Child’s **birth certificate** (PSA copy or local civil registrar copy).
-- **Barangay clearance** or proof of residency.
-- 1×1 ID photo of the child (for records).
-- Filled-out **Daycare Enrollment Form** (available at the center).
-
-**How to enroll**
-
-1. Visit your **Barangay Daycare Center** or **Barangay Hall** to ask for the enrollment schedule.
-2. Submit required documents and fill out the enrollment form.
-3. Attend the orientation session for parents/guardians (usually held before classes start).
-
-**Cost:** Free (LGU-funded), though some barangays may request voluntary contributions for class materials.
+The Municipal Government of Morong, through the **Municipal Social Welfare and Development Office (MSWDO)** and the 8 component barangays, operates **Barangay Child Development Centers (Daycare Centers)** and supports public preschool education in coordination with the Department of Education (DepEd) Division of Rizal.
 
 ---
 
-## 2) Public Preschool (Kindergarten)
+## 1) LGU Daycare Programs (Child Development Centers)
 
-**What’s offered**
+**What’s Offered:**
 
-- Department of Education (DepEd) **Kindergarten Program** for **5-year-old children**, implemented in public elementary schools.
-- Focus on school readiness: literacy, numeracy, and social skills.
+- Early Childhood Care and Development (ECCD) for children aged **3–4 years old**.
+- Daily play-based learning activities, socialization, foundational literacy, and values formation.
+- Regular child health, height and weight monitoring, and supplementary hot meal feeding programs.
 
-**Who can join**
+**Who Can Enroll:**
 
-- Children aged **5 years old** by the opening of the school year.
-- Priority for residents within the school’s catchment area.
+- Children aged **3–4 years old** who are bona fide residents of the barangay.
+- Priority enrollment is given to indigent children and families identified by MSWDO.
 
-**Requirements (typical DepEd)**
+**Requirements:**
 
-- Child’s **birth certificate** (PSA).
+- Child’s **Birth Certificate** (PSA copy or Morong Local Civil Registry CTC).
+- **Barangay Certificate of Residency** of parent/guardian.
+- 1×1 ID photos of the child.
+- Child Immunization Record / Baby Book (showing up-to-date vaccinations).
+- Accomplished Daycare Enrollment Form (obtained at the center).
+
+**How to Enroll:**
+
+1. Visit your local **Barangay Daycare Center** or **Barangay Hall** during the enrollment period (typically May to July).
+2. Submit the required documents to the Child Development Worker (Daycare Worker).
+3. Attend the parent-teacher orientation prior to the opening of classes.
+
+**Cost:** **Free** (LGU-funded).
+
+---
+
+## 2) Public Preschool (DepEd Kindergarten)
+
+**What’s Offered:**
+
+- Mandatory Kindergarten program for **5-year-old children** implemented across public elementary schools in Morong (e.g., Morong Elementary School, Talaga Elementary School, San Guillermo Elementary School, Lagundi-CCL Elementary School).
+
+**Who Can Enroll:**
+
+- Children who turn **5 years old** on or before the opening of the school year.
+
+**Requirements:**
+
+- Child’s PSA / Local Civil Registrar **Birth Certificate**.
 - Proof of residency (Barangay Certificate).
-- 2×2 ID photo of the child.
-- Accomplished **DepEd Kindergarten Registration Form** (given at school).
+- Accomplished DepEd Basic Education Enrollment Form (BEEF).
 
-**How to enroll**
+**How to Enroll:**
 
-1. Proceed to the **nearest public elementary school** during the announced **DepEd early registration** or regular enrollment period.
+1. Proceed to the nearest public elementary school during the DepEd Early Registration period (usually January–February) or regular enrollment.
 2. Submit required documents to the school registrar.
-3. Attend orientation for parents and guardians.
 
-**Cost:** Free (government-funded).
-
----
-
-## Contact & Updates
-
-- **Barangay Daycare Centers** — Enrollment schedules and requirements are usually announced by barangay officials.
-- **City Social Welfare and Development Office (CSWDO)** — Oversees daycare programs.
-- **DepEd Lapu-Lapu City Division** — Manages public kindergarten enrollment.
+**Cost:** **Free** (Government-funded public education).
 
 ---
 
-### Quick Tips
+## Contact & Coordinating Offices
 
-- Enroll early — daycare and preschool slots may be limited per barangay/school.
-- Keep copies of your child’s **birth certificate** and **barangay certificate** ready.
-- Attend parent orientations to understand your role in supporting your child’s early education.
+- **Municipal Social Welfare & Development Office (MSWDO)**: Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal | Phone: (02) 7212-5741 | Email: `mswd.22@gmail.com`
+- **DepEd Division of Rizal / Morong District Public Schools**
+- **Barangay Child Development Centers**: Located in Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, and San Pedro.

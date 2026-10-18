@@ -27,13 +27,41 @@ export default function SEO({
     import.meta.env.VITE_SITE_KEYWORDS ||
     'government, local government, services, public services, civic services';
 
+  const baseUrl =
+    import.meta.env.VITE_WEBSITE_URL || 'https://bettermorong.org';
   const fullTitle = title ? `${title} | ${siteName}` : defaultTitle;
   const fullDescription = description || defaultDescription;
   const fullKeywords = keywords || defaultKeywords;
-  const fullUrl = url || import.meta.env.VITE_WEBSITE_URL || '';
-  const fullImage =
-    image || import.meta.env.VITE_OG_IMAGE_URL || `${fullUrl}/og-image.jpg`;
+  const fullUrl = url
+    ? url.startsWith('http')
+      ? url
+      : `${baseUrl}${url.startsWith('/') ? url : `/${url}`}`
+    : baseUrl;
+
+  const rawImage =
+    image || import.meta.env.VITE_OG_IMAGE_URL || '/og-image.png';
+  const absoluteImage = rawImage.startsWith('http')
+    ? rawImage
+    : `${baseUrl}${rawImage.startsWith('/') ? rawImage : `/${rawImage}`}`;
   const twitterHandle = import.meta.env.VITE_TWITTER_HANDLE || '';
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: fullTitle,
+    description: fullDescription,
+    url: fullUrl,
+    inLanguage: 'en-PH',
+    isPartOf: {
+      '@type': 'WebSite',
+      name: siteName,
+      url: baseUrl,
+    },
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: absoluteImage,
+    },
+  };
 
   return (
     <Helmet>
@@ -51,27 +79,34 @@ export default function SEO({
       <meta property="og:url" content={fullUrl} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={fullDescription} />
-      <meta property="og:image" content={fullImage} />
+      <meta property="og:image" content={absoluteImage} />
+      <meta property="og:image:secure_url" content={absoluteImage} />
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={`${fullTitle} - BetterMorong`} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:locale" content="en_US" />
+      <meta property="og:locale" content="en_PH" />
 
       {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={fullUrl} />
-      <meta property="twitter:title" content={fullTitle} />
-      <meta property="twitter:description" content={fullDescription} />
-      <meta property="twitter:image" content={fullImage} />
-      {twitterHandle && (
-        <meta property="twitter:site" content={twitterHandle} />
-      )}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content={fullUrl} />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={fullDescription} />
+      <meta name="twitter:image" content={absoluteImage} />
+      <meta name="twitter:image:alt" content={`${fullTitle} - BetterMorong`} />
+      {twitterHandle && <meta name="twitter:site" content={twitterHandle} />}
 
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="theme-color" content="#0066eb" />
+      <meta name="theme-color" content="#1E40AF" />
 
       {/* Canonical URL */}
       <link rel="canonical" href={fullUrl} />
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
 
       {/* Favicon */}
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />

@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
-  CheckCircle2,
-} from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
@@ -34,16 +28,16 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <CheckCircle2 className="h-12 w-12 mr-3" />
-              {/* <img
-                src="/ph-logo.webp"
-                alt="Philippines Coat of Arms"
-                className="h-12 w-12 mr-3"
-              /> */}
-
+              <img
+                src="/Morong-Logo.svg"
+                alt="BetterMorong Logo"
+                className="h-12 w-12 mr-3 object-contain shrink-0 bg-white/10 rounded-full p-0.5"
+              />
               <div>
-                <div className="font-bold">{t('site_name')}</div>
-                <div className="text-xs text-gray-400">BetterGov.ph Portal</div>
+                <div className="font-bold text-lg text-white">BetterMorong</div>
+                <div className="text-xs text-gray-400">
+                  Municipality of Morong, Rizal
+                </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
@@ -71,12 +65,23 @@ const Footer: React.FC = () => {
               <ul className="space-y-2">
                 {section.links.map(link => (
                   <li key={link.label}>
-                    <Link
-                      to={link.href}
-                      className="text-gray-400 hover:text-white text-sm transition-colors"
-                    >
-                      {link.label}
-                    </Link>
+                    {link.href.startsWith('http') ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.href}
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -102,24 +107,26 @@ const Footer: React.FC = () => {
               >
                 Terms of Use
               </a> */}
-              <Link
-                to="https://github.com/bettergovph/bettergov"
+              <a
+                href="https://github.com/bettergovph/bettergov"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Contribute at GitHub
-              </Link>
+              </a>
               <Link
                 to="/sitemap"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Sitemap
               </Link>
-              <a
-                href="/accessibility"
+              <Link
+                to="/accessibility"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Accessibility
-              </a>
+              </Link>
             </div>
           </div>
         </div>
