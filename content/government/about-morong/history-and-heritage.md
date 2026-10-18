@@ -51,6 +51,10 @@ The historic adobe stone bridge over the Morong River was an engineering marvel 
 - **No Metal Fasteners**: Constructed entirely without iron or metal nails, using wedge-shaped blocks of quarried adobe stone positioned in an upright compression arch.
 - **Indigenous Mortar Mixture**: The adobe blocks were bound by a traditional mortar composed of fine volcanic sand, slaked lime, sugarcane molasses, and the extracted juice of pounded _puso-puso_ leaves.
 
+### Comandancia Building (_Museong Pambayan ng Morong_)
+
+Constructed during the Spanish colonial administration at Tupas St., Brgy. San Pedro, the historic **Comandancia Building** served as the command headquarters of the Spanish military governor of the **Distrito Político-Militar de Morong**. Following colonial transitions, it functioned as Morong's **Old Municipal Hall (Presidencia)** for generations before municipal operations moved to the new government center. Today, it stands preserved as the **Museong Pambayan ng Morong**, safeguarding the municipality's archival records, local revolutionary relics, and heritage exhibits.
+
 ---
 
 ## Cultural Identity & Living Traditions

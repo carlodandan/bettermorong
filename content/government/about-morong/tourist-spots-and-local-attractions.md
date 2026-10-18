@@ -12,12 +12,18 @@ The **Municipality of Morong, Rizal** boasts an authentic blend of Spanish-colon
 - **Significance**: Built starting in 1615 by stonecutters and completed in Chinese-Baroque style with a monumental three-tier octagonal belfry. Flanked by ancient stone guardian lions (_fu dogs_) and recognized by the Department of Tourism (DOT) as a national cultural treasure.
 - **Feast Day**: Feast of Saint Jerome celebrated annually on September 30 as an official municipal special holiday.
 
-### 2. Morong Town Plaza (_Morong Park_)
+### 2. Museong Pambayan ng Morong (_Old Municipal Hall_)
+
+- **Address**: Comandancia Building, Tupas St., Brgy. San Pedro, Morong, Rizal
+- **Significance**: Originally constructed during the Spanish colonial era as the headquarters of the Spanish military governor (_Comandancia Político-Militar del Distrito de Morong_) and later served as the historic Morong Municipal Hall (Presidencia). It has been preserved and transformed into the municipal museum, housing historical archives, vintage photographs, religious relics, and memorabilia honoring town heroes like World War I hero Private Tomas Claudio.
+- **Visitor Highlights**: Spanish-era heritage architecture, local revolutionary and cultural artifacts, and guided heritage insights for students, researchers, and cultural tourists.
+
+### 3. Morong Town Plaza (_Morong Park_)
 
 - **Location**: Poblacion, Barangay San Pedro, Morong, Rizal
 - **Significance**: Formerly known as Morong Town Plaza, this historic square underwent revitalization in 2010. It serves as the venue for civic gatherings, open-air cultural celebrations, sports leagues, and public recreation.
 
-### 3. Manila East Lakeview Farms
+### 4. Manila East Lakeview Farms
 
 - **Location**: Foothills overlooking Laguna de Bay, Morong, Rizal
 - **Significance**: A signature development featuring rolling greenery, sweeping lake views, and a serene countryside atmosphere for family day tours and nature appreciation.
