@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
                 Terms of Use
               </a> */}
               <a
-                href="https://github.com/bettergovph/bettergov"
+                href="https://github.com/carlodandan/bettermorong"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
