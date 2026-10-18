@@ -42,7 +42,7 @@ Staging and Production are **two completely separate environments**. Maintaining
 | **Primary Purpose**        | Internal testing, QA, mayor's office review, content verification | Live public citizen portal for Morong residents    |
 | **Git Branch**             | `staging` (or pull request branches)                              | `main` (or `production`)                           |
 | **Default Cloudflare URL** | `https://staging.bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
-| **Custom Domain**          | `https://staging.morongrizal.gov.ph` (optional)                   | `https://staging.bettermorong.org`                       |
+| **Custom Domain**          | `https://staging.bettermorong.org` (optional)                   | `https://bettermorong.org`                       |
 | **Vite Mode & Env File**   | `--mode staging` (`.env.staging`)                                 | `--mode production` (`.env.production`)            |
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
 | **Search Engine Crawling** | **Blocked** (`X-Robots-Tag: noindex, nofollow` auto-applied)      | **Indexed** (`sitemap.xml` & `robots.txt` enabled) |
@@ -179,7 +179,7 @@ Once your Cloudflare Pages project is running, connect your official municipal d
 1. Go to your `bettermorong` project in the Cloudflare Dashboard.
 2. Navigate to **Custom domains** > **Set up a custom domain**.
 3. Enter your domain: `morongrizal.gov.ph` (and optionally `www.morongrizal.gov.ph`).
-4. (Optional) Repeat for staging: `staging.morongrizal.gov.ph`.
+4. (Optional) Repeat for staging: `staging.bettermorong.orgh`.
 
 ### 2. Configure DNS Records in Your Domain Registrar
 
