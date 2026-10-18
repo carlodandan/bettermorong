@@ -41,7 +41,7 @@ Staging and Production are **two completely separate environments**. Maintaining
 | :------------------------- | :---------------------------------------------------------------- | :------------------------------------------------- |
 | **Primary Purpose**        | Internal testing, QA, mayor's office review, content verification | Live public citizen portal for Morong residents    |
 | **Git Branch**             | `staging` (or pull request branches)                              | `main` (or `production`)                           |
-| **Default Cloudflare URL** | `https://staging.bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
+| **Default Cloudflare URL** | `https://staging-bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
 | **Custom Domain**          | `https://staging.bettermorong.org` (optional)                   | `https://bettermorong.org`                       |
 | **Vite Mode & Env File**   | `--mode staging` (`.env.staging`)                                 | `--mode production` (`.env.production`)            |
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
@@ -110,7 +110,7 @@ VITE_OG_IMAGE_URL = /og-image.png
 ```env
 NODE_VERSION = 20
 VITE_GOVERNMENT_NAME = BetterMorong (Staging)
-VITE_WEBSITE_URL = https://staging.bettermorong.pages.dev
+VITE_WEBSITE_URL = https://staging-bettermorong.pages.dev
 VITE_CONTACT_EMAIL = info@morongrizal.gov.ph
 VITE_CONTACT_PHONE = (02) 7212-5741
 VITE_OG_IMAGE_URL = /og-image.png
@@ -145,7 +145,7 @@ To compile using `.env.staging` and deploy to the `staging` branch alias:
 pnpm pages:deploy:staging
 ```
 
-- **Output**: Generates a dedicated preview URL, typically `https://staging.bettermorong.pages.dev` or `https://<unique-hash>.bettermorong.pages.dev`.
+- **Output**: Generates a dedicated preview URL, typically `https://staging-bettermorong.pages.dev` or `https://<unique-hash>.bettermorong.pages.dev`.
 - **Search Protection**: Cloudflare automatically serves `X-Robots-Tag: noindex` on preview deployments so Google won't index unfinished work.
 
 #### B. Deploying to Production
