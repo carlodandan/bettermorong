@@ -3,6 +3,7 @@
 @plugin '@tailwindcss/typography';
 
 @source '../node_modules/@bettergov/kapwa/dist';
+@source '../content';
 @import '@bettergov/kapwa/styles';
 
 @theme {

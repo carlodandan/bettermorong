@@ -23,17 +23,17 @@ The following official procurement reports are archived for public scrutiny and 
 
 ### Consolidated Procurement Monitoring Reports (CPMR)
 
-- [CPMR 1st Semester 2021 (PDF)](https://staging.bettermorong.org/wp-content/uploads/2021/07/CPMR-1st-Semester-2021.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 1)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-1.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 2)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-2.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 3)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-3.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 4)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-4.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 5)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-5.pdf)
-- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 6)](https://staging.bettermorong.org/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-6.pdf)
+- [CPMR 1st Semester 2021 (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2021/07/CPMR-1st-Semester-2021.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 1)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-1.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 2)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-2.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 3)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-3.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 4)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-4.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 5)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-5.pdf)
+- [2021 GPPB Consolidated Procurement Monitoring Report (SEM 6)](https://morongrizal.gov.ph/wp-content/uploads/2022/01/2021-GPPB-Consolidated-Procurement-Monitoring-Report-CPMR-SEM-6.pdf)
 
 ### Infrastructure Procurement Reports
 
-- [PMR Report — Infrastructure (1st Semester 2019)](https://staging.bettermorong.org/wp-content/uploads/2019/08/PMR-Report-1st-Semester.pdf)
+- [PMR Report — Infrastructure (1st Semester 2019)](https://morongrizal.gov.ph/wp-content/uploads/2019/08/PMR-Report-1st-Semester.pdf)
 
 ---
 

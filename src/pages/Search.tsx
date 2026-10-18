@@ -30,7 +30,7 @@ export default function Search() {
         description="Search public services, departments, ordinances, and hotlines in the Municipality of Morong, Rizal on BetterMorong."
         keywords="BetterMorong search, Morong services directory, Morong ordinances, Morong departments"
       />
-      <main className="container mx-auto px-4 py-8 md:py-12 max-w-4xl min-h-[70vh]">
+      <main className="container mx-auto px-4 max-w-4xl min-h-[70vh] py-8 md:py-12">
         {/* Header */}
         <div className="mb-6">
           <span className="text-xs font-semibold uppercase tracking-wider text-primary-700 bg-primary-50 px-3 py-1 rounded-full border border-primary-200">
@@ -166,7 +166,7 @@ export default function Search() {
                     <div className="space-y-1">
                       <div className="flex items-center gap-2">
                         <span
-                          className={`text-2xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${
+                          className={`text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                             item.type === 'service'
                               ? 'bg-blue-100 text-blue-800'
                               : item.type === 'emergency'

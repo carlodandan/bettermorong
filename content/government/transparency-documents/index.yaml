@@ -23,3 +23,11 @@ pages:
   - name: 'LGSF-FALGU, DRRAP & Special Development Disclosures'
     slug: 'lgsf-falgu-and-drrap-projects'
     description: 'Disclosures on the PhP 9M Public Market fruit/vegetable section, ALS ambulance, Ulysses shelter assistance, and LCAT-VAWC reports.'
+
+  - name: 'DPWH Infrastructure Projects & Monitoring'
+    slug: 'dpwh-infrastructure-projects'
+    description: 'National infrastructure project disclosures from DPWH for Morong Bypass Road, flood control structures, road maintenance, and municipal facilities.'
+
+  - name: 'BLGF Statement of Receipts & Expenditures'
+    slug: 'blgf-statement-of-receipts-and-expenditures'
+    description: 'FY 2025 (Preliminary) financial report from the Bureau of Local Government Finance showing municipal income, operating expenditures, capital outlays, and cash position.'

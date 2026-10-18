@@ -1,0 +1,64 @@
+{
+  "status": 200,
+  "code": "SUCCESS",
+  "data": {
+    "data": [
+      {
+        "contractId": "26DN0101",
+        "description": "CONSTRUCTION OF BRIDGE CONNECTING BINANGONAN AND MORONG STA. 1+480 - STA. 1+500, BINANGONAN, RIZAL (FIRST DISTRICT)",
+        "category": "Bridges: Construction - Concrete (Superstructure) - with Cast-in-Place Piles",
+        "componentCategories": null,
+        "status": "For Procurement",
+        "budget": 0,
+        "amountPaid": 0,
+        "progress": 0,
+        "location": {
+          "province": "Rizal 1st DEO",
+          "region": "Region IV-A"
+        },
+        "contractor": null,
+        "startDate": null,
+        "completionDate": null,
+        "infraYear": "2026",
+        "programName": null,
+        "sourceOfFunds": null,
+        "isLive": false,
+        "livestreamUrl": null,
+        "livestreamVideoId": null,
+        "livestreamDetectedAt": null,
+        "latitude": null,
+        "longitude": null,
+        "reportCount": 0,
+        "hasSatelliteImage": false
+      },
+      {
+        "contractId": "26DO0104",
+        "description": "ORGANIZATIONAL OUTCOME 1: ENSURE SAFE AND RELIABLE NATIONAL ROAD SYSTEM - NETWORK DEVELOPMENT PROGRAM - CONSTRUCTION OF BY-PASS AND DIVERSION ROADS - MORONG BYPASS ROAD, STA. 2+144.55 - STA. 2+878.55, BRGY. CCL, MORONG, RIZAL",
+        "category": "Roads: Construction - Gravel",
+        "componentCategories": null,
+        "status": "For Procurement",
+        "budget": 0,
+        "amountPaid": 0,
+        "progress": 0,
+        "location": {
+          "province": "Rizal 2nd DEO",
+          "region": "Region IV-A"
+        },
+        "contractor": null,
+        "startDate": null,
+        "completionDate": null,
+        "infraYear": "2026",
+        "programName": null,
+        "sourceOfFunds": null,
+        "isLive": false,
+        "livestreamUrl": null,
+        "livestreamVideoId": null,
+        "livestreamDetectedAt": null,
+        "latitude": null,
+        "longitude": null,
+        "reportCount": 0,
+        "hasSatelliteImage": false
+      }
+    ]
+  }
+}

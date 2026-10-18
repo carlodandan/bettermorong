@@ -36,10 +36,29 @@ export const mainNavigation: NavigationItem[] = [
   },
 ];
 
-export const footerNavigation = {
+export interface FooterLink {
+  label: string;
+  href: string;
+}
+
+export interface FooterSection {
+  title: string;
+  links: FooterLink[];
+}
+
+export interface FooterNavigation {
+  mainSections: FooterSection[];
+  socialLinks: {
+    label: string;
+    href: string;
+    icon?: string;
+  }[];
+}
+
+export const footerNavigation: FooterNavigation = {
   mainSections: [
     {
-      title: 'About',
+      title: 'About Morong',
       links: [
         { label: 'About Morong', href: '/government/about-morong' },
         {
@@ -59,7 +78,7 @@ export const footerNavigation = {
           href: '/government/about-morong/tourist-spots-and-local-attractions',
         },
         {
-          label: 'Municipal Offices Directory',
+          label: 'Municipal Directory',
           href: '/government/departments',
         },
       ],
@@ -69,26 +88,44 @@ export const footerNavigation = {
       links: [
         { label: 'All Services', href: '/services' },
         ...(servicesData.categories as Category[])
-          .slice(0, 6)
+          .slice(0, 5)
           .map(category => ({
             label: category.category,
             href: `/services/${category.slug}`,
           })),
         {
-          label: 'Philippines & Emergency Hotlines',
+          label: 'Emergency Hotlines',
           href: '/philippines/hotlines',
         },
-        { label: 'Philippines Holidays', href: '/philippines/holidays' },
+        { label: 'Philippine Holidays', href: '/philippines/holidays' },
       ],
     },
     {
-      title: 'Government',
+      title: 'Resources',
       links: [
-        { label: 'Open Data', href: 'https://data.gov.ph' },
-        { label: 'Freedom of Information', href: 'https://www.foi.gov.ph' },
         {
-          label: 'Contact Center',
-          href: 'https://contactcenterngbayan.gov.ph',
+          label: 'Official Facebook Page',
+          href: 'https://www.facebook.com/morongrizal1960',
+        },
+        {
+          label: 'Official Website',
+          href: 'https://morongrizal.gov.ph/',
+        },
+        {
+          label: 'Bureau of Local Government Finance (BLGF)',
+          href: 'https://blgf.gov.ph/',
+        },
+        {
+          label: 'DPWH Transparency Portal',
+          href: 'https://transparency.dpwh.gov.ph/',
+        },
+        {
+          label: 'Open Data Philippines',
+          href: 'https://data.gov.ph/index/home',
+        },
+        {
+          label: 'Freedom of Information (FOI)',
+          href: 'https://www.foi.gov.ph',
         },
         {
           label: 'Official Gazette',
@@ -98,9 +135,8 @@ export const footerNavigation = {
     },
   ],
   socialLinks: [
-    { label: 'Facebook', href: 'https://facebook.com/govph' },
-    { label: 'Twitter', href: 'https://twitter.com/govph' },
-    { label: 'Instagram', href: 'https://instagram.com/govph' },
-    { label: 'YouTube', href: 'https://youtube.com/govph' },
+    { label: 'Facebook', href: 'https://www.facebook.com/bettermorong.org' },
+    { label: 'Website', href: 'https://bettermorong.org' },
+    { label: 'GitHub', href: 'https://github.com/carlodandan/bettermorong' },
   ],
 };

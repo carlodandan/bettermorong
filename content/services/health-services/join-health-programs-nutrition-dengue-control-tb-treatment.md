@@ -1,4 +1,4 @@
-# Join Health Programs — Municipality of Morong, Rizal (Nutrition, Dengue Control, TB-DOTS)
+# Join Health Programs — Morong (Nutrition, Dengue Control, TB-DOTS)
 
 The **Morong Municipal Health Office (MHO)**, together with Barangay Health Stations and the Municipal Social Welfare and Development Office (MSWDO), conducts year-round public health programs across all 8 barangays of Morong, Rizal.
 

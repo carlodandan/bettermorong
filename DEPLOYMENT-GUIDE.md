@@ -42,12 +42,12 @@ Staging and Production are **two completely separate environments**. Maintaining
 | **Primary Purpose**        | Internal testing, QA, mayor's office review, content verification | Live public citizen portal for Morong residents    |
 | **Git Branch**             | `staging` (or pull request branches)                              | `main` (or `production`)                           |
 | **Default Cloudflare URL** | `https://staging-bettermorong.pages.dev`                          | `https://bettermorong.pages.dev`                   |
-| **Custom Domain**          | `https://staging-bettermorong.org` (optional)                   | `https://bettermorong.org`                       |
+| **Custom Domain**          | `https://staging-bettermorong.org` (optional)                     | `https://bettermorong.org`                         |
 | **Vite Mode & Env File**   | `--mode staging` (`.env.staging`)                                 | `--mode production` (`.env.production`)            |
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
 | **Search Engine Crawling** | **Blocked** (`X-Robots-Tag: noindex, nofollow` auto-applied)      | **Indexed** (`sitemap.xml` & `robots.txt` enabled) |
 | **Build Command**          | `npm run build:staging`                                           | `npm run build`                                    |
-| **Deploy Command**         | `pnpm pages:deploy:staging`                                    | `pnpm pages:deploy:prod`                        |
+| **Deploy Command**         | `pnpm pages:deploy:staging`                                       | `pnpm pages:deploy:prod`                           |
 
 ---
 
