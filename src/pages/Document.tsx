@@ -147,7 +147,7 @@ export default function Document({
     return (
       <>
         <SEO
-          title={documentSlug}
+          title={nestedIndex.title || documentSlug}
           keywords={`${documentSlug}, government services, local government`}
         />
         <Section className="py-8 md:py-12">

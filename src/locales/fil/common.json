@@ -1,0 +1,60 @@
+{
+  "site_name": "BetterMorong",
+  "site_description": "Bayan ng Morong, Rizal — Mga Serbisyo at Portal para sa Mamamayan",
+  "hero": {
+    "title": "Maligayang Pagdating sa BetterMorong",
+    "subtitle": "Portal para sa mamamayan upang mabilis na mahanap ang mga pampublikong serbisyo, opisina, at impormasyon sa Morong, Rizal",
+    "searchPlaceholder": "Maghanap ng permit, health center, civil registry, ordinansa...",
+    "searchButton": "Maghanap",
+    "quickLinks": "Mabilisang link:",
+    "nationalId": "Pambansang ID",
+    "birthCertificate": "Sertipiko ng Kapanganakan",
+    "businessRegistration": "Rehistro ng Negosyo"
+  },
+  "services": {
+    "title": "Mga Serbisyo at Impormasyon",
+    "governmentServices": "Mga Pampamahalaang Serbisyo",
+    "description": "Mabilis at madaling ma-access ang mga opisyal na serbisyo ng lokal na pamahalaan para sa kalusugan, negosyo, edukasyon, at iba pa.",
+    "viewAll": "Tingnan Lahat ng Serbisyo",
+    "viewAllCategory": "Tingnan Lahat"
+  },
+  "governmentActivity": {
+    "title": "Mga Gawain ng Pamahalaan",
+    "description": "Maging updated sa mga pinakabagong aktibidad at anunsyo ng Pamahalaang Bayan ng Morong."
+  },
+  "weather": {
+    "title": "Ulat Panahon"
+  },
+  "forex": {
+    "title": "Palitan ng Pera"
+  },
+  "news": {
+    "title": "Pinakabagong Balita"
+  },
+  "footer": {
+    "copyright": "© 2026 BetterGov. Lahat ng nilalaman ay pampubliko maliban kung tinukoy."
+  },
+  "navbar": {
+    "government": "Pamahalaan",
+    "services": "Mga Serbisyo",
+    "hotlines": "Mga Hotline",
+    "holidays": "Mga Pista Opisyal",
+    "about": "Tungkol",
+    "search": "Maghanap",
+    "sitemap": "Sitemap",
+    "accessibility": "Aksisibilidad"
+  },
+  "joinUs": {
+    "stripTitle": "Sumali sa Kilusang Civic Tech",
+    "stripSubtitle": "Tulong sa pagtataguyod ng kinabukasan ng mga serbisyong digital ng pamahalaan sa pamamagitan ng teknolohiya",
+    "joinNow": "Sumali Ngayon",
+    "discord": "Discord",
+    "bannerTitle": "Sumali sa Kilusang Civic Tech",
+    "bannerSubtitle": "Tulong sa pagbuo ng kinabukasan ng mga serbisyo ng lokal na pamahalaan gamit ang bukas na teknolohiya.",
+    "bannerHighlight": "Pinamumunuan ng mga boluntaryo. Open source. Para sa komunidad.",
+    "joinMovement": "Sumali sa Aming Kilusan",
+    "or": "o",
+    "joinDiscord": "Sumali sa Discord",
+    "features": "Imprastraktura • Paggabay • Komunidad • Teknolohiyang Sibiko"
+  }
+}

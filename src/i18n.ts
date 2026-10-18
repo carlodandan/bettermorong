@@ -1,21 +1,22 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import HttpBackend from 'i18next-http-backend';
+import enCommon from './locales/en/common.json';
+import filCommon from './locales/fil/common.json';
 
 i18n
-  .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    resources: {
+      en: { common: enCommon },
+      fil: { common: filCommon },
+    },
     fallbackLng: 'en',
-    debug: import.meta.env.DEV,
+    supportedLngs: ['en', 'fil'],
     defaultNS: 'common',
     ns: ['common'],
-
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
-    },
+    debug: false,
 
     interpolation: {
       escapeValue: false,
@@ -24,6 +25,10 @@ i18n
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
+    },
+
+    react: {
+      useSuspense: false,
     },
   });
 
