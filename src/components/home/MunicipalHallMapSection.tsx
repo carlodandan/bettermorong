@@ -1,4 +1,11 @@
-import { MapPin, Clock, Phone, Navigation, Building2 } from 'lucide-react';
+import {
+  MapPin,
+  Clock,
+  Phone,
+  Navigation,
+  Building2,
+  ExternalLink,
+} from 'lucide-react';
 
 export default function MunicipalHallMapSection() {
   return (
@@ -144,29 +151,49 @@ export default function MunicipalHallMapSection() {
 
             {/* Directions Action Button */}
             <a
-              href="https://www.google.com/maps/place/Morong+Municipal+Building/@14.5128373,121.229882,17z/data=!3m1!4b1!4m6!3m5!1s0x3397c193b7a33e7d:0xf2a78f0e038cf674!8m2!3d14.5128373!4d121.2324569!16s%2Fg%2F11b6y0b_24"
+              href="https://www.openstreetmap.org/directions?to=14.505458%2C121.235726#map=18/14.505458/121.235726"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 w-full px-4 py-3 bg-primary-700 hover:bg-primary-800 text-white text-sm font-semibold rounded-xl shadow-xs transition-colors focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
             >
               <Navigation className="h-4 w-4" aria-hidden="true" />
-              Get Driving & Commuter Directions
+              Get Directions on OpenStreetMap
             </a>
           </div>
 
           {/* Map Embed Column (7 cols) */}
-          <div className="lg:col-span-7 h-full min-h-[380px] lg:min-h-[460px] bg-white border border-gray-200 rounded-xl overflow-hidden shadow-xs">
+          <div className="lg:col-span-7 h-full min-h-[380px] lg:min-h-[460px] bg-white border border-gray-200 rounded-xl overflow-hidden shadow-xs flex flex-col justify-between">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7725.018545769872!2d121.22988197770995!3d14.512837300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c193b7a33e7d%3A0xf2a78f0e038cf674!2sMorong%20Municipal%20Building!5e0!3m2!1sen!2sph!4v1792267226404!5m2!1sen!2sph"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=121.2335%2C14.5038%2C121.2380%2C14.5071&layer=mapnik&marker=14.5054578%2C121.2357256"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '380px' }}
-              allowFullScreen
               loading="lazy"
-              referrerPolicy="strict-origin-when-cross-origin"
-              title="Google Maps Location of Morong Municipal Building"
-              className="w-full h-full"
+              title="OpenStreetMap Location of Morong Municipal Hall"
+              className="w-full h-full flex-grow"
             />
+            <div className="bg-white px-4 py-2 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
+              <span>
+                ©{' '}
+                <a
+                  href="https://www.openstreetmap.org/copyright"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-primary-700"
+                >
+                  OpenStreetMap contributors
+                </a>
+              </span>
+              <a
+                href="https://www.openstreetmap.org/node/10177592817#map=18/14.505413/121.236137"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-primary-700 font-medium inline-flex items-center gap-1"
+              >
+                <span>View Larger Map</span>
+                <ExternalLink className="h-3 w-3" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

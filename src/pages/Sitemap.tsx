@@ -183,7 +183,7 @@ export default function Sitemap() {
           title: 'Tourist Spots & Dining',
           url: '/government/about-morong/tourist-spots-and-local-attractions',
           description:
-            'Prominent eco-tourism destinations, cultural landmarks, local cuisine, and visitor dining guides.',
+            'Heritage destinations like Museong Pambayan ng Morong and St. Jerome Church, local dining, farm resorts, and visitor guides.',
         },
         {
           title: 'Executive Department',

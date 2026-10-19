@@ -4,7 +4,7 @@
 > Direct access to public services, municipal offices, ordinances, health programs, and emergency hotlines — built without political clutter.
 
 [![Live Portal](https://img.shields.io/badge/Live_Portal-bettermorong.org-1E40AF?style=flat&logo=cloudflare)](https://bettermorong.org)
-[![Staging Preview](https://img.shields.io/badge/staging.bettermorong.org-0284C7?style=flat&logo=cloudflarepages)](https://staging-bettermorong.pages.dev)
+[![Staging Preview](https://img.shields.io/badge/staging.bettermorong.org-0284C7?style=flat&logo=cloudflarepages)](https://staging.bettermorong.org)
 [![React](https://img.shields.io/badge/React-19.1-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)

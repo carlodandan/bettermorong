@@ -60,12 +60,17 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-md md:max-w-none">
+            <p className="text-slate-400 text-sm leading-relaxed mb-3 max-w-md md:max-w-none">
               An open-source, community-driven civic platform providing
               Morongueños, businesses, and visitors with accessible public
               service guides, municipal directory, and transparent fiscal
               governance.
             </p>
+
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-xs font-semibold text-blue-200 mb-4 border border-white/10">
+              Cost to the People of Morong:{' '}
+              <span className="font-bold text-green-400">₱0.00</span>
+            </div>
 
             {/* Social & Repository Links */}
             <div className="flex items-center justify-center md:justify-start gap-3">
