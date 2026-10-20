@@ -355,7 +355,7 @@ export default function Document({
   const displayContent = markdownContent.content
     ? markdownContent.content
         .replace(/^#\s+.+$/m, '')
-        .replace(/^>\s*.+(?:\n>\s*.*)*\n---/m, '')
+        .replace(/^>[^\n]*(?:\n>[^\n]*)*\n---/m, '')
         .trim()
     : '';
 
