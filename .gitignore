@@ -67,3 +67,5 @@ terraform.rc
 STATUS.md
 PLAN.md
 
+# Wrangler
+.wrangler/
