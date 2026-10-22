@@ -30,7 +30,7 @@ export default function SEO({
     'government, local government, services, public services, civic services';
 
   const baseUrl =
-    import.meta.env.VITE_WEBSITE_URL || 'https://staging.bettermorong.org';
+    import.meta.env.VITE_WEBSITE_URL || 'https://bettermorong.org';
 
   // Format: "BetterMorong | Health Services" (Site Title | Page Title)
   const fullTitle = !title
