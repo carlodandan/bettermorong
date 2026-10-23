@@ -185,7 +185,7 @@ const Footer: React.FC = () => {
                 Accessibility
               </Link>
               <Link
-                to="/philippines/hotlines"
+                to="/philippines-hotlines"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 Emergency Hotlines

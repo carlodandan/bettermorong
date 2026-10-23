@@ -226,14 +226,14 @@ export default function Sitemap() {
       links: [
         {
           title: 'Philippines & Local Hotlines',
-          url: '/philippines/hotlines',
+          url: '/philippines-hotlines',
           description:
             'Immediate emergency numbers: National Emergency 911, Morong MDRRMO, PNP, BFP, and crisis helplines.',
           badge: 'Emergency 24/7',
         },
         {
           title: 'Philippine Public Holidays',
-          url: '/philippines/holidays',
+          url: '/philippines-holidays',
           description:
             'Official calendar of regular holidays, special non-working days, and local municipal observances.',
         },
@@ -413,7 +413,7 @@ export default function Sitemap() {
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <Link
-                  to="/philippines/hotlines"
+                  to="/philippines-hotlines"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm bg-yellow-400 text-gray-950 hover:bg-yellow-300 transition-colors shadow-xs"
                 >
                   <PhoneCall className="w-4 h-4" />

@@ -95,9 +95,9 @@ export const footerNavigation: FooterNavigation = {
           })),
         {
           label: 'Emergency Hotlines',
-          href: '/philippines/hotlines',
+          href: '/philippines-hotlines',
         },
-        { label: 'Philippine Holidays', href: '/philippines/holidays' },
+        { label: 'Philippine Holidays', href: '/philippines-holidays' },
       ],
     },
     {

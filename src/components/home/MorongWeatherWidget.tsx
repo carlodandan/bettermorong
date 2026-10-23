@@ -285,7 +285,7 @@ export const MorongWeatherWidget: React.FC = () => {
                     <ExternalLink className="h-3 w-3" aria-hidden="true" />
                   </a>
                   <Link
-                    to="/philippines/hotlines"
+                    to="/philippines-hotlines"
                     className="text-red-700 hover:underline font-bold"
                   >
                     Emergency Hotlines →

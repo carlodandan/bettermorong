@@ -246,7 +246,7 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden lg:flex items-center space-x-6">
             <Link
-              to="/philippines/hotlines"
+              to="/philippines-hotlines"
               className="flex items-center text-red-700 hover:text-red-800 font-bold transition-colors"
             >
               <PhoneCall
@@ -326,7 +326,7 @@ const Navbar: React.FC = () => {
             </div>
           ))}
           <Link
-            to="/philippines/hotlines"
+            to="/philippines-hotlines"
             onClick={closeMenu}
             className="flex items-center gap-2 px-4 py-2 text-base font-bold text-red-700 hover:bg-red-50"
           >
