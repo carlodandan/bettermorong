@@ -46,10 +46,29 @@ function App() {
                   />
                 }
               />
-              <Route path="/philippines/hotlines" element={<Hotlines />} />
-              <Route path="/hotlines" element={<Hotlines />} />
-              <Route path="/philippines/holidays" element={<Holidays />} />
-              <Route path="/holidays" element={<Holidays />} />
+              <Route path="/philippines-hotlines" element={<Hotlines />} />
+              <Route path="/philippines-holidays" element={<Holidays />} />
+              {/* Backward compatibility redirects */}
+              <Route
+                path="/philippines/hotlines"
+                element={<Navigate to="/philippines-hotlines" replace />}
+              />
+              <Route
+                path="/hotlines"
+                element={<Navigate to="/philippines-hotlines" replace />}
+              />
+              <Route
+                path="/philippines/holidays"
+                element={<Navigate to="/philippines-holidays" replace />}
+              />
+              <Route
+                path="/holidays"
+                element={<Navigate to="/philippines-holidays" replace />}
+              />
+              <Route
+                path="/philippines"
+                element={<Navigate to="/philippines-hotlines" replace />}
+              />
               <Route
                 path="/about"
                 element={<Navigate to="/government/about-morong" replace />}

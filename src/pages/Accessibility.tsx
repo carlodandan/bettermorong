@@ -405,7 +405,7 @@ export default function Accessibility() {
               </Link>
               <span>·</span>
               <Link
-                to="/philippines/hotlines"
+                to="/philippines-hotlines"
                 className="hover:text-primary-700 transition-colors"
               >
                 Emergency Hotlines

@@ -23,7 +23,7 @@ export default function EmergencyContactsBanner() {
               assistance, peace & order, and fire rescue in Morong, Rizal.
             </p>
             <Link
-              to="/philippines/hotlines"
+              to="/philippines-hotlines"
               className="inline-flex items-center text-xs sm:text-sm font-semibold text-primary-200 hover:text-white mt-2 transition-colors underline underline-offset-2"
             >
               View all National &amp; Philippines Hotlines →

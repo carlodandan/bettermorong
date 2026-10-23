@@ -62,7 +62,7 @@ const Hotlines: React.FC = () => {
         title="Philippines & Morong Emergency Hotlines"
         description="Comprehensive directory of official 24/7 emergency hotlines, disaster rescue, police, fire, health crisis, and public utility contacts for Morong, Rizal and the Philippines."
         keywords="Philippines hotlines, Morong emergency numbers, 911 Philippines, MDRRMO hotline, 8888 complaint, PNP hotline, Red Cross 143"
-        url="/philippines/hotlines"
+        url="/philippines-hotlines"
       />
 
       <div className="container mx-auto px-4 py-8 md:py-12">

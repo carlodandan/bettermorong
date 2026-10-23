@@ -6,6 +6,7 @@ import Sitemap from 'vite-plugin-sitemap';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import websiteVersion from './web-version.json' with { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,10 +21,8 @@ function getAllRoutes(): string[] {
     '/government/ordinances-and-resolutions',
     '/government/transparency-documents',
     '/government/about-morong',
-    '/philippines/hotlines',
-    '/hotlines',
-    '/philippines/holidays',
-    '/holidays',
+    '/philippines-hotlines',
+    '/philippines-holidays',
     '/search',
     '/sitemap',
     '/accessibility',
@@ -76,6 +75,9 @@ const allRoutes = getAllRoutes();
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: {
+    'import.meta.env.VITE_WEB_VERSION': JSON.stringify(websiteVersion.version),
+  },
   plugins: [
     react(),
     tailwindcss(),

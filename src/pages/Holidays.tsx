@@ -75,7 +75,7 @@ const Holidays: React.FC = () => {
         title={`Philippines & Morong Official Holidays ${selectedYear}`}
         description={`Complete official calendar of Philippine Regular Holidays, Special Non-Working Days, and Morong/Rizal local holidays for ${selectedYear}. Includes DOLE holiday pay rules and labor standards.`}
         keywords="Philippines holidays, regular holidays, special non-working days, Morong Rizal holidays, DOLE holiday pay rules, long weekends Philippines"
-        url="/philippines/holidays"
+        url="/philippines-holidays"
       />
 
       <div className="container mx-auto px-4 py-8 md:py-12 max-w-6xl space-y-8">

@@ -73,7 +73,7 @@ const emergencyItems: SearchItem[] = [
       'Complete directory of 24/7 emergency dispatch, disaster rescue, police, fire, utilities, mental health, and social services hotlines.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'hotlines',
@@ -91,7 +91,7 @@ const emergencyItems: SearchItem[] = [
       'Disaster management, rescue dispatch, emergency ambulance, and flood response. Call 0917-135-0541 / 0919-081-7181 / (02) 7212-5741.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'mdrrmo',
@@ -112,7 +112,7 @@ const emergencyItems: SearchItem[] = [
       'Police assistance, public safety, crime reporting, and peace & order. Call 0906-513-0718 / 0998-598-5725.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'police',
@@ -132,7 +132,7 @@ const emergencyItems: SearchItem[] = [
       'Fire suppression, arson investigation, and fire emergency response. Call 0908-441-7754 / 0945-710-6766.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'fire',
@@ -151,7 +151,7 @@ const emergencyItems: SearchItem[] = [
       'Nationwide 24/7 emergency hotline dispatch connecting to local police, medical, and fire units.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: ['911', 'emergency', 'dispatch', 'hotline', 'urgent'],
   },
@@ -162,7 +162,7 @@ const emergencyItems: SearchItem[] = [
       'National government public grievance hotline for reporting bureaucratic red tape, corruption, and slow services.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       '8888',
@@ -180,7 +180,7 @@ const emergencyItems: SearchItem[] = [
       'Emergency ambulance, disaster relief, blood donation inquiries, and search and rescue. Dial 143 or (02) 8790-2300.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: ['red cross', '143', 'blood', 'ambulance', 'disaster relief'],
   },
@@ -191,7 +191,7 @@ const emergencyItems: SearchItem[] = [
       'Free, confidential 24/7 mental health crisis hotline, psychological counseling, and emotional support. Dial 1553 or 0917-899-8727.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'mental health',
@@ -210,7 +210,7 @@ const emergencyItems: SearchItem[] = [
       'Report power outages, fallen electric poles, damaged transformers, and electrical hazards in Morong, Rizal.',
     category: 'Emergency & Hotlines',
     categorySlug: 'hotlines',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
     type: 'emergency',
     keywords: [
       'meralco',
@@ -232,7 +232,7 @@ const holidayItems: SearchItem[] = [
       'Comprehensive schedule of nationwide regular holidays, special non-working days, and Morong/Rizal local holidays with DOLE wage compensation rules.',
     category: 'Government',
     categorySlug: 'holidays',
-    url: '/philippines/holidays',
+    url: '/philippines-holidays',
     type: 'government',
     keywords: [
       'holidays',
@@ -255,7 +255,7 @@ const holidayItems: SearchItem[] = [
       'Official wage computation for regular holidays (200%) and special non-working days (130%), rest day premiums, and overtime labor standards.',
     category: 'Government',
     categorySlug: 'holidays',
-    url: '/philippines/holidays',
+    url: '/philippines-holidays',
     type: 'government',
     keywords: [
       'dole holiday pay',
@@ -273,7 +273,7 @@ const holidayItems: SearchItem[] = [
       'Official special non-working holiday for the Province of Rizal including Morong under Republic Act No. 11144.',
     category: 'Government',
     categorySlug: 'holidays',
-    url: '/philippines/holidays',
+    url: '/philippines-holidays',
     type: 'government',
     keywords: [
       'araw ng rizal',
@@ -459,6 +459,6 @@ export const popularSearchTags = [
   {
     label: '24/7 Emergency Hotlines',
     query: 'emergency hotline',
-    url: '/philippines/hotlines',
+    url: '/philippines-hotlines',
   },
 ];
