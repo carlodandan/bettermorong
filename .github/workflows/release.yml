@@ -207,4 +207,3 @@ jobs:
               body: JSON.stringify(payload)
             }).then(() => console.log('Failure alert posted to Discord.')).catch(console.error);
           "
-
