@@ -25,6 +25,11 @@ jobs:
         with:
           version: 11
 
+      - name: Check Version of Node.js and PNPM
+        run: |
+          echo "Node.js version: $(node -v)"
+          echo "PNPM version: $(pnpm -v)"
+
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
