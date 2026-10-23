@@ -1,0 +1,208 @@
+name: Test, Release & Notify
+
+on:
+  push:
+    paths:
+      - 'web-version.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-and-release:
+    name: Test, Build & Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js and PNPM
+        uses: pnpm/setup@v3
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run Prettier Code Style Check
+        run: pnpm run format:check
+
+      - name: Run ESLint (Ignoring Warnings)
+        run: pnpm exec eslint . --quiet
+
+      - name: Read Version from web-version.json
+        id: version_check
+        run: |
+          VERSION=$(node -p "require('./web-version.json').version")
+          if [ -z "$VERSION" ]; then
+            echo "Error: Could not read version from web-version.json"
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "TAG=v$VERSION" >> $GITHUB_ENV
+          echo "Extracted version: $VERSION (tag: v$VERSION)"
+
+      - name: Ensure package.json matches web-version.json
+        run: |
+          node -e "
+            const fs = require('fs');
+            const targetVersion = process.env.VERSION;
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            if (pkg.version !== targetVersion) {
+              console.log('Synchronizing package.json version (' + pkg.version + ') to match web-version.json (' + targetVersion + ')');
+              pkg.version = targetVersion;
+              fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2) + '\n');
+            }
+          "
+
+      - name: Run Build & Typecheck (Vite)
+        run: pnpm run build
+
+      - name: Archive Production Build (dist)
+        run: |
+          cd dist
+          zip -r ../bettermorong-${{ env.VERSION }}.zip .
+          cd ..
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Creating GitHub Release for ${{ env.TAG }}..."
+          gh release create "${{ env.TAG }}" bettermorong-${{ env.VERSION }}.zip \
+            --title "Release ${{ env.TAG }}" \
+            --generate-notes \
+            --verify-tag=false || \
+          gh release upload "${{ env.TAG }}" bettermorong-${{ env.VERSION }}.zip --clobber
+
+      - name: Send Discord Release Notification
+        if: success()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          VERSION: ${{ env.VERSION }}
+          TAG: ${{ env.TAG }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_ACTOR: ${{ github.actor }}
+        run: |
+          node -e "
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) {
+              console.warn('DISCORD_WEBHOOK secret is not set, skipping notification.');
+              process.exit(0);
+            }
+
+            const payload = {
+              username: 'BetterMorong CI/CD',
+              avatar_url: 'https://bettermorong.org/Morong-Logo.svg',
+              embeds: [
+                {
+                  title: '🚀 Release ' + process.env.TAG + ' Published',
+                  url: 'https://github.com/' + process.env.GITHUB_REPOSITORY + '/releases/tag/' + process.env.TAG,
+                  description: 'A new version of **BetterMorong** has passed all test checks and has been published!',
+                  color: 1982639, // #1E40AF Civic Blue
+                  fields: [
+                    {
+                      name: '📦 Version',
+                      value: '\`' + process.env.VERSION + '\`',
+                      inline: true
+                    },
+                    {
+                      name: '🌐 Live Portal',
+                      value: '[bettermorong.org](https://bettermorong.org)',
+                      inline: true
+                    },
+                    {
+                      name: '🧪 Quality Checks',
+                      value: '✅ ESLint (clean)\n✅ Prettier style\n✅ TypeScript & Vite build',
+                      inline: false
+                    },
+                    {
+                      name: '🔗 Commit',
+                      value: '[' + process.env.GITHUB_SHA.substring(0, 7) + '](https://github.com/' + process.env.GITHUB_REPOSITORY + '/commit/' + process.env.GITHUB_SHA + ')',
+                      inline: true
+                    },
+                    {
+                      name: '👤 Released by',
+                      value: process.env.GITHUB_ACTOR,
+                      inline: true
+                    }
+                  ],
+                  footer: {
+                    text: 'Municipality of Morong, Rizal • Civic Tech Platform'
+                  },
+                  timestamp: new Date().toISOString()
+                }
+              ]
+            };
+
+            fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            }).then(res => {
+              if (!res.ok) {
+                console.error('Discord webhook returned status ' + res.status);
+                process.exit(1);
+              }
+              console.log('✅ Discord release notification delivered successfully!');
+            }).catch(err => {
+              console.error('Failed to post Discord webhook:', err);
+              process.exit(1);
+            });
+          "
+
+      - name: Send Discord Failure Notification
+        if: failure()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          VERSION: ${{ env.VERSION || 'Unknown' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          node -e "
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (!webhookUrl) process.exit(0);
+
+            const payload = {
+              username: 'BetterMorong CI/CD',
+              avatar_url: 'https://bettermorong.org/Morong-Logo.svg',
+              embeds: [
+                {
+                  title: '❌ Release Pipeline Failed (' + process.env.VERSION + ')',
+                  url: process.env.RUN_URL,
+                  description: 'The release pipeline for version **' + process.env.VERSION + '** failed during test verification or build.',
+                  color: 15158332, // Red
+                  fields: [
+                    {
+                      name: '🔗 Commit',
+                      value: '[' + process.env.GITHUB_SHA.substring(0, 7) + '](https://github.com/' + process.env.GITHUB_REPOSITORY + '/commit/' + process.env.GITHUB_SHA + ')',
+                      inline: true
+                    },
+                    {
+                      name: '👤 Triggered by',
+                      value: process.env.GITHUB_ACTOR,
+                      inline: true
+                    },
+                    {
+                      name: '📋 Logs',
+                      value: '[View Workflow Run](' + process.env.RUN_URL + ')',
+                      inline: false
+                    }
+                  ],
+                  timestamp: new Date().toISOString()
+                }
+              ]
+            };
+
+            fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            }).then(() => console.log('Failure alert posted to Discord.')).catch(console.error);
+          "
+
