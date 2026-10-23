@@ -1,12 +1,12 @@
 import { Meilisearch } from 'meilisearch';
 
-export const isMeilisearchEnabled = Boolean(
-  import.meta.env.VITE_MEILISEARCH_HOST
-);
+const host = import.meta.env.VITE_MEILISEARCH_HOST;
 
-export const searchClient = isMeilisearchEnabled
+export const isMeilisearchEnabled = Boolean(host);
+
+export const searchClient = host
   ? new Meilisearch({
-      host: import.meta.env.VITE_MEILISEARCH_HOST,
+      host,
       apiKey: import.meta.env.VITE_MEILISEARCH_SEARCH_KEY,
     })
   : null;

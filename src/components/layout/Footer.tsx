@@ -6,13 +6,15 @@ import {
   Youtube,
   Globe,
   Github,
+  Mail,
 } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
 import { Link } from 'react-router';
-import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
-  const { t } = useTranslation('common');
+  const currentYear = new Date().getFullYear();
+  const appVersion = import.meta.env.VITE_WEB_VERSION;
+  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
 
   const getSocialIcon = (label: string) => {
     switch (label) {
@@ -135,9 +137,15 @@ const Footer: React.FC = () => {
         {/* Sub-footer / Legal & Utilities */}
         <div className="border-t border-slate-800/80 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 text-center md:text-left">
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <p className="text-slate-400 font-medium">
-                {t('footer.copyright')}
+                © {currentYear} BetterMorong
+                {appVersion && (
+                  <span className="text-slate-500 font-mono text-[11px] ml-1.5">
+                    v{appVersion}
+                  </span>
+                )}{' '}
+                - All content is public domain unless otherwise specified.
               </p>
               <p className="text-slate-500 text-xs">
                 Official public records and government disclosures are sourced
@@ -154,6 +162,16 @@ const Footer: React.FC = () => {
                 <Github className="w-3.5 h-3.5" />
                 <span>Contribute at GitHub</span>
               </a>
+              {contactEmail && (
+                <a
+                  href={`mailto:${contactEmail}?subject=BetterMorong%20Partnership%20/%20Contribution`}
+                  className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"
+                  title="Contact for partnership or contribution"
+                >
+                  <Mail className="w-3.5 h-3.5" />
+                  <span>Partner with Us</span>
+                </a>
+              )}
               <Link
                 to="/sitemap"
                 className="text-slate-400 hover:text-white transition-colors"

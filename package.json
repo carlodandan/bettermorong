@@ -1,7 +1,7 @@
 {
   "name": "betterlocalgov",
   "private": true,
-  "version": "0.3.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,7 +21,9 @@
     "convert-yaml": "node scripts/yaml-to-json.js",
     "dev:yaml": "pnpm convert-yaml && pnpm dev",
     "setup": "node scripts/setup-starter-kit.js",
-    "index-content": "node scripts/index-content.mjs"
+    "index-content": "node scripts/index-content.mjs",
+    "generate:env": "node scripts/generate-env.mjs",
+    "generate:env:interactive": "node scripts/generate-env.mjs --interactive"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
