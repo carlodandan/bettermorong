@@ -22,6 +22,8 @@ jobs:
 
       - name: Setup Node.js and PNPM
         uses: pnpm/setup@v3
+        with:
+          version: 11
 
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
