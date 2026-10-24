@@ -33,14 +33,14 @@ Proceed to the **Business Permits and Licensing Section (BPLS) / Business One-St
 
 **Core Requirements:**
 
-1. Accomplished Unified Business Permit Application Form.
+1. Accomplished [ARTA Unified Business Permit Application Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2017/10/MORONG-Business-Permit-Form-ARTA.pdf) (or download from our [Downloadable Forms Hub](/government/transparency-documents/downloadable-forms)).
 2. DTI Certificate / SEC Certificate of Registration with Articles.
 3. Original Barangay Business Clearance.
 4. Proof of Property Ownership or Notarized Contract of Lease with lessor’s Tax Declaration.
 5. Community Tax Certificate (Cedula) for the current year from the Municipal Treasurer’s Office.
 6. Ancillary Municipal Clearances (processed within the one-stop shop):
-   - **Locational / Zoning Clearance** (MPDO)
-   - **Sanitary Permit & Health Certificates** (Municipal Health Office)
+   - **Locational / Zoning Clearance** (MPDO) — [Download Locational Clearance Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2017/11/APPLICATION-FORM-FOR-LOCATIONAL-CLEARANCE.pdf)
+   - **Sanitary Permit & Health Certificates** (Municipal Health Office) — [Download Sanitary Permit Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2021/08/Sanitary-Permit-Application-Form.pdf)
    - **MENRO Environmental Clearance** (MENRO)
    - **Fire Safety Inspection Certificate (FSIC)** (Bureau of Fire Protection - Morong Fire Station)
 

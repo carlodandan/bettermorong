@@ -46,6 +46,24 @@ function App() {
                   />
                 }
               />
+              <Route
+                path="/forms"
+                element={
+                  <Navigate
+                    to="/government/transparency-documents/downloadable-forms"
+                    replace
+                  />
+                }
+              />
+              <Route
+                path="/government/downloadable-forms"
+                element={
+                  <Navigate
+                    to="/government/transparency-documents/downloadable-forms"
+                    replace
+                  />
+                }
+              />
               <Route path="/philippines-hotlines" element={<Hotlines />} />
               <Route path="/philippines-holidays" element={<Holidays />} />
               {/* Backward compatibility redirects */}

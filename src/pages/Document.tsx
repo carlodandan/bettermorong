@@ -2,7 +2,7 @@ import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useParams, Link } from 'react-router';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, lazy, Suspense } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -25,6 +25,11 @@ import BudgetDashboard from '../components/government/BudgetDashboard';
 import TransparencyHeroBanner, {
   type TransparencyTag,
 } from '../components/ui/TransparencyHeroBanner';
+
+const LguDocumentsExplorer = lazy(
+  () => import('../components/government/LguDocumentsExplorer')
+);
+const LguFormsHub = lazy(() => import('../components/government/LguFormsHub'));
 
 function getTransparencyBannerConfig(slug?: string): {
   badge: string;
@@ -53,6 +58,15 @@ function getTransparencyBannerConfig(slug?: string): {
           { label: 'Republic Act No. 11032', highlight: true },
           { label: 'All Municipal Frontline Offices' },
           { label: 'Guaranteed Processing Windows' },
+        ],
+      };
+    case 'downloadable-forms':
+      return {
+        badge: 'Anti-Red Tape Authority & Ease of Doing Business',
+        tags: [
+          { label: 'Republic Act No. 11032', highlight: true },
+          { label: 'Official Application Forms' },
+          { label: 'Frontline Department Checklists' },
         ],
       };
     case 'procurement-monitoring-reports':
@@ -412,6 +426,32 @@ export default function Document({
             </ReactMarkdown>
           </div>
         </article>
+        {documentSlug === 'procurement-monitoring-reports' && (
+          <div className="mt-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading public documents explorer...
+                </div>
+              }
+            >
+              <LguDocumentsExplorer />
+            </Suspense>
+          </div>
+        )}
+        {documentSlug === 'downloadable-forms' && (
+          <div className="mt-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading downloadable forms hub...
+                </div>
+              }
+            >
+              <LguFormsHub />
+            </Suspense>
+          </div>
+        )}
       </Section>
     </>
   );

@@ -5,15 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0] - 2026-10-24
+## [1.3.0] - 2026-10-24
 
 ### Added
 
-- **Morong Water District (MOWAD) Hotline**: Added official contact numbers and emergency leak reporting lines for MOWAD in `src/data/hotlinesData.ts`.
-- **Water Connections & Utilities Guide**: Expanded `request-access-to-barangay-water-supply-systems.md` to clearly delineate Morong Water District (MOWAD) franchised areas from Barangay Rural Waterworks (BAWASA / BRWASA) systems, including connection requirements and leak reporting protocols.
-- **RPHS Morong Main & Malasakit Center Guide**: Upgraded `go-to-the-local-hospital-for-treatment-or-confinement.md` with side-by-side RHU vs Hospital comparison, 24/7 ER contact details, PhilHealth No Balance Billing (NBB), and complete documentary checklists for Malasakit Center / Medical Social Service financial assistance.
-- **Morong Commuter & TODA Fare Guide**: Added `commuter-and-tricycle-fare-guide.md` under `content/government/about-morong/` covering regional transit routes (UV Express, jeepneys, buses), 20% statutory student/senior/PWD discounts, 8-barangay TODA network, and overcharging reporting procedures.
-- **8-Barangay Garbage Collection Table**: Upgraded `check-garbage-collection-schedules-and-request-pickup.md` with a structured, responsive Markdown table covering all 8 barangays of Morong with highway vs interior collection guidelines, special bulk hauling, and MENRO "No Segregation, No Collection" enforcement.
+- **Municipal BAC Bids & Awards Transparency Tracker (`LguDocumentsExplorer`)**: Built an interactive, client-side document repository component (`src/components/government/LguDocumentsExplorer.tsx`) supporting real-time keyword search, categorization (Notices of Award, Notices to Proceed, Invitations to Bid, Bidding Documents, Citizen's Charters, Financial Disclosures, Executive Orders), publication year filtering (2018–2026), barangay filtering (8 Morong barangays), sorting, and direct links to official municipal PDF uploads with external link safety warnings.
+- **Automated BAC Document Harvester Script (`scripts/fetch-morong-bac.mjs`)**: Implemented an automated sync script querying the live `morongrizal.gov.ph` WordPress REST API (`/wp-json/wp/v2/media?mime_type=application/pdf`) with pagination, classification heuristics, entity decoding, and barangay tagging. Registered as `"sync:lgu-docs"` in `package.json`.
+- **Pre-indexed Public Documents Data**: Bundled 110 classified and verified public municipal documents in `content/government/transparency-documents/lgu-public-documents-index.json` to ensure 100% offline resilience and fast static bundle loading without runtime API dependencies.
+- **Dedicated Downloadable Forms Hub (`LguFormsHub`)**: Created a dedicated application forms directory (`/government/transparency-documents/downloadable-forms` with shortcuts `/forms` and `/government/downloadable-forms`) indexing 23 official application forms and 6 Citizen's Charters across Building & Engineering (OBO), Business Permits (BPLO), Sanitation & Health (MHO), and Working Permits with direct PDF downloads, ARTA RA 11032 statutory timelines, and cross-links to step-by-step citizen guides.
+- **Enhanced Procurement & Bids Guide**: Expanded `procurement-monitoring-reports.md` with plain-language explanations of the Bids and Awards Committee (BAC), BAC Secretariat, Technical Working Group (TWG), Approved Budget for the Contract (ABC), Notice of Award (NOA), Notice to Proceed (NTP), and citizen rights to inspect bidding records under Freedom of Information (EO 2, s. 2016) and Commission on Audit (COA) citizen participatory auditing.
 
 ## [1.2.0] - 2026-10-24
 
@@ -45,6 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `public-employment-service-office.md` — Institutional overview of Morong PESO.
 - **Employment Citizen Guide** (`social-welfare`):
   - `find-local-jobs-spes-or-peso-employment-assistance.md` — Job referral, student employment (SPES), DOLE TUPAD emergency wage assistance, and OFW desk.
+
+## [1.0.1] - 2026-10-24
 
 ### Fixed
 
@@ -95,53 +97,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - `/government` and `/government/:category` routes with a new `Government` page
-- Government section content system under `content/government/` (departments: executive, legislative)
-- `src/pages/Government.tsx` — category listing page for government departments
-- `src/data/government.yaml` — top-level government category definitions
-- Expanded `Document` page to support government content alongside services
-- Navigation updated: main nav Government item now links to `/government/departments`
-- OG image template redesigned for improved open graph previews
-- Companion JSON files for markdown pages — optional `{slug}.json` files supply `{PLACEHOLDER}` token values (official names, dates, etc.) interpolated at load time, with `VITE_<KEY>` env vars as fallback
+- Nested subcategory rendering in `Document` page
+- Breadcrumb navigation supporting 1-level, 2-level, and 3-level deep routes
+- Government category cards on the home page
+- `content-index.json` generation via `npm run index-content` for client-side search indexing
+- Subcategory listing cards when navigating to a category with children
 
 ### Changed
 
-- `yamlLoader.ts` refactored to handle both service and government category indexes
-- `markdownLoader.ts` refactored to resolve markdown files across content types; now also loads companion JSON and runs `interpolate()` for token substitution
-- `Navbar` updated to support government section routing
-- `Breadcrumbs` updated to reflect government section paths
-- `Section` component adjusted for layout consistency
-- `GovernmentActivitySection` on Home page now points to live government routes
-- `Services` page layout and routing logic improved
-- Locale strings updated in `public/locales/en/common.json` and `src/i18n/locales/en.json`
+- Renamed `ServiceCategory` to `CategoryIndex` to represent both service and government taxonomies
+- Reorganized `content/` into `content/services/` and `content/government/`
+- Updated YAML schema documentation in `CONTENT-GUIDE.md`
 
-### Documentation
-
-- `README.md` — project structure and content setup steps updated for government section
-- `CLAUDE.md` — routing, content system, and companion JSON file behavior documented
-- `CONTENT-MANAGEMENT.md` — added government department pages section, JSON data files explained, dynamic placeholder workflow included
-- `CONTENT-GUIDE.md` — added department/office page template, content type, and "Dynamic Content with Placeholders" section
-
-## [0.1.0] - 2026-03-06
+## [0.1.0] - 2026-02-15
 
 ### Added
 
-- `@bettergov/kapwa` component library integrated as the primary UI primitive layer
-- New font and theme setup via `src/fonts.css`
-- `react-helmet-async` for SEO and document head management
-
-### Changed
-
-- Migrated styling pipeline to **Tailwind CSS v4** (Vite plugin, PostCSS config updated)
-- Replaced local `Card` component (`src/components/ui/Card.tsx`) with Kapwa card primitives
-- Replaced legacy `ListItem` component with Kapwa cards and banners across Services, Home, and Document pages
-- Updated `src/index.css` to align with Tailwind v4 conventions
-- Upgraded `App.tsx` and `main.tsx` for the new app shell and SEO setup
-
-### Removed
-
-- `src/components/ui/Card.tsx` — superseded by Kapwa primitives
-- `src/components/ui/ListItem.tsx` — superseded by Kapwa cards and banners
-
-[0.3.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.3.0
-[0.2.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.2.0
-[0.1.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.1.0
+- Initial release of the BetterGov starter kit
+- Service catalog with markdown-based guides
+- Government directory and official document templates
+- Emergency hotlines directory
+- Multilingual support (Filipino / English) via i18next
+- Responsive UI built with Tailwind CSS and Kapwa design system tokens
+- Offline-capable PWA configuration with `@vite-pwa/vite-plugin`

@@ -67,7 +67,7 @@ Secure a **Police Clearance** from the Morong Municipal Police Station (PNP) or 
 
 1. Proceed to the **Business Permits & Licensing Section (BPLS)** / Municipal Hall lobby.
 2. Submit the combined dossier:
-   - Accomplished Mayor’s Working Permit Application Form
+   - Accomplished [Mayor’s Working Permit Application Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2017/10/Working-Permit-Application-Form.pdf) (or download from our [Downloadable Forms Hub](/government/transparency-documents/downloadable-forms))
    - Original Morong RHU Health Card
    - Barangay Employment Clearance
    - Police or NBI Clearance
