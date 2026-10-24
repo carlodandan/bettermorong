@@ -57,5 +57,15 @@
   "transparency": {
     "title": "Pampublikong Transparansya at Talaan ng Subasta",
     "subtitle": "Suriin ang mga opisyal na kontrata, Notice of Award, Citizen's Charter, at mga ulat sa pampublikong pondo"
+  },
+  "serviceGuide": {
+    "title": "Gabay sa Serbisyo para sa Mamamayan",
+    "printGuide": "I-print ang Gabay / I-save bilang PDF",
+    "requirementsReady": "{{completed}} sa {{total}} mga kailangan ay handa na",
+    "resetChecklist": "I-reset ang Checklist",
+    "allReady": "Lahat ng kailangan ay handa na!",
+    "checklistEnabled": "Gabay sa Serbisyo sa Morong • Naka-enable ang Interactive Checklist",
+    "downloadableFormsTitle": "Mga Opisyal na Blankong Form at Template na Maaring I-download",
+    "downloadableFormsSubtitle": "I-print at punan ang mga opisyal na form na ito bago magtungo sa Munisipyo upang makatipid sa oras."
   }
 }

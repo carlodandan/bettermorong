@@ -1,3 +1,32 @@
+---
+forms:
+  - title: 'Revised Building Permit Application Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Building-Permit-Revised-Application-Form.pdf'
+    fileType: 'PDF'
+  - title: 'Locational Clearance Application Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/11/APPLICATION-FORM-FOR-LOCATIONAL-CLEARANCE.pdf'
+    fileType: 'PDF'
+  - title: 'Certificate of Occupancy Application Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Application-Form-for-Certificate-of-Occupancy.pdf'
+    fileType: 'PDF'
+---
+
+---
+
+forms:
+
+- title: 'Revised Building Permit Application Form'
+  url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Building-Permit-Revised-Application-Form.pdf'
+  fileType: 'PDF'
+- title: 'Locational Clearance Application Form'
+  url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/11/APPLICATION-FORM-FOR-LOCATIONAL-CLEARANCE.pdf'
+  fileType: 'PDF'
+- title: 'Certificate of Occupancy Application Form'
+  url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Application-Form-for-Certificate-of-Occupancy.pdf'
+  fileType: 'PDF'
+
+---
+
 # Zoning Clearances, Land Use & Building Permits — Morong, Rizal
 
 Before initiating any residential, commercial, industrial, or institutional construction, expansion, or land development in the Municipality of Morong, property owners and developers must secure a **Locational / Zoning Clearance** and a **Building Permit** in accordance with the Morong Comprehensive Land Use Plan (CLUP), Zoning Ordinance, and the National Building Code of the Philippines (PD 1096).

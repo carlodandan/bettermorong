@@ -1,3 +1,10 @@
+---
+forms:
+  - title: "Mayor's Working Permit Application Form"
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/10/Working-Permit-Application-Form.pdf'
+    fileType: 'PDF'
+---
+
 # Get a Cedula and Individual Working Permit — Morong, Rizal
 
 This guide explains how Morong residents and workers can obtain a **Community Tax Certificate (Cedula)** from the Municipal Treasury and an **Individual Mayor's Occupational Working Permit / Health Card** for local employment.

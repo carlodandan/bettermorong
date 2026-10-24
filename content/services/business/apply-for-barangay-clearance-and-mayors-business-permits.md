@@ -1,3 +1,26 @@
+---
+forms:
+  - title: 'ARTA Unified Business Permit Application Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/10/MORONG-Business-Permit-Form-ARTA.pdf'
+    fileType: 'PDF'
+  - title: 'Sanitary Permit Application Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Sanitary-Permit-Application-Form.pdf'
+    fileType: 'PDF'
+---
+
+---
+
+forms:
+
+- title: 'ARTA Unified Business Permit Application Form'
+  url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/10/MORONG-Business-Permit-Form-ARTA.pdf'
+  fileType: 'PDF'
+- title: 'Sanitary Permit Application Form'
+  url: 'https://morongrizal.gov.ph/wp-content/uploads/2021/08/Sanitary-Permit-Application-Form.pdf'
+  fileType: 'PDF'
+
+---
+
 # Apply for Barangay Business Clearance and Mayor’s Business Permit — Morong, Rizal
 
 This guide provides the complete, step-by-step procedure for registering a new business, partnership, or enterprise in the **Municipality of Morong, Province of Rizal**.

@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-10-24
+
+### Added
+
+- **Interactive Citizen Requirement Checklists**:
+  - Implemented client-side checklist state management (`src/context/ChecklistContext.tsx`) syncing checkbox states to `localStorage` under `bettermorong:checklist:<slug>`.
+  - Added dynamic requirement list conversion in `src/pages/Document.tsx` and custom accessible list items (`InteractiveTaskListItem` in `src/lib/markdownComponents.tsx`) supporting keyboard navigation (`Space`/`Enter`), ARIA accessibility (`role="checkbox"`, `aria-checked`), and visual feedback.
+  - Added `ServiceGuideToolbar.tsx` providing real-time requirement completion tracking ("X of Y requirements ready"), a percentage progress bar, and a "Reset Checklist" action.
+- **Print-Friendly Service Guides & Save as PDF**:
+  - Added "Print Guide / Save PDF" toolbar button triggering native print dialog.
+  - Added canonical print header in `src/pages/Document.tsx` including title, municipal portal URL, canonical link, and print timestamp.
+  - Added comprehensive `@media print` stylesheet rules in `src/index.css` hiding headers, navigation, footers, weather widget, breadcrumbs, and interactive controls while enforcing high-contrast black-on-white typography, table borders, and printable `[x]` / `[ ]` checklist markers.
+- **Downloadable Blank Forms Frontmatter Hook**:
+  - Extended markdown frontmatter parser in `src/lib/markdownLoader.ts` and `src/types/index.ts` to parse `forms` / `downloadableForms` arrays via `js-yaml`.
+  - Built `src/components/ui/DownloadableFormsCard.tsx` rendering prominent blank form download cards on service pages.
+  - Added `public/forms/README.md` and updated `CONTENT-GUIDE.md` with guidelines for volunteer form contributors.
+  - Attached downloadable form attachments to Cedula & Working Permit, Mayor's Business Permit, and Building Permit guides.
+- **Bilingual Localization**: Added full English and Filipino translations for all service guide checklist and printable toolbar strings in `src/locales/en/common.json` and `src/locales/fil/common.json`.
+
 ## [1.3.0] - 2026-10-24
 
 ### Added

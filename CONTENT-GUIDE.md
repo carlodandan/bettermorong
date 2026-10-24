@@ -301,6 +301,28 @@ When officials change, **only update the JSON file** — no need to touch the ma
 }
 ```
 
+### Attaching Downloadable Blank Forms (`forms` Frontmatter)
+
+To attach official blank application forms (e.g. Building Permit, ARTA Unified Business Form, Working Permit) to any citizen service guide, declare a `forms` list in the YAML frontmatter at the top of the markdown file:
+
+```markdown
+---
+forms:
+  - title: "Mayor's Working Permit Application Form"
+    url: '/forms/working-permit-application.pdf'
+    fileType: 'PDF'
+  - title: 'Official ARTA Unified Business Permit Form'
+    url: 'https://morongrizal.gov.ph/wp-content/uploads/2017/10/MORONG-Business-Permit-Form-ARTA.pdf'
+    fileType: 'PDF'
+---
+
+# Guide Title Here
+
+...
+```
+
+Local PDF files should be placed in `public/forms/`. BetterMorong will automatically render a prominent "Official Downloadable Blank Forms & Templates" download card near the top of the page.
+
 ## 🌐 Multilingual Content
 
 ### Language Considerations

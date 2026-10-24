@@ -143,3 +143,120 @@
 .sticky-table tbody tr:hover td:first-child {
   background-color: #f3f4f6;
 }
+
+/* Print Styles */
+@media print {
+  /* Hide non-printable navigation, footers, tools, and widgets */
+  nav,
+  footer,
+  aside,
+  button,
+  .print\:hidden,
+  [data-print='hidden'],
+  .theme-switcher,
+  .weather-widget,
+  .breadcrumbs-container {
+    display: none !important;
+  }
+
+  /* Force clean black-on-white palette even if client is in Dark Mode */
+  html,
+  body {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Headings print cleanly and avoid orphaned titles at the bottom of pages */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000000 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  h1 {
+    font-size: 18pt !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h2 {
+    font-size: 14pt !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem !important;
+    border-bottom: 1px solid #d1d5db;
+    padding-bottom: 0.25rem;
+  }
+
+  h3 {
+    font-size: 12pt !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  /* Prevent awkward page breaks in tables and lists */
+  table,
+  tr,
+  td,
+  th {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .task-list-item,
+  li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #d1d5db !important;
+    padding: 6px 8px !important;
+    color: #111827 !important;
+  }
+
+  th {
+    background-color: #f3f4f6 !important;
+  }
+
+  a {
+    color: #111827 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Ensure print-specific elements are properly displayed */
+  .print-source-header,
+  .print\:block {
+    display: block !important;
+  }
+
+  .print-only,
+  .print\:inline-block {
+    display: inline-block !important;
+  }
+
+  .print\:inline {
+    display: inline !important;
+  }
+}
