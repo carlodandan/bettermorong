@@ -4,6 +4,12 @@
 # Non-technical users can easily edit this file to add, remove, or modify service categories
 
 categories:
+  # Civil Registry, IDs & Clearances
+  - category: 'Civil Registry, IDs & Clearances'
+    slug: 'civil-registry-and-ids'
+    description: 'Birth, marriage, and death certificates, certified true copies, legal clerical corrections, Cedula, and local working permits.'
+    icon: 'IdCard'
+
   # Health Services
   - category: 'Health Services'
     slug: 'health-services'
@@ -61,5 +67,5 @@ categories:
   # Housing & Land Use Services
   - category: 'Housing & Land Use'
     slug: 'housing-land-use'
-    description: 'How to apply for housing projects, what zoning and building permits are needed, and where relocation sites are available.'
+    description: 'Pay Real Property Tax (amilyar), transfer tax declarations, zoning and building permits, and socialized housing assistance.'
     icon: 'Home'

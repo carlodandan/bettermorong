@@ -46,7 +46,7 @@ Staging and Production are **two completely separate environments**. Maintaining
 | **Vite Mode & Env File**   | `--mode staging` (`.env.staging`)                                 | `--mode production` (`.env.production`)            |
 | **Branding Identifier**    | `BetterMorong (Staging)` badge in header & metadata               | `BetterMorong` official portal                     |
 | **Search Engine Crawling** | **Blocked** (`X-Robots-Tag: noindex, nofollow` auto-applied)      | **Indexed** (`sitemap.xml` & `robots.txt` enabled) |
-| **Build Command**          | `npm run build:staging`                                           | `npm run build`                                    |
+| **Build Command**          | `pnpm run build:staging`                                          | `pnpm run build`                                   |
 | **Deploy Command**         | `pnpm pages:deploy:staging`                                       | `pnpm pages:deploy:prod`                           |
 
 ---
@@ -257,7 +257,7 @@ While Cloudflare Pages is recommended, BetterMorong is a standards-compliant sta
 
 1. Import repository at [vercel.com/new](https://vercel.com/new).
 2. Framework Preset: **Vite**.
-3. Build Command: `npm run build`.
+3. Build Command: `pnpm run build`.
 4. Output Directory: `dist`.
 5. Add `vercel.json` if SPA rewriting is needed:
    ```json
@@ -269,13 +269,13 @@ While Cloudflare Pages is recommended, BetterMorong is a standards-compliant sta
 ### Option B: Netlify
 
 1. Connect Git repository at [app.netlify.com](https://app.netlify.com).
-2. Build command: `npm run build`.
+2. Build command: `pnpm run build`.
 3. Publish directory: `dist`.
 4. Netlify automatically reads the existing `public/_redirects` and `public/_headers` files.
 
 ### Option C: AWS S3 + CloudFront
 
-1. Build locally: `npm run build`.
+1. Build locally: `pnpm run build`.
 2. Sync `dist/` to an S3 bucket: `aws s3 sync dist/ s3://your-bucket-name --delete`.
 3. Configure CloudFront Distribution with Custom Error Response:
    - HTTP Error Code: `404`
@@ -288,8 +288,8 @@ While Cloudflare Pages is recommended, BetterMorong is a standards-compliant sta
 
 Before pointing production traffic to your live domain, verify the following:
 
-- [ ] **Build Verification**: Run `npm run build` locally and ensure it exits with code 0.
-- [ ] **Staging Verification**: Deploy to staging (`npm run pages:deploy:staging`) and review layout and features on mobile and desktop.
+- [ ] **Build Verification**: Run `pnpm run build` locally and ensure it exits with code 0.
+- [ ] **Staging Verification**: Deploy to staging (`pnpm run pages:deploy:staging`) and review layout and features on mobile and desktop.
 - [ ] **SEO & Sitemaps**: Confirm `sitemap.xml` and `robots.txt` are reachable at the root URL.
 - [ ] **PWA & Offline Assets**: Open Chrome DevTools > Application > Service Workers to confirm `sw.js` registers successfully.
 - [ ] **Emergency Contacts**: Test all one-tap `tel:` emergency hotlines (MDRRMO, Police, Fire, 911).

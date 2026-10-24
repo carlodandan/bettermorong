@@ -5,6 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-10-24
+
+### Added
+
+- **New Service Category `civil-registry-and-ids`**: Registered "Civil Registry, IDs & Clearances" in `src/data/services.yaml` and `yamlLoader.ts`.
+- **Civil Registry Citizen Guides**:
+  - `register-birth-marriage-or-death-certificates.md` — Timely and delayed registration, certified true copies, and PSA electronic endorsements.
+  - `apply-for-marriage-license.md` — Marriage license requirements, PMOC & family planning seminars, and 10-day publication period.
+  - `correct-clerical-errors-on-civil-registry-documents.md` — Administrative correction procedures under RA 9048 and RA 10172.
+  - `get-cedula-and-individual-working-permit.md` — Community Tax Certificate (Cedula) at Treasury and Mayor's Occupational Working Permit & Health Card.
+- **Real Property & Taxation Guides** (`housing-land-use`):
+  - `pay-real-property-tax-amilyar-and-get-tax-clearance.md` — Annual RPT payment structure, installment deadlines, promptness discounts, and tax clearances.
+  - `transfer-or-update-real-property-tax-declaration.md` — Transfer of ownership via Deed of Conveyance/eCAR, declaring new improvements, and Assessor certifications.
+- **Healthcare & Animal Bite Treatment** (`health-services`):
+  - `get-animal-bite-treatment-and-anti-rabies-vaccine.md` — Wound first aid, Animal Bite Treatment Center (ABTC) at Morong RHU, rabies vaccination schedules, and RPHS Morong Main hospital referrals.
+- **New Department Pages** (`departments`):
+  - `business-permits-and-licensing-office.md` — Institutional overview of Morong BPLO and BOSS operations.
+  - `public-employment-service-office.md` — Institutional overview of Morong PESO.
+- **Employment Citizen Guide** (`social-welfare`):
+  - `find-local-jobs-spes-or-peso-employment-assistance.md` — Job referral, student employment (SPES), DOLE TUPAD emergency wage assistance, and OFW desk.
+
+### Fixed
+
+- Fixed Cloudflare Pages build warning by removing redundant `public/_redirects` SPA rewrite rule (handled natively by Cloudflare Pages when no custom `404.html` exists).
+- Removed 0-byte duplicate `content/services/business/rent-stalls-in-public-markets.md` and cleaned up `content/services/business/index.yaml` in favor of complete guide in `content/services/infrastructure-public-works/rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries.md`.
+- Removed unused development component `src/components/I18nTest.tsx`.
+
+### Documentation
+
+- Updated `DEPLOYMENT-GUIDE.md` edge configuration section to reflect Cloudflare Pages native SPA routing.
+
+## [1.0.0] - 2026-10-24
+
+### Added
+
+- Independent `web-version.json` single source of truth for versioning.
+- Automated GitHub Actions release pipeline (`.github/workflows/release.yml`) triggered on `web-version.json` changes with automated testing, dist archiving, and Discord release notifications.
+- Dynamic year and dynamic versioning in `Footer` component.
+- Interactive and automated `.env` file generator script (`scripts/generate-env.mjs`).
+- Single-slug routes `/philippines-hotlines` and `/philippines-holidays` for reliable breadcrumb navigation.
+
 ## [0.3.0] - 2026-07-29
 
 ### Added

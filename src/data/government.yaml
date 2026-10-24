@@ -31,6 +31,10 @@ categories:
         slug: 'municipal-planning-development-office'
       - name: 'Municipal Environment & Natural Resources Office'
         slug: 'municipal-environment-office'
+      - name: 'Business Permits & Licensing Office (BPLO)'
+        slug: 'business-permits-and-licensing-office'
+      - name: 'Public Employment Service Office (PESO)'
+        slug: 'public-employment-service-office'
 
   - category: 'Ordinances & Resolutions'
     slug: 'ordinances-and-resolutions'
