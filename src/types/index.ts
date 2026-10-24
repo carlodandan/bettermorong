@@ -17,3 +17,10 @@ export interface NavigationItem {
   href: string;
   children?: NavigationItem[];
 }
+
+export interface DownloadableForm {
+  title: string;
+  url: string;
+  fileType?: string;
+  fileSize?: string;
+}

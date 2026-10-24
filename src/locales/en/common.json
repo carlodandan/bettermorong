@@ -57,5 +57,15 @@
   "transparency": {
     "title": "Public Transparency & Bids Explorer",
     "subtitle": "Track official municipal contracts, Notices of Award, Citizen's Charters, and bidding disclosures"
+  },
+  "serviceGuide": {
+    "title": "Citizen Service Guide",
+    "printGuide": "Print Guide / Save PDF",
+    "requirementsReady": "{{completed}} of {{total}} requirements ready",
+    "resetChecklist": "Reset Checklist",
+    "allReady": "All requirements ready!",
+    "checklistEnabled": "Morong Citizen Service Guide • Interactive Checklist Enabled",
+    "downloadableFormsTitle": "Official Downloadable Blank Forms & Templates",
+    "downloadableFormsSubtitle": "Print and accomplish these official forms before proceeding to Municipal Hall to save time."
   }
 }

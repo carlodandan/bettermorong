@@ -25,6 +25,9 @@ import BudgetDashboard from '../components/government/BudgetDashboard';
 import TransparencyHeroBanner, {
   type TransparencyTag,
 } from '../components/ui/TransparencyHeroBanner';
+import { ChecklistProvider } from '../context/ChecklistContext';
+import ServiceGuideToolbar from '../components/ui/ServiceGuideToolbar';
+import DownloadableFormsCard from '../components/ui/DownloadableFormsCard';
 
 const LguDocumentsExplorer = lazy(
   () => import('../components/government/LguDocumentsExplorer')
@@ -366,15 +369,29 @@ export default function Document({
     : null;
 
   // Clean content when hero banner is rendered to avoid duplicate title and notice block
-  const displayContent = markdownContent.content
+  const rawClean = markdownContent.content
     ? markdownContent.content
         .replace(/^#\s+.+$/m, '')
         .replace(/^>[^\n]*(?:\n>[^\n]*)*\n---/m, '')
         .trim()
     : '';
 
+  // Auto-enhance requirement lists with interactive task checkboxes for service guides
+  const displayContent = !isGovernment
+    ? rawClean.replace(
+        /(#{1,4}\s+[^\n]*(?:requirement|what to bring|checklist|documentary|kinakailangan|dalhin)[^\n]*\n+)([\s\S]*?)(?=\n#{1,4}\s+|\n---\s*\n|$)/gi,
+        (_match, heading, body) => {
+          const transformedBody = body.replace(
+            /^(\s*(?:-|\*|\d+\.)\s+)(?!\[[ xX]\])(.+)$/gm,
+            '$1[ ] $2'
+          );
+          return heading + transformedBody;
+        }
+      )
+    : rawClean;
+
   return (
-    <>
+    <ChecklistProvider slug={documentSlug || ''} isServiceGuide={!isGovernment}>
       <SEO
         title={markdownContent.title || documentSlug}
         description={
@@ -384,7 +401,18 @@ export default function Document({
         keywords={`${documentSlug}, government services, public services, local government`}
       />
       <Section className="py-8 md:py-12">
-        <Breadcrumbs className="mb-6" items={breadcrumbs} />
+        <Breadcrumbs className="mb-6 print:hidden" items={breadcrumbs} />
+
+        {/* Printable Canonical Source Header */}
+        <div className="print-source-header hidden print:block mb-6 pb-3 border-b-2 border-black text-xs text-gray-800">
+          <div className="font-bold text-base text-black">
+            BetterMorong — Citizen Services & Transparency Portal
+          </div>
+          <div>
+            Municipality of Morong, Rizal • Official Citizen Service Guide
+          </div>
+        </div>
+
         <TransparencyHeroBanner
           badge={
             isTransparency && transparencyConfig
@@ -415,7 +443,16 @@ export default function Document({
               : undefined
           }
         />
-        <article className="bg-white border border-gray-200 rounded-xl p-6 md:p-10 shadow-xs">
+
+        {/* Action Toolbar for Service Guides */}
+        {!isGovernment && <ServiceGuideToolbar />}
+
+        {/* Downloadable Forms Frontmatter Card */}
+        {markdownContent.forms && markdownContent.forms.length > 0 && (
+          <DownloadableFormsCard forms={markdownContent.forms} />
+        )}
+
+        <article className="bg-white border border-gray-200 rounded-xl p-6 md:p-10 shadow-xs print:border-none print:shadow-none print:p-0">
           <div className="prose prose-slate max-w-none">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
@@ -453,6 +490,6 @@ export default function Document({
           </div>
         )}
       </Section>
-    </>
+    </ChecklistProvider>
   );
 }

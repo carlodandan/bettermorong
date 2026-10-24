@@ -1,3 +1,6 @@
+import * as yaml from 'js-yaml';
+import type { DownloadableForm } from '../types';
+
 /**
  * Utility to load markdown content dynamically based on slug
  */
@@ -20,6 +23,7 @@ export interface MarkdownContent {
   content: string;
   title?: string;
   description?: string;
+  forms?: DownloadableForm[];
   data?: Record<string, unknown>;
 }
 
@@ -53,7 +57,39 @@ export async function loadMarkdownContent(
     const module = await import(
       `../../content/${dir}/${categorySlug}/${documentSlug}.md?raw`
     );
-    const content = interpolate(module.default, data);
+
+    let rawContent = module.default;
+    let forms: DownloadableForm[] | undefined = undefined;
+
+    // Check for YAML frontmatter
+    if (rawContent.startsWith('---')) {
+      const closingIndex = rawContent.indexOf('\n---', 3);
+      if (closingIndex !== -1) {
+        const frontmatterStr = rawContent.slice(3, closingIndex).trim();
+        try {
+          const parsed = yaml.load(frontmatterStr) as Record<string, unknown>;
+          if (parsed && typeof parsed === 'object') {
+            const parsedForms = parsed.forms || parsed.downloadableForms;
+            if (Array.isArray(parsedForms)) {
+              forms = parsedForms as DownloadableForm[];
+            }
+          }
+        } catch (e) {
+          console.warn(`Failed to parse frontmatter in ${documentSlug}:`, e);
+        }
+        rawContent = rawContent.slice(closingIndex + 4).trimStart();
+      }
+    }
+
+    // Fallback: check companion JSON data for forms or downloadableForms
+    if (!forms) {
+      const dataForms = data.forms || data.downloadableForms;
+      if (Array.isArray(dataForms)) {
+        forms = dataForms as DownloadableForm[];
+      }
+    }
+
+    const content = interpolate(rawContent, data);
 
     const titleMatch = content.match(/^#\s+(.+)$/m);
     const title = titleMatch ? titleMatch[1] : undefined;
@@ -63,7 +99,7 @@ export async function loadMarkdownContent(
       ? descriptionMatch[1].replace(/^>\s*/, '').trim()
       : undefined;
 
-    return { content, title, description, data };
+    return { content, title, description, forms, data };
   } catch (error) {
     console.error(
       `Failed to load markdown content for document: ${documentSlug}`,
