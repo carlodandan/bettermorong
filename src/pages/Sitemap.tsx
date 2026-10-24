@@ -57,6 +57,13 @@ export default function Sitemap() {
           badge: 'You are here',
         },
         {
+          title: 'Join the Civic Tech Movement',
+          url: '/join-us',
+          description:
+            'Volunteer your engineering, writing, design, and community outreach skills to build open-source digital public goods for Morong, Rizal.',
+          badge: 'Open Source',
+        },
+        {
           title: 'Accessibility Statement',
           url: '/accessibility',
           description:

@@ -7,6 +7,7 @@ import {
   Search,
   Clock,
   PhoneCall,
+  Users,
   Sun,
   CloudSun,
   Cloud,
@@ -262,6 +263,16 @@ const Navbar: React.FC = () => {
               {t('navbar.about')}
             </Link>
             <Link
+              to="/join-us"
+              className="flex items-center text-primary-700 hover:text-primary-800 font-semibold transition-colors"
+            >
+              <Users
+                className="h-4 w-4 mr-1 text-primary-600"
+                aria-hidden="true"
+              />
+              {t('navbar.joinUs', 'Join Us')}
+            </Link>
+            <Link
               to="/search"
               className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-primary-700 px-3 py-1.5 rounded-md hover:bg-gray-100 transition-colors"
               aria-label="Search portal"
@@ -336,9 +347,10 @@ const Navbar: React.FC = () => {
           <Link
             to="/join-us"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-semibold text-primary-700 hover:bg-primary-50"
+            className="flex items-center gap-2 px-4 py-2 text-base font-semibold text-primary-700 hover:bg-primary-50"
           >
-            Join Us
+            <Users className="h-4 w-4 text-primary-600" aria-hidden="true" />
+            {t('navbar.joinUs', 'Join Us')}
           </Link>
           <Link
             to="/government/about-morong"

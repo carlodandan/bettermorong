@@ -26,6 +26,7 @@ function getAllRoutes(): string[] {
     '/search',
     '/sitemap',
     '/accessibility',
+    '/join-us',
   ];
 
   try {

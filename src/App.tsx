@@ -13,6 +13,7 @@ import Hotlines from './pages/Hotlines';
 import Holidays from './pages/Holidays';
 import Sitemap from './pages/Sitemap';
 import Accessibility from './pages/Accessibility';
+import JoinUs from './pages/JoinUs';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router';
 
 function App() {
@@ -103,6 +104,15 @@ function App() {
               />
               <Route path="/sitemap" element={<Sitemap />} />
               <Route path="/accessibility" element={<Accessibility />} />
+              <Route path="/join-us" element={<JoinUs />} />
+              <Route
+                path="/join"
+                element={<Navigate to="/join-us" replace />}
+              />
+              <Route
+                path="/volunteer"
+                element={<Navigate to="/join-us" replace />}
+              />
               <Route path="/:lang/:documentSlug" element={<Document />} />
               <Route path="/:documentSlug" element={<Document />} />
             </Routes>
