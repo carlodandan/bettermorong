@@ -8,6 +8,8 @@ Before initiating any residential, commercial, industrial, or institutional cons
 
 The Locational Clearance confirms that the proposed building or business activity conforms to the designated land-use classification (Residential, Commercial, Industrial, Agricultural, or Eco-Tourism).
 
+- **Official Form**: [Locational Clearance Application Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2017/11/APPLICATION-FORM-FOR-LOCATIONAL-CLEARANCE.pdf)
+
 ### Requirements:
 
 1. Certified True Copy of **Transfer Certificate of Title (TCT)** or Deed of Absolute Sale.
@@ -25,7 +27,12 @@ Issued by the **Municipal Engineering Office / Building Official** authorizing p
 
 ### Required Permit Documents:
 
-- Unified Building Permit Application Form.
+- **Official Forms & Checklists**:
+  - [Revised Building Permit Application Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2021/08/Building-Permit-Revised-Application-Form.pdf)
+  - [Building Permit Requirements Checklist (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2017/10/Building-Permit-Requirements-New-or-Renovation.pdf)
+  - [Electrical Permit Application Form (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2021/08/Electrical-Permit-Application-Form.pdf)
+  - [Application for Certificate of Occupancy (PDF)](https://morongrizal.gov.ph/wp-content/uploads/2021/08/Application-Form-for-Certificate-of-Occupancy.pdf)
+  - _For demolition, excavation, fencing, or sign permits, access the complete directory on our [Downloadable Forms Hub](/government/transparency-documents/downloadable-forms)._
 - Complete sets of Plans:
   - Architectural Plans (sealed by a Registered Architect)
   - Civil / Structural Plans with Structural Analysis for buildings 2 storeys and above (sealed by a Civil Engineer)

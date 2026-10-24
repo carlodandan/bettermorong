@@ -53,5 +53,9 @@
     "or": "or",
     "joinDiscord": "Join Discord",
     "features": "Infrastructure • Mentorship • Community • Civic Technology"
+  },
+  "transparency": {
+    "title": "Public Transparency & Bids Explorer",
+    "subtitle": "Track official municipal contracts, Notices of Award, Citizen's Charters, and bidding disclosures"
   }
 }

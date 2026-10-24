@@ -16,6 +16,10 @@ pages:
     slug: 'citizens-charter-2025'
     description: 'Service standards, processing times, required fees, and step-by-step procedures across all municipal frontline offices.'
 
+  - name: 'Downloadable Application Forms & Templates'
+    slug: 'downloadable-forms'
+    description: 'Download official municipal PDF forms for business permits, building clearances, electrical permits, sanitary inspections, and working permits.'
+
   - name: 'Full Disclosure Policy & Annual Investment Plans'
     slug: 'full-disclosure-policy'
     description: 'Access municipal budget summaries, Annual Investment Plans (AIP), LGSF-FALGU, and DILG Full Disclosure Portal disclosures.'
