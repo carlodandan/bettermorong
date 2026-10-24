@@ -81,6 +81,10 @@ export const footerNavigation: FooterNavigation = {
           label: 'Municipal Directory',
           href: '/government/departments',
         },
+        {
+          label: 'Join the Movement',
+          href: '/join-us',
+        },
       ],
     },
     {

@@ -23,7 +23,7 @@ const ROOT = join(__dirname, '..');
 const INDEX_NAME = 'content';
 
 const client = new Meilisearch({
-  host: process.env.MEILISEARCH_HOST ?? 'http://localhost:7700',
+  host: process.env.VITE_MEILISEARCH_HOST ?? 'http://localhost:7700',
   apiKey: process.env.MEILISEARCH_ADMIN_KEY,
 });
 
