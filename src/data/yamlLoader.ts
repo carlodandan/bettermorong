@@ -32,6 +32,7 @@ import servicesYamlContent from './services.yaml?raw';
 import governmentActivitiesYamlContent from './government.yaml?raw';
 
 // Import all category index files statically
+import civilRegistryAndIdsIndex from '../../content/services/civil-registry-and-ids/index.yaml?raw';
 import healthServicesIndex from '../../content/services/health-services/index.yaml?raw';
 import educationIndex from '../../content/services/education/index.yaml?raw';
 import businessIndex from '../../content/services/business/index.yaml?raw';
@@ -49,6 +50,7 @@ import governmentAboutMorongIndex from '../../content/government/about-morong/in
 
 // Create a mapping of category slugs to their YAML content
 const categoryIndexMap: { [key: string]: string } = {
+  'civil-registry-and-ids': civilRegistryAndIdsIndex,
   'health-services': healthServicesIndex,
   education: educationIndex,
   business: businessIndex,

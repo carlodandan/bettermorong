@@ -2,6 +2,14 @@
 # This file contains all the pages/services available under the Housing & Land Use category
 
 pages:
+  - name: 'Pay Real Property Tax (amilyar) and get tax clearance'
+    slug: 'pay-real-property-tax-amilyar-and-get-tax-clearance'
+    description: 'Annual RPT payments, quarterly installment deadlines, promptness discounts, and requesting tax clearance at the Treasury.'
+
+  - name: 'Transfer or update real property tax declaration'
+    slug: 'transfer-or-update-real-property-tax-declaration'
+    description: 'How to transfer property ownership, declare new improvements, and request assessor certifications at the Assessor’s Office.'
+
   - name: 'Apply for socialized housing or relocation projects'
     slug: 'apply-for-socialized-housing-or-relocation-projects'
     description: 'Information about applying for socialized housing and relocation projects from your local government.'

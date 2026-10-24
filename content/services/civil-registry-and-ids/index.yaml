@@ -1,0 +1,19 @@
+# Civil Registry, IDs & Clearances Category Pages
+# This file contains all the services available under Civil Registry, IDs & Clearances
+
+pages:
+  - name: 'Register birth, marriage, or death certificates'
+    slug: 'register-birth-marriage-or-death-certificates'
+    description: 'Step-by-step guide for timely and delayed registration of vital events, certified true copies, and PSA electronic endorsements.'
+
+  - name: 'Apply for a marriage license'
+    slug: 'apply-for-marriage-license'
+    description: 'Requirements, pre-marriage counseling and family planning seminars, 10-day publication period, and issuance of marriage license.'
+
+  - name: 'Correct clerical errors on civil registry documents'
+    slug: 'correct-clerical-errors-on-civil-registry-documents'
+    description: 'Administrative petition procedures under RA 9048 (typographical errors / first name) and RA 10172 (day, month of birth, or gender).'
+
+  - name: 'Get a Cedula and individual working permit'
+    slug: 'get-cedula-and-individual-working-permit'
+    description: 'How to obtain a Community Tax Certificate (Cedula) at the Treasury and an Individual Mayor’s Occupational Working Permit / Health Card.'

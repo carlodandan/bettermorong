@@ -2,6 +2,10 @@
 # This file contains all the pages/services available under the Health Services category
 
 pages:
+  - name: 'Get animal bite treatment and anti-rabies vaccine'
+    slug: 'get-animal-bite-treatment-and-anti-rabies-vaccine'
+    description: 'First aid for dog and cat bites, Animal Bite Treatment Center (ABTC) at Morong RHU, and vaccination schedules.'
+
   - name: 'Get free check-ups, basic medicines, and vaccines'
     slug: 'get-free-check-ups-basic-medicines-and-vaccines'
     description: 'Access free medical check-ups, basic medicines, and vaccination services provided by your local government.'

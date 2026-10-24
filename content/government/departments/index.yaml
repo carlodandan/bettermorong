@@ -53,3 +53,11 @@ pages:
   - name: 'Municipal Environment & Natural Resources Office (MENRO)'
     slug: 'municipal-environment-office'
     description: 'Solid waste management, garbage collection scheduling, environmental compliance, and tree planting/preservation.'
+
+  - name: 'Business Permits & Licensing Office (BPLO)'
+    slug: 'business-permits-and-licensing-office'
+    description: 'Business registrations, annual BOSS renewals, Mayor’s occupational working permits, and commercial regulatory compliance.'
+
+  - name: 'Public Employment Service Office (PESO)'
+    slug: 'public-employment-service-office'
+    description: 'Job matching, municipal job fairs, student employment (SPES), DOLE-TUPAD emergency labor, and OFW assistance.'

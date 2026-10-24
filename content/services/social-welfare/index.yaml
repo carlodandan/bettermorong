@@ -2,6 +2,10 @@
 # This file contains all the pages/services available under the Social Welfare category
 
 pages:
+  - name: 'Find local jobs, SPES, or PESO employment assistance'
+    slug: 'find-local-jobs-spes-or-peso-employment-assistance'
+    description: 'Local job placement, Student employment (SPES), DOLE TUPAD emergency work, and OFW assistance through PESO.'
+
   - name: 'Apply for senior citizen, solo parent, or PWD assistance'
     slug: 'apply-for-senior-citizen-solo-parent-or-pwd-assistance'
     description: 'Information about applying for assistance programs for senior citizens, solo parents, and persons with disabilities.'
