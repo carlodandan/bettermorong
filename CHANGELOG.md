@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2026-10-24
+
+### Added
+
+- **Offline-First Typhoon & Emergency PWA Caching (`vite-plugin-pwa`)**:
+  - Enhanced Vite PWA configuration in `vite.config.ts` with standalone Web App Manifest, complete workbox pre-caching for offline hotlines and disaster preparedness documentation, and comprehensive multi-resolution icons (`favicon.svg`, `morong-pfp.png`, `Morong-Logo.svg`, `og-image.png`).
+  - Added accessible `OfflineBanner` component (`src/components/layout/OfflineBanner.tsx`) in `src/App.tsx` that detects offline network events (`navigator.onLine === false`) during typhoons or telecom outages, providing instant shortcuts to 24/7 Emergency Hotlines (`/philippines-hotlines`) and cached Disaster Preparedness guides (`/services/disaster-preparedness`).
+  - Added temporary reconnection alert toast when network connectivity is restored.
+  - Configured Cloudflare Pages `public/_headers` cache controls for instant service worker and web manifest revalidation.
+- **Client-Side Cedula & Real Property Tax (Amilyar) Fee Estimator**:
+  - Built `TaxAndCedulaEstimator` (`src/components/services/TaxAndCedulaEstimator.tsx`) guaranteeing 100% privacy with zero data transmission or server-side logging.
+  - **Individual Cedula (CTC) Tab**: Implements Republic Act No. 7160 Sec. 157 & 161 (₱5.00 Basic Community Tax, ₱1.00 per ₱1,000 gross annual earnings capped at ₱5,000, real property component, and 2%/mo late payment penalty).
+  - **Real Property Tax (Amilyar) Tab**: Implements RA 7160 Sec. 233 & 235 (1% Basic RPT + 1% Special Education Fund = 2% total) with prompt payment discount toggle (10%), quarterly installment breakdown (Q1–Q4), and an informational tooltip explaining Assessed Value vs Market Value on Morong Tax Declarations.
+  - Contextually rendered inside `src/pages/Document.tsx` when viewing `get-cedula-and-individual-working-permit` (`defaultTab="cedula"`) and `pay-real-property-tax-amilyar-and-get-tax-clearance` (`defaultTab="rpt"`).
+  - Prominent statutory disclaimers clarifying that official assessments and receipts are issued solely by the Morong Municipal Treasurer's Office.
+- **Bilingual Localization**: Added full English and Filipino translations for offline banners and all calculator fields, presets, tooltips, and disclaimers in `src/locales/en/common.json` and `src/locales/fil/common.json`.
+
 ## [1.4.0] - 2026-10-24
 
 ### Added

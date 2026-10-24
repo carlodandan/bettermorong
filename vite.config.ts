@@ -85,7 +85,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: [
         'favicon.ico',
+        'favicon.svg',
+        'morong-pfp.png',
         'Morong-Logo.svg',
+        'morong-logo-nobg.svg',
         'morong-simbahan.svg',
         'og-image.png',
       ],
@@ -101,6 +104,18 @@ export default defineConfig({
         scope: '/',
         start_url: '/',
         icons: [
+          {
+            src: '/favicon.svg',
+            sizes: 'any',
+            type: 'image/svg+xml',
+            purpose: 'any',
+          },
+          {
+            src: '/morong-pfp.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any',
+          },
           {
             src: '/Morong-Logo.svg',
             sizes: '192x192 512x512',

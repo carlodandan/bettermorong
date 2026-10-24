@@ -33,6 +33,9 @@ const LguDocumentsExplorer = lazy(
   () => import('../components/government/LguDocumentsExplorer')
 );
 const LguFormsHub = lazy(() => import('../components/government/LguFormsHub'));
+const TaxAndCedulaEstimator = lazy(
+  () => import('../components/services/TaxAndCedulaEstimator')
+);
 
 function getTransparencyBannerConfig(slug?: string): {
   badge: string;
@@ -463,6 +466,33 @@ export default function Document({
             </ReactMarkdown>
           </div>
         </article>
+        {documentSlug === 'get-cedula-and-individual-working-permit' && (
+          <div className="mt-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading Cedula & tax estimator...
+                </div>
+              }
+            >
+              <TaxAndCedulaEstimator defaultTab="cedula" />
+            </Suspense>
+          </div>
+        )}
+        {documentSlug ===
+          'pay-real-property-tax-amilyar-and-get-tax-clearance' && (
+          <div className="mt-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading Real Property Tax estimator...
+                </div>
+              }
+            >
+              <TaxAndCedulaEstimator defaultTab="rpt" />
+            </Suspense>
+          </div>
+        )}
         {documentSlug === 'procurement-monitoring-reports' && (
           <div className="mt-8">
             <Suspense
