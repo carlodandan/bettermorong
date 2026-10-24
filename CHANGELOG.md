@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] - 2026-10-24
 
 ### Added
+
 - **Morong Water District (MOWAD) Hotline**: Added official contact numbers and emergency leak reporting lines for MOWAD in `src/data/hotlinesData.ts`.
 - **Water Connections & Utilities Guide**: Expanded `request-access-to-barangay-water-supply-systems.md` to clearly delineate Morong Water District (MOWAD) franchised areas from Barangay Rural Waterworks (BAWASA / BRWASA) systems, including connection requirements and leak reporting protocols.
 - **RPHS Morong Main & Malasakit Center Guide**: Upgraded `go-to-the-local-hospital-for-treatment-or-confinement.md` with side-by-side RHU vs Hospital comparison, 24/7 ER contact details, PhilHealth No Balance Billing (NBB), and complete documentary checklists for Malasakit Center / Medical Social Service financial assistance.
