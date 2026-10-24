@@ -2,6 +2,8 @@ name: Test, Release & Notify
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'web-version.json'
   workflow_dispatch:
