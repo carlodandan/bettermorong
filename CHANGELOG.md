@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-10-24
+
+### Fixed
+
+- Fixed Cloudflare Pages build warning by removing redundant `public/_redirects` SPA rewrite rule (handled natively by Cloudflare Pages when no custom `404.html` exists).
+- Removed 0-byte duplicate `content/services/business/rent-stalls-in-public-markets.md` and cleaned up `content/services/business/index.yaml` in favor of complete guide in `content/services/infrastructure-public-works/rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries.md`.
+- Removed unused development component `src/components/I18nTest.tsx`.
+
+### Documentation
+
+- Updated `DEPLOYMENT-GUIDE.md` edge configuration section to reflect Cloudflare Pages native SPA routing.
+
+## [1.0.0] - 2026-10-24
+
+### Added
+
+- Independent `web-version.json` single source of truth for versioning.
+- Automated GitHub Actions release pipeline (`.github/workflows/release.yml`) triggered on `web-version.json` changes with automated testing, dist archiving, and Discord release notifications.
+- Dynamic year and dynamic versioning in `Footer` component.
+- Interactive and automated `.env` file generator script (`scripts/generate-env.mjs`).
+- Single-slug routes `/philippines-hotlines` and `/philippines-holidays` for reliable breadcrumb navigation.
+
 ## [0.3.0] - 2026-07-29
 
 ### Added

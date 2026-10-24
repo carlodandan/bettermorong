@@ -198,20 +198,13 @@ Cloudflare will automatically issue and renew a free Universal SSL/TLS certifica
 
 ---
 
-## ⚙️ Edge Configuration Files (`_redirects` & `_headers`)
+## ⚙️ Edge Configuration Files (`_headers`)
 
-Cloudflare Pages automatically reads two configuration files located in the `public/` directory (copied to `dist/` upon build):
+Cloudflare Pages automatically reads edge configuration files located in the `public/` directory (copied to `dist/` upon build):
 
-### 1. Client-Side Routing: `public/_redirects`
+### 1. Client-Side Routing (Native SPA)
 
-Single Page Applications (React Router) require all subroutes (e.g. `/government/about-morong`, `/philippines/holidays`, `/services`) to return `index.html` with an HTTP 200 status code:
-
-```text
-# Cloudflare Pages SPA rewrite rules
-/*    /index.html   200
-```
-
-Without this rule, refreshing any deep page in the browser would result in a Cloudflare 404 error.
+Cloudflare Pages handles Single Page Applications (React Router) natively: when no custom root `404.html` exists, all subroutes (e.g. `/government/about-morong`, `/philippines-holidays`, `/services`) automatically serve `index.html` with HTTP 200 status. **Do not create a `public/_redirects` file with `/* /index.html 200`**, as this triggers an infinite redirect loop warning in the Cloudflare build engine.
 
 ### 2. Edge Performance & Security: `public/_headers`
 
