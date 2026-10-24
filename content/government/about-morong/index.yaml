@@ -19,3 +19,7 @@ pages:
   - name: 'Tourist Spots, Local Dining & Attractions'
     slug: 'tourist-spots-and-local-attractions'
     description: 'Explore Museong Pambayan ng Morong (Old Municipal Hall), St. Jerome Church, Emma’s Panciteria, Bukid Cafe, farm resorts, and local attractions.'
+
+  - name: 'Commuter and Tricycle (TODA) Fare Guide'
+    slug: 'commuter-and-tricycle-fare-guide'
+    description: 'Public transit corridors (UV Express, jeepneys, buses), 20% statutory discounts, TODA zones across 8 barangays, and overcharging reporting.'
