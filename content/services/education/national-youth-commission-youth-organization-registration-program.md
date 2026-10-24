@@ -14,7 +14,7 @@ The Youth Organization Registration Program (YORP) officially registers and reco
 
 All applying organizations must submit the following core documents:
 
-1. **Accomplished Youth Organization Profile Form** _(forms can be downloaded at [https://yorpnyc.org.ph/downloadables/](https://yorpnyc.org.ph/downloadables/))_
+1. **Accomplished Youth Organization Profile Form** _(forms and templates can be downloaded at [https://yorpnyc.org.ph/landing/resources/templates](https://yorpnyc.org.ph/landing/resources/templates) or [https://nyc.gov.ph/downloadables](https://nyc.gov.ph/downloadables))_
 2. **Directory of Officers and Adviser** — Both hard copy and soft copy (in Excel format `.xlsx`)
 3. **List of Members in Good Standing** — Both hard copy and soft copy (in Excel format `.xlsx`)
 4. **Copy of Constitution and By-Laws**
@@ -84,4 +84,5 @@ _Processing Time:_ **6 days, 40 minutes**
 - **Office:** Morong Youth Development Office (MYDO)
 - **Location:** Morong Municipal Hall, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960
 - **Email:** `steventantiongcodeleon@gmail.com`
-- **Official Forms & NYC Portal:** [https://yorpnyc.org.ph/downloadables/](https://yorpnyc.org.ph/downloadables/)
+- **YORP Official Forms & Templates:** [https://yorpnyc.org.ph/landing/resources/templates](https://yorpnyc.org.ph/landing/resources/templates)
+- **National Youth Commission (NYC) Downloadables:** [https://nyc.gov.ph/downloadables](https://nyc.gov.ph/downloadables)
