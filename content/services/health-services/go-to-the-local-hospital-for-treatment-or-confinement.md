@@ -1,60 +1,82 @@
 # Go to the Local Hospital for Treatment or Confinement — Morong, Rizal
 
-This guide provides practical information on **emergency rooms, hospital admissions, PhilHealth coverage, and contact details** for public and private hospitals serving residents of Morong, Rizal.
+This guide provides practical medical guidance on hospital admissions, 24/7 emergency rooms, PhilHealth benefits, and **Malasakit Center / Medical Social Service financial assistance** for residents of Morong, Rizal.
 
 ---
 
-## A) Government Hospital (Provincial System)
+## Where Should You Go? (RHU vs. Provincial Hospital)
 
-### Rizal Provincial Hospital System (RPHS) – Morong Main
+Morong residents often wonder whether to visit the Municipal Health Office or go directly to the hospital:
 
-The primary public hospital facility in the municipality, operating under the Provincial Government of Rizal.
-
-| Department                      | Schedule                           | Services                                                                           |
-| :------------------------------ | :--------------------------------- | :--------------------------------------------------------------------------------- |
-| **Emergency Room (ER)**         | 24 Hours / 7 Days                  | Triage, acute trauma, resuscitation, urgent surgical and medical emergencies.      |
-| **Inpatient Wards**             | 24 Hours / 7 Days                  | Confinement, OB-Gyne ward, pediatric ward, medical-surgical ward.                  |
-| **Outpatient Department (OPD)** | Monday – Friday, 8:00 AM – 5:00 PM | Non-emergency medical consultations, laboratory follow-ups, and specialty clinics. |
-
-**Emergency Admission Steps:**
-
-1. **Triage & Evaluation**: Proceed directly to the Emergency Room. Medical staff record vital signs and evaluate urgency.
-2. **Medical Treatment / Stabilization**: Doctors administer emergency interventions, diagnostic tests (X-ray, blood tests), and medication.
-3. **Ward Admission**: If confinement is required, the admitting physician issues admission orders and endorses the patient to the floor ward.
-4. **PhilHealth Processing**: Submit patient’s PhilHealth ID and Member Data Record (MDR) to the PhilHealth / Billing window. Under the **No Balance Billing (NBB)** policy for sponsored, indigent, and senior citizens, eligible patients in basic accommodations pay zero out-of-pocket costs.
+| Facility                                                  | When to Go                                                                                                                                            | Services Available                                                                        | Location & Hours                                    |
+| :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| **Morong Rural Health Unit (RHU / MHO)**                  | Primary care, non-emergency consultations, mild cough/fever, routine infant vaccines (EPI), prenatal checkups, Animal Bite Treatment Center           | Outpatient clinics, free maintenance medicines, TB-DOTS, sanitary permits                 | Brgy. San Pedro (Sitio Paglabas) • Mon–Fri, 8AM–5PM |
+| **Rizal Provincial Hospital System (RPHS - Morong Main)** | Urgent medical emergencies, vehicular trauma, severe bleeding, difficulty breathing, surgical operations, childbirth/confinement, inpatient admission | 24/7 Emergency Room, Inpatient Wards, Intensive Care, Laboratory, X-Ray, Malasakit Center | Brgy. San Juan • 24/7 Emergency Services            |
+| **Morong Doctors Hospital** (Private)                     | Private healthcare consultations, specialized inpatient care, diagnostic imaging, hemodialysis                                                        | 24/7 Emergency Room, private suites, dialysis, HMO accreditation                          | 491 Gov. Martinez St., Poblacion • 24/7 Services    |
 
 ---
 
-## B) Private Hospital in Morong
+## 1. Public Hospital: Rizal Provincial Hospital System (RPHS) – Morong Main
 
-### Morong Doctors Hospital
+Operating under the Provincial Government of Rizal, **RPHS - Morong Main** in Barangay San Juan is the primary public referral hospital serving Morong and eastern Rizal municipalities.
 
-A private healthcare facility offering specialized inpatient, outpatient, and diagnostic services in the poblacion.
+### Department Schedules & Capabilities
 
-| Detail                 | Information                                                                                                                                                       |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Address**            | 491 Gov. Martinez Street, Morong, Rizal                                                                                                                           |
-| **Phone**              | **(02) 8653-2491** / **(02) 8699-7761**                                                                                                                           |
-| **Emergency Services** | 24/7 Emergency Room & Ambulance                                                                                                                                   |
-| **Facilities**         | Outpatient specialty clinics, Clinical Laboratory, Dialysis Center, 2D Echocardiography, Mammography, Inpatient private/semi-private rooms, and Physical Therapy. |
-| **Admissions**         | Bring valid ID, PhilHealth documents, and HMO guarantee letter (LOA) if covered by health insurance.                                                              |
+| Department                      | Schedule                           | Core Functions                                                                                           |
+| :------------------------------ | :--------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| **Emergency Room (ER)**         | 24 Hours / 7 Days                  | Triage, acute resuscitation, trauma stabilization, urgent surgical care, and emergency deliveries.       |
+| **Outpatient Department (OPD)** | Monday – Friday, 8:00 AM – 5:00 PM | Non-emergency consultations (Internal Medicine, Pediatrics, Surgery, OB-Gyne) and diagnostic follow-ups. |
+| **Inpatient Floor Wards**       | 24 Hours / 7 Days                  | General Medical Ward, Surgical Ward, Pediatric Ward, and OB-Gyne Maternity Ward.                         |
+| **Diagnostic Services**         | 24/7 Emergency / Scheduled OPD     | Clinical Laboratory, Digital Radiography (X-ray), Ultrasound, and Blood Bank depot.                      |
 
----
+### Emergency Admission Steps
 
-## C) What to Bring for Hospital Confinement
-
-- **Valid Government ID** of the patient and immediate family member / companion.
-- **PhilHealth Member ID and MDR** (if registered member or dependent).
-- **Senior Citizen ID / PWD ID** (to apply statutory 20% discounts and VAT exemptions for non-covered items).
-- **Doctor’s Admitting Order or Referral** (for scheduled / elective admissions from clinics).
-- **HMO Card & Letter of Authorization (LOA)** if utilizing private health insurance.
-- **Personal care necessities** (clothing, toiletries, thermometer) for hospital stay.
+1. **Triage Assessment**: Proceed directly to the ER triage counter. A triage nurse assesses vital signs and assigns an emergency priority code.
+2. **Clinical Stabilization**: Attending resident physicians administer initial therapy, emergency diagnostics, and medical treatments.
+3. **Admission Orders**: If inpatient hospitalization is required, the physician issues an admitting order for endorsement to the relevant floor ward.
+4. **Billing & PhilHealth Enrollment**: A family member coordinates with the hospital admission and billing windows to apply PhilHealth coverage and No Balance Billing.
 
 ---
 
-## D) Emergency Medical Transport (Ambulance)
+## 2. Malasakit Center & Medical Social Service Assistance
 
-If a patient cannot be safely moved by private vehicle, call for emergency ambulance dispatch:
+Morongueño patients admitted to RPHS - Morong Main can access zero or heavily subsidized hospital billing through the **Malasakit Center** (a statutory one-stop shop integrating DOH, DSWD, PhilHealth, and PCSO medical assistance under RA 11463).
 
-- **MDRRMO Morong 24/7 Hotlines**: **0917-135-0541** / **0919-081-7181** / **(02) 7212-5741**
-- **National Emergency**: **911**
+### What the Malasakit Center Covers
+
+- Outstanding hospital confinement bills and room charges.
+- Surgical procedures, medical supplies, and implants.
+- Diagnostic laboratory tests and medications not available inside the hospital pharmacy.
+
+### Documentary Checklist for Financial Assistance
+
+Prepare these documents before meeting with the Medical Social Service (MSS) officer:
+
+1. **Certificate of Indigency**: Issued by the patient's Barangay Hall in Morong, or an Indigency Assessment Certificate from the Morong Municipal Social Welfare and Development Office (MSWDO).
+2. **Clinical Medical Abstract or Medical Certificate**: Original copy signed with license number by the attending hospital physician.
+3. **Statement of Account (SOA)**: Official running bill or final billing statement from the RPHS billing counter.
+4. **Doctor's Official Prescription / Cost Quotation**: For specialty medicines, assistive devices, or external laboratory tests requiring financial guarantee letters.
+5. **Valid Government-Issued IDs**: Original and photocopies of both the patient and the immediate family relative / transacting watcher.
+6. **PhilHealth Member Data Record (MDR)** or Claim Signature Form.
+
+---
+
+## 3. PhilHealth & No Balance Billing (NBB)
+
+Under the Universal Health Care Act and PhilHealth No Balance Billing (NBB) regulations:
+
+- Indigent patients, 4Ps beneficiaries, Senior Citizens, and sponsored members admitted to **basic / ward accommodations** at RPHS Morong Main pay **zero out-of-pocket costs** for standard medical treatment and prescribed formulary medicines.
+- Ensure your PhilHealth member information is active or register under Point-of-Service (POS) at the hospital social service desk if you are an unregistered indigent patient.
+
+---
+
+## 4. Emergency Medical Transport & Ambulances
+
+If an injured or critically ill patient cannot be transported safely by tricycle or private car, call for emergency ambulance dispatch:
+
+| Agency                                | Contact Numbers                                            | Availability              |
+| :------------------------------------ | :--------------------------------------------------------- | :------------------------ |
+| **Morong MDRRMO Emergency Dispatch**  | **0917-135-0541** / **0919-081-7181** / **(02) 7212-5741** | 24/7 Ambulance Operations |
+| **RPHS - Morong Main Emergency Room** | **(02) 8653-1184**                                         | 24/7 ER Desk              |
+| **Morong Doctors Hospital (Private)** | **(02) 8653-2491** / **(02) 8699-7761**                    | 24/7 ER & Ambulance       |
+| **National Emergency Hotline**        | **911**                                                    | 24/7 Toll-Free            |

@@ -326,6 +326,23 @@ export const ALL_HOTLINES: HotlineItem[] = [
     website: 'https://phivolcs.dost.gov.ph',
   },
   {
+    id: 'mowad-water',
+    name: 'Morong Water District (MOWAD)',
+    agency: 'Morong Water District (LWUA)',
+    category: 'utilities',
+    categoryLabel: 'Utilities & Weather',
+    numbers: [
+      '(02) 8691-5822',
+      '(02) 8691-5645',
+      '(02) 8470-0922',
+      '(02) 8653-1184',
+    ],
+    description:
+      'Public water utility for the Municipality of Morong, Rizal. Reporting water leaks, mainline bursts, low pressure, new service applications, and water billing.',
+    availability: 'Mon - Fri 8:00 AM - 5:00 PM (Emergency crews on call)',
+    website: 'https://mowad.gov.ph',
+  },
+  {
     id: 'manila-water',
     name: 'Manila Water 24/7 Customer Care (Rizal / East Zone)',
     agency: 'Manila Water Company, Inc.',
