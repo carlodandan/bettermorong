@@ -63,3 +63,16 @@ The Municipal Government of Morong provides educational support services for lea
 - Barangay Certificate of Indigency.
 - Valid ID of parent/guardian and student.
 - Case interview and assessment by an MSWDO social worker.
+
+---
+
+## 5) Morong, Rizal e-Library (Public Digital Learning & Research Hub)
+
+> **Theme:** _"Morong E-Library, Connecting Minds, Empowering Futures"_
+
+- **Overview**: A public digital learning center established by the Municipal Government of Morong, funded through the incentive grant earned from the municipality's conferment of the **Seal of Good Local Governance (SGLG)** by the Department of the Interior and Local Government (DILG).
+- **Available Amenities**: Nine (9) desktop computers (pre-installed with **DOST STARBOOKS** digital science research kiosks), two (2) printers, one (1) photocopy machine, two (2) 45” Smart TVs, one (1) 65” Smart TV, and one (1) 21” Full HD monitor.
+- **Operating Schedule**: Monday to Friday, 8:00 AM to 5:00 PM (**100% Free Public Access**).
+- **Address**: Gov. Tupas St., Brgy. San Pedro, Morong, Philippines, 1960.
+- **Location Map**: [View on OpenStreetMap](https://www.openstreetmap.org/#map=19/14.512341/121.240472)
+- **Full Guide**: [Learn more about Morong, Rizal e-Library](/services/education/morong-rizal-e-library)
