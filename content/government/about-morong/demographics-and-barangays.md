@@ -108,7 +108,7 @@ Each barangay functions as the primary frontline administrative and service deli
 - **Land Area**: 368.97 hectares
 - **Geographic Location**: Bounded on the east by Laguna de Bay, south by Cardona, west by Bombongan, and north by San Jose and San Juan.
 - **Seats of Governance**: Host to the Morong Municipal Hall Compound, Sangguniang Bayan Legislative Building, Morong Public Market, and Morong Town Plaza (Morong Park).
-- **Center of Education**: Eastern System Colleges of Rizal, Tomas Claudio Memorial College / Renaissance School of Science and Technology, Mapa Prime Academy, St. Claire of Assisi, and Timoteo A. Reyes Sr. Memorial Elementary School.
+- **Center of Education**: Eastern System Colleges of Rizal, Tomas Claudio Memorial College / Renaissance School of Science and Technology, Mapa Prime Academy, St. Claire of Assisi, Timoteo A. Reyes Sr. Memorial Elementary School, and the **Morong, Rizal e-Library** (Gov. Tupas St.).
 - **Cultural & Historical Pride**: Seat of the Spanish-era St. Jerome Parish Church facade and ancestral home of renowned Morongueños including **Francisco Feliciano** (2013 National Artist for Music).
 
 ---

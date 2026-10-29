@@ -2,6 +2,10 @@
 # This file contains all the pages/services available under the Education category
 
 pages:
+  - name: 'Morong, Rizal e-Library'
+    slug: 'morong-rizal-e-library'
+    description: 'Free public digital learning and research center with computers, printers, photocopy, and Smart TVs funded by the DILG Seal of Good Local Governance (Gov. Tupas St., Brgy. San Pedro).'
+
   - name: 'Enroll children in LGU daycare or preschool programs'
     slug: 'enroll-children-in-lgu-daycare-or-preschool-programs'
     description: 'Information about enrolling your children in local government daycare and preschool programs.'
