@@ -8,15 +8,15 @@ The **Municipality of Morong** is a 2nd-class municipality located in the centra
 
 According to official Philippine Statistics Authority (PSA) census and municipal planning records:
 
-| Metric                   | Official Statistic                 | Context & Significance                                                            |
-| :----------------------- | :--------------------------------- | :-------------------------------------------------------------------------------- |
-| **Official Name**        | Municipality of Morong             | First settled in 1572; formerly capital of _Distrito de Morong_.                  |
-| **Province & Region**    | Rizal, Region IV-A (CALABARZON)    | Central Rizal corridor along Manila East Road.                                    |
+| Metric                   | Official Statistic                                            | Context & Significance                                                                      |
+| :----------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------ |
+| **Official Name**        | Municipality of Morong                                        | First settled in 1572; formerly capital of _Distrito de Morong_.                            |
+| **Province & Region**    | Rizal, Region IV-A (CALABARZON)                               | Central Rizal corridor along Manila East Road.                                              |
 | **Total Population**     | **72,262 residents** (2024 POPCEN, PSA Official Proclamation) | Represents 2.14% of Rizal Province and 0.44% of CALABARZON (up from 71,151 in 2020 Census). |
-| **Total Land Area**      | **37.58 km²** (14.51 sq. miles)    | Constitutes 3.18% of Rizal Province's total land area.                            |
-| **Population Density**   | **1,923 inhabitants / km²**        | Balanced urban poblacion centers and agricultural expanses (up from 1,893 in 2020). |
-| **Zip Code / Area Code** | 1960 / (02)                        | Metro Manila / Rizal telephone network.                                           |
-| **Component Barangays**  | **8 Barangays**                    | Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, San Pedro. |
+| **Total Land Area**      | **37.58 km²** (14.51 sq. miles)                               | Constitutes 3.18% of Rizal Province's total land area.                                      |
+| **Population Density**   | **1,923 inhabitants / km²**                                   | Balanced urban poblacion centers and agricultural expanses (up from 1,893 in 2020).         |
+| **Zip Code / Area Code** | 1960 / (02)                                                   | Metro Manila / Rizal telephone network.                                                     |
+| **Component Barangays**  | **8 Barangays**                                               | Bombongan, CCL, Lagundi, Maybancal, San Guillermo, San Jose, San Juan, San Pedro.           |
 
 ---
 
@@ -24,17 +24,17 @@ According to official Philippine Statistics Authority (PSA) census and municipal
 
 Based on the [2024 Census of Population (POPCEN) Counts Declared Official by the President](https://psa.gov.ph/content/2024-census-population-popcen-population-counts-declared-official-president) released by the Philippine Statistics Authority (PSA), Morong gained **+1,111 residents (+1.56%)** between the 2020 Census and the 2024 POPCEN:
 
-| # | Barangay Name | 2020 PSA Census | 2024 PSA POPCEN | Net Change | Growth Rate (%) | % Share (2024) | Primary Classification |
-| :-: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Bombongan** | 3,888 | **4,003** | +115 | +2.96% | 5.54% | Rural / Agri & Suburban (Fastest Growth Rate) |
-| 2 | **Can-Cal-Lan (CCL)** | 4,917 | **4,931** | +14 | +0.28% | 6.82% | Urban / Riverside Poblacion |
-| 3 | **Lagundi** | 10,076 | **10,126** | +50 | +0.50% | 14.01% | Urban / Commercial & Lakeshore |
-| 4 | **Maybancal** | 17,979 | **18,224** | +245 | +1.36% | 25.22% | Urban / Highway Commercial (Most Populous) |
-| 5 | **San Guillermo** | 12,758 | **13,089** | +331 | +2.59% | 18.11% | Upland / Agri-Tourism (Highest Net Gain) |
-| 6 | **San Jose** | 4,293 | **4,419** | +126 | +2.93% | 6.12% | Urban / Poblacion & Agri |
-| 7 | **San Juan** | 11,184 | **11,258** | +74 | +0.66% | 15.58% | Urban / Commercial Center Hub |
-| 8 | **San Pedro (Poblacion)** | 6,056 | **6,212** | +156 | +2.58% | 8.60% | Urban / Capital Poblacion & Heritage Seat |
-| — | **Morong Total** | **71,151** | **72,262** | **+1,111** | **+1.56%** | **100.00%** | **2nd Class Municipality (37.58 km²)** |
+|  #  | Barangay Name             | 2020 PSA Census | 2024 PSA POPCEN | Net Change | Growth Rate (%) | % Share (2024) | Primary Classification                        |
+| :-: | :------------------------ | :-------------: | :-------------: | :--------: | :-------------: | :------------: | :-------------------------------------------- |
+|  1  | **Bombongan**             |      3,888      |    **4,003**    |    +115    |     +2.96%      |     5.54%      | Rural / Agri & Suburban (Fastest Growth Rate) |
+|  2  | **Can-Cal-Lan (CCL)**     |      4,917      |    **4,931**    |    +14     |     +0.28%      |     6.82%      | Urban / Riverside Poblacion                   |
+|  3  | **Lagundi**               |     10,076      |   **10,126**    |    +50     |     +0.50%      |     14.01%     | Urban / Commercial & Lakeshore                |
+|  4  | **Maybancal**             |     17,979      |   **18,224**    |    +245    |     +1.36%      |     25.22%     | Urban / Highway Commercial (Most Populous)    |
+|  5  | **San Guillermo**         |     12,758      |   **13,089**    |    +331    |     +2.59%      |     18.11%     | Upland / Agri-Tourism (Highest Net Gain)      |
+|  6  | **San Jose**              |      4,293      |    **4,419**    |    +126    |     +2.93%      |     6.12%      | Urban / Poblacion & Agri                      |
+|  7  | **San Juan**              |     11,184      |   **11,258**    |    +74     |     +0.66%      |     15.58%     | Urban / Commercial Center Hub                 |
+|  8  | **San Pedro (Poblacion)** |      6,056      |    **6,212**    |    +156    |     +2.58%      |     8.60%      | Urban / Capital Poblacion & Heritage Seat     |
+|  —  | **Morong Total**          |   **71,151**    |   **72,262**    | **+1,111** |   **+1.56%**    |  **100.00%**   | **2nd Class Municipality (37.58 km²)**        |
 
 ---
 
