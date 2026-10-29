@@ -9,11 +9,13 @@ The **Morong, Rizal e-Library** is a free public digital learning and community 
 ## Project Background & Funding Source
 
 ### English Translation
+
 The e-Library is a project of the Municipal Government of Morong, funded through the incentive award received from the municipality's conferment of the **Seal of Good Local Governance (SGLG)** by the Department of the Interior and Local Government (DILG).
 
 Furthermore, all computer units are installed with **STARBOOKS** (_Science and Technology Academic-Research-Based Openly-Operated KioskS_) from the **Department of Science and Technology (DOST)**, providing supplemental access to scientific data, educational resources, and academic literature for learning and investigative research.
 
 ### Opisyal na Paglalarawan (Filipino)
+
 > _"Ang e-Library ay isang proyekto ng ating Pamahalaang Bayan ng Morong, kung saan ang pondo ay nagmula sa premyo o incentive mula sa pagkapanalo ng ating bayan ng Morong sa Seal of Good Local Governance ng Department of the Interior and Local Government (DILG). Ito ay e-Library na may siyam (9) na computer desktop, dalawang (2) printer, isang (1) photocopy machine, dalawang (2) 45” smart tv, isang (1) 65” smart tv at isang (1) 21” monitor FHD, na maaaring gamitin anumang oras mula Lunes hanggang Biyernes, 8:00 ng umaga hanggang 5:00 ng hapon."_
 >
 > _"Ang lahat ng mga computer units ay may naka-install na STARBOOKS (Science and Technology Academic-Research-Based Openly-Operated KioskS) mula sa Department of Science and Technology (DOST), na nagbibigay ng karagdagang access sa mga impormasyon at resources para sa pag-aaral at pananaliksik."_
@@ -22,15 +24,15 @@ Furthermore, all computer units are installed with **STARBOOKS** (_Science and T
 
 ## Facility Summary & Operating Schedule
 
-| Service Detail | Specification & Guidelines |
-| :--- | :--- |
-| **Operating Days** | Monday to Friday (Lunes hanggang Biyernes) |
-| **Operating Hours** | 8:00 AM to 5:00 PM (8:00 ng umaga hanggang 5:00 ng hapon) |
-| **Service Fee** | **100% Free Public Service** (Libreng pasilidad para sa lahat ng mamamayan) |
+| Service Detail            | Specification & Guidelines                                                                        |
+| :------------------------ | :------------------------------------------------------------------------------------------------ |
+| **Operating Days**        | Monday to Friday (Lunes hanggang Biyernes)                                                        |
+| **Operating Hours**       | 8:00 AM to 5:00 PM (8:00 ng umaga hanggang 5:00 ng hapon)                                         |
+| **Service Fee**           | **100% Free Public Service** (Libreng pasilidad para sa lahat ng mamamayan)                       |
 | **Primary Beneficiaries** | Students (Elementary, High School, College), ALS Learners, Reviewees, Jobseekers, and Researchers |
-| **Facility Address** | Gov. Tupas St., Brgy. San Pedro, Morong, Philippines, 1960 |
-| **Location Map** | [View on OpenStreetMap](https://www.openstreetmap.org/#map=19/14.512341/121.240472) |
-| **Facebook Page** | [Visit on Facebook](https://www.facebook.com/profile.php?id=61595357970192) |
+| **Facility Address**      | Gov. Tupas St., Brgy. San Pedro, Morong, Philippines, 1960                                        |
+| **Location Map**          | [View on OpenStreetMap](https://www.openstreetmap.org/#map=19/14.512341/121.240472)               |
+| **Facebook Page**         | [Visit on Facebook](https://www.facebook.com/profile.php?id=61595357970192)                       |
 
 ---
 
@@ -76,4 +78,3 @@ All 9 desktop computer units are pre-installed with **STARBOOKS** (_Science and 
    - Eating, drinking, or placing open liquid containers near computer terminals and electronic equipment.
 4. **Fair Time Allocation**:
    - During peak hours, individual computer sessions may be capped (e.g. 1 to 2 hours) to give all visiting learners and researchers equal opportunity.
-
