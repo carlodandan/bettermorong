@@ -36,13 +36,33 @@ const LguFormsHub = lazy(() => import('../components/government/LguFormsHub'));
 const TaxAndCedulaEstimator = lazy(
   () => import('../components/services/TaxAndCedulaEstimator')
 );
+const PopulationGrowthDashboard = lazy(
+  () => import('../components/government/PopulationGrowthDashboard')
+);
 
 function getTransparencyBannerConfig(slug?: string): {
   badge: string;
   tags: TransparencyTag[];
   action?: { label: string; href: string; external?: boolean };
+  description?: string;
 } {
   switch (slug) {
+    case 'demographics-and-barangays':
+      return {
+        badge: 'PSA Official Proclamation • 2024 POPCEN',
+        description:
+          'Comparative analysis of official Philippine Statistics Authority (PSA) population counts for the Municipality of Morong, Rizal and its 8 component barangays between the 2020 Census and the officially declared 2024 POPCEN.',
+        tags: [
+          { label: 'Official 2024 Total: 72,262', highlight: true },
+          { label: 'Net Municipal Increase: +1,111 (+1.56%)' },
+          { label: '8 Component Barangays' },
+        ],
+        action: {
+          label: 'Verify at PSA Portal',
+          href: 'https://psa.gov.ph/content/2024-census-population-popcen-population-counts-declared-official-president',
+          external: true,
+        },
+      };
     case 'dpwh-infrastructure-projects':
       return {
         badge: 'DPWH National Infrastructure Projects & Monitoring',
@@ -367,9 +387,10 @@ export default function Document({
 
   const isGovernment = categoryType === 'government';
   const isTransparency = category === 'transparency-documents';
-  const transparencyConfig = isTransparency
-    ? getTransparencyBannerConfig(documentSlug)
-    : null;
+  const bannerConfig =
+    isTransparency || documentSlug === 'demographics-and-barangays'
+      ? getTransparencyBannerConfig(documentSlug)
+      : null;
 
   // Clean content when hero banner is rendered to avoid duplicate title and notice block
   const rawClean = markdownContent.content
@@ -398,6 +419,7 @@ export default function Document({
       <SEO
         title={markdownContent.title || documentSlug}
         description={
+          bannerConfig?.description ||
           markdownContent.description ||
           `Government service information for ${documentSlug}`
         }
@@ -418,17 +440,17 @@ export default function Document({
 
         <TransparencyHeroBanner
           badge={
-            isTransparency && transparencyConfig
-              ? transparencyConfig.badge
+            bannerConfig
+              ? bannerConfig.badge
               : isGovernment
                 ? `Government Directory • ${breadcrumbs[2]?.label || category}`
                 : `Public Services • ${breadcrumbs[2]?.label || category}`
           }
           title={markdownContent.title || documentSlug || 'Official Document'}
-          description={markdownContent.description}
+          description={bannerConfig?.description || markdownContent.description}
           tags={
-            isTransparency && transparencyConfig
-              ? transparencyConfig.tags
+            bannerConfig
+              ? bannerConfig.tags
               : [
                   { label: 'Municipality of Morong, Rizal' },
                   {
@@ -440,11 +462,7 @@ export default function Document({
                   },
                 ]
           }
-          action={
-            isTransparency && transparencyConfig
-              ? transparencyConfig.action
-              : undefined
-          }
+          action={bannerConfig ? bannerConfig.action : undefined}
         />
 
         {/* Action Toolbar for Service Guides */}
@@ -453,6 +471,21 @@ export default function Document({
         {/* Downloadable Forms Frontmatter Card */}
         {markdownContent.forms && markdownContent.forms.length > 0 && (
           <DownloadableFormsCard forms={markdownContent.forms} />
+        )}
+
+        {/* Population Growth & Demographics Dashboard */}
+        {documentSlug === 'demographics-and-barangays' && (
+          <div className="mb-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading Morong Census & Growth Dashboard...
+                </div>
+              }
+            >
+              <PopulationGrowthDashboard />
+            </Suspense>
+          </div>
         )}
 
         <article className="bg-white border border-gray-200 rounded-xl p-6 md:p-10 shadow-xs print:border-none print:shadow-none print:p-0">
