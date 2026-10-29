@@ -10,7 +10,7 @@ pages:
 
   - name: 'Demographics & 8 Barangays'
     slug: 'demographics-and-barangays'
-    description: 'Population data (71,151 residents), 37.58 sq km land area, and directory of the 8 component barangays of Morong.'
+    description: 'Official 2024 POPCEN population data (72,262 residents), 2020–2024 census growth graph, 37.58 sq km land area, and directory of the 8 component barangays of Morong.'
 
   - name: 'History & Cultural Heritage'
     slug: 'history-and-heritage'
