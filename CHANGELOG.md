@@ -5,6 +5,43 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.1] - 2026-10-30
+
+### Added
+
+- **Official 2024 PSA Population Census & Interactive Growth Dashboard (`PopulationGrowthDashboard`)**:
+  - Updated official demographics based on the Philippine Statistics Authority (PSA POPCEN 2024) declaring 72,262 official residents across all 8 barangays (Bombongan: 4,003, Can-Cal-Lan: 4,931, Lagundi: 10,126, Maybancal: 18,224, San Guillermo: 13,089, San Jose: 4,419, San Juan: 11,258, San Pedro: 6,212).
+  - Built interactive `PopulationGrowthDashboard` component (`src/components/government/PopulationGrowthDashboard.tsx`) with comparative growth analytics vs 2020 census (+1,111 / +1.56% net municipal growth), barangay breakdown, growth trends, density indicators, and direct PSA portal verification link.
+- **Morong, Rizal e-Library Civic Education Guide**:
+  - Added dedicated guide (`content/services/education/morong-rizal-e-library.md`) for the municipal e-Library on Gov. Tupas St., Brgy. San Pedro (funded by DILG Seal of Good Local Governance incentive).
+  - Details 9 computer desktop units equipped with DOST STARBOOKS (Science and Technology Academic-Research-Based Openly-Operated KioskS) offline research kiosks, smart displays, printers, photocopier, and operating hours (Mon–Fri 8:00 AM – 5:00 PM).
+- **Volunteer Community Hub ("Join Us" Page)**:
+  - Created `/join-us` page (`src/pages/JoinUs.tsx`) and updated primary navigation bar to invite open-source civic tech contributors, writers, researchers, and Morongueños to participate.
+  - Added bilingual English and Filipino localization strings in `src/locales/en/common.json` and `src/locales/fil/common.json`.
+- **Expanded OpenStreetMap & Tourism Spot Links**:
+  - Added direct OpenStreetMap (OSM) nodes/ways and official Facebook links across local attractions, dining spots, farm stays, and campsites.
+  - Added new tourism entry for Museong Pambayan ng Morong (Old Municipal Hall).
+
+### Changed
+
+- **Client-Side Search Index (`src/lib/searchIndex.ts`)**:
+  - Massively expanded search indexing keywords and metadata across municipal services, education, demographics, and public charters for instant offline-first search results.
+- **Cloudflare Pages Edge Optimization & Deployment Standardization**:
+  - Standardized edge routing by removing redundant `public/_redirects` rule handled natively by Cloudflare Pages.
+  - Added `X-Robots-Tag: noindex, nofollow` response headers to staging and preview subdomains to prevent premature search indexing.
+  - Standardized deployment documentation (`DEPLOYMENT-GUIDE.md`, `STARTER-KIT-README.md`, `STARTER-KIT-SUMMARY.md`) to Cloudflare Pages exclusively.
+
+### Fixed
+
+- **CodeQL Security Scanning Remediation**:
+  - Resolved character escaping / regex double-escaping warning in automated municipal BAC document harvester (`scripts/fetch-morong-bac.mjs`).
+
+### Removed
+
+- **Legacy Platform Configurations**:
+  - Removed obsolete `terraform/` configurations and `vercel.json` deployment files.
+  - Removed outdated resort listings and unverified tourism entries.
+
 ## [1.5.0] - 2026-10-24
 
 ### Added
