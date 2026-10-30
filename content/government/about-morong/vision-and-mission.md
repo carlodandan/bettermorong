@@ -1,37 +1,44 @@
 # Vision and Mission — Municipality of Morong, Rizal
 
-The shared vision and mission of the **Municipality of Morong, Rizal** define the direction of local governance, sustainable development, and public service delivery for all Morongueños.
+The shared vision, mission, and statutory mandate of the **Municipality of Morong, Rizal** define the direction of local governance, sustainable development, and public service delivery for all Morongueños as officially ratified in the **Citizen’s Charter (2025 Edition)** under Republic Act No. 9485 and Republic Act No. 11032.
 
 ---
 
-## Municipal Vision
+## 🏛️ Municipal Mandate
 
-> _"By 2030, MORONG is the premier center of eastern Rizal for health and education, where a God-loving, resilient and empowered citizenry lives in a peaceful, ecologically balanced and culturally nurtured community with a vibrant economy under a responsive and committed governance."_
-
----
-
-## Municipal Mission
-
-> _"Through the leadership of honest, active and dedicated public servants working hand in hand with all sectors of society, shall maintain a sound educational standard and pursue economic growth, to make Morong a progressive community on education and commerce in Eastern Rizal with peaceful, orderly and clean and green environment."_
+> _"To serve people promptly and efficiently with utmost courtesy and integrity."_
 
 ---
 
-## Strategic Development Pillars
+## 🌟 Municipal Vision (2030)
 
-In pursuit of the 2030 Vision, municipal programs align under five core pillars:
+> _"By 2030, MORONG is a premier center of Eastern Rizal for health and education, where a God-loving, resilient and empowered citizenry lives in a peaceful, ecologically balanced and culturally nurtured community with a vibrant economy under a responsive and committed governance."_
 
-1. **Premier Center for Health and Education**:
-   - Upgrading Rural Health Units (RHU), barangay health stations, maternal clinics, and disease surveillance.
-   - Expanding local educational facilities, scholarships, daycare centers, and student support programs.
-2. **Resilient and Empowered Citizenry**:
-   - Proactive disaster mitigation along the Morong River and Laguna de Bay.
-   - Comprehensive social assistance for seniors, PWDs, solo parents, and indigent families.
-3. **Peaceful and Orderly Community**:
-   - Community safety partnerships with the Philippine National Police (PNP) and Bureau of Fire Protection (BFP).
-   - Citizen peace and order councils across all 8 barangays.
-4. **Clean and Ecologically Balanced Environment**:
-   - Strict enforcement of the Solid Waste Management and Septage Management Ordinances.
-   - Watershed greening and river protection.
-5. **Responsive and Transparent Governance**:
-   - Streamlined frontline licensing under the Citizen’s Charter and RA 11032.
-   - Open access to public procurement, municipal budgets, and full disclosure reports.
+---
+
+## 🎯 Municipal Mission
+
+> _"To be of service to the people regardless of age, nationality, religion and political affiliation and sex in a timely manner."_
+
+---
+
+## 🧭 Strategic Goals and Objectives
+
+As codified in the Municipal Citizen’s Charter, the local government pursues six core strategic objectives:
+
+1. **Employment & Industrial Growth**: Increase employment opportunities through environmentally sound industrial and commercial growth.
+2. **Affordable Housing**: Provide an adequate supply of affordable housing and humane shelter relocation.
+3. **Equitable Social Services**: Provide broader opportunities and access, particularly by the marginalized sector, to educational, health care, welfare, and protective services and facilities.
+4. **Agricultural Productivity**: Increase agricultural and fisheries productivity through modern technology, inputs, mechanization, and cooperative support.
+5. **Responsive Local Governance**: Improve the efficiency, transparency, and digital capability of the local government to respond to the needs of the population.
+6. **Citizen Empowerment**: Promote the full participation of civil society and citizenry in local development planning and civic monitoring.
+
+---
+
+## 🤝 Service Pledge (Panata sa Serbisyong Publiko)
+
+In strict adherence to the **Ease of Doing Business and Efficient Government Service Delivery Act of 2018 (RA 11032)**, the officials and employees of the Municipal Government of Morong, Rizal pledge and commit to:
+
+1. **Value Citizenry with Quality Service**: Deliver prompt, efficient, and transparent frontline public assistance across all municipal desks.
+2. **Value Every Citizen Voice**: Listen, respect, and immediately act on every citizen complaint, comment, and suggestion.
+3. **Provide Accountable Governance**: Deliver the basic public services expected of a dedicated, honest, and people-centered local government.

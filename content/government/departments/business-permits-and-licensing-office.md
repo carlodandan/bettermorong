@@ -8,6 +8,7 @@ The **Business Permits and Licensing Office (BPLO)**, operating under the Execut
 
 | Detail              | Information                                                                               |
 | :------------------ | :---------------------------------------------------------------------------------------- |
+| **Department Head** | **Engr. Bayani Sunga** (BPLO Head)                                                        |
 | **Location**        | Ground Floor, New Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM (Extended hours during January BOSS)                   |
 | **Phone**           | (02) 7212-5741                                                                            |

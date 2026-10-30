@@ -60,7 +60,7 @@ Couples must complete two statutory seminars before the license is granted:
 ## Step 3: File Application & 10-Day Notice of Posting
 
 1. Both parties fill out the **Application for Marriage License (Municipal Form No. 90)** before the Civil Registrar.
-2. Pay the standard application and license fees at the Municipal Treasurer’s Office revenue counter <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+2. Pay the statutory fees at the Municipal Treasurer’s Office revenue counter (**₱420.00 total** under Service #26, Morong Citizen’s Charter 2025: Application Fee ₱200, License Fee ₱50, Family Planning ₱100, PMOC ₱40, and Documentary Stamp ₱30).
 3. **Mandatory 10-Day Posting**: By law, notice of the pending marriage application is posted on the public bulletin board of the Morong Municipal Hall for ten (10) consecutive calendar days to allow for any legal impediments to be reported.
 
 ---

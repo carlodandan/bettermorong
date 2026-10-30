@@ -8,6 +8,7 @@ The **Public Employment Service Office (PESO)** of Morong, Rizal is a multi-serv
 
 | Detail              | Information                                                             |
 | :------------------ | :---------------------------------------------------------------------- |
+| **Department Head** | **PESO Manager / Officer-in-Charge**                                    |
 | **Location**        | Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM                                      |
 | **Phone**           | (02) 7212-5741                                                          |

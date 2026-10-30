@@ -222,6 +222,13 @@ export default function Sitemap() {
           description:
             'Full Disclosure Policy portal, Citizen’s Charter 2025, Procurement Monitoring Reports, and LGSF-FALGU data.',
         },
+        {
+          title: 'Citizen’s Charter 2025 (Interactive Explorer)',
+          url: '/government/transparency-documents/citizens-charter-2025',
+          description:
+            'Interactive explorer and downloadable directory of all 115 frontline municipal services, requirements, fees, and guaranteed turnaround times.',
+          badge: '115 Services',
+        },
       ],
     },
     {

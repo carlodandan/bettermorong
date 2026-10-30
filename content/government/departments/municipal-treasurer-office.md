@@ -8,6 +8,7 @@ The **Office of the Municipal Treasurer** is the primary financial administratio
 
 | Detail              | Information                                                                           |
 | :------------------ | :------------------------------------------------------------------------------------ |
+| **Department Head** | **Ms. Maria Teresa Garrovillas** (Municipal Treasurer)                                |
 | **Location**        | Ground Floor, Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM (No noon break for revenue windows)                |
 | **Phone**           | (02) 7212-5741                                                                        |

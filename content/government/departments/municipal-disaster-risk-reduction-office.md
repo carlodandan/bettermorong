@@ -1,6 +1,6 @@
 # Municipal Disaster Risk Reduction & Management Office (MDRRMO) — Morong, Rizal
 
-The **Municipal Disaster Risk Reduction & Management Office (MDRRMO)** operates the 24/7 Morong Emergency Operations Center, leading disaster prevention, mitigation, emergency preparedness, search and rescue, and disaster response for the entire municipality.
+The **Municipal Disaster Risk Reduction & Management Office (MDRRMO)**, headed by **Mr. Jerome L. Mateo**, operates the 24/7 Morong Emergency Operations Center, leading disaster prevention, mitigation, emergency preparedness, search and rescue, and disaster response for the entire municipality.
 
 ---
 
@@ -37,3 +37,14 @@ In case of medical emergency, flood, fire, vehicular accidents, or severe weathe
 - Training of Barangay Disaster Risk Reduction and Management Committees (BDRRMCs).
 - Standard First Aid (SFA) and Basic Life Support (BLS) certification seminars for schools, barangay responders, and commercial institutions.
 - Multi-hazard drills (Earthquake, Flood, Fire evacuation) conducted across schools and municipal buildings.
+
+---
+
+## Frontline Services (Citizen's Charter 2025)
+
+The following services are officially guaranteed under the Morong Citizen’s Charter:
+
+1. **24/7 Request for Ambulance & Emergency Patient Transport**: Free emergency transport for trauma patients, maternal emergencies, and hospital transfers upon dispatch triage.
+2. **24/7 Pre-Disaster Chainsaw & Tree Trimming Clearing Operations**: Free emergency cutting and clearing of hazardous branches and fallen trees threatening residences, public roads, and power lines.
+3. **Issuance of Disaster Damage & Calamity Certification**: Free certification issued within 15 minutes for affected residents applying for SSS, GSIS, Pag-IBIG calamity loans and government assistance.
+4. **Issuance of Hazard and Risk Assessment Certification**: Free assessment for schools, commercial builders, and community infrastructure.

@@ -41,7 +41,7 @@ Property owners may pay in full or divide their tax obligation into four equal q
 
 ### Early-Payment Discounts & Penalties
 
-- **Advance Payment Discount**: Property owners who settle their full annual real property tax before January 1 or within the early-bird prompt payment period in January enjoy statutory promptness discounts (up to 10% to 20% discount depending on the prevailing municipal tax ordinance) <!-- TODO(verify): Confirm exact promptness discount percentage in Morong Citizen's Charter 2025 -->.
+- **Advance Payment Discount**: Property owners who settle their full annual real property tax during the prompt payment period enjoy a statutory **10% prompt payment discount** on both the Basic RPT (1%) and Special Education Fund (1%) components under the Municipal Revenue Code and Service #12 of the Morong Citizen’s Charter 2025.
 - **Late-Payment Penalty**: Unpaid taxes after each quarterly deadline incur a statutory surcharge and interest penalty of **2% per month** on the unpaid amount until fully paid.
 
 ---
@@ -71,7 +71,7 @@ A **Real Property Tax Clearance** (Certificate of No Tax Delinquency) is require
 1. Fully settled Real Property Tax for the **current calendar year** (Official Receipt presentation).
 2. Photocopy of latest **Tax Declaration** for both land and improvements/building.
 3. Valid government-issued ID of the property owner or authorized representative.
-4. Payment of the nominal Tax Clearance Certificate fee <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+4. Payment of the official Tax Clearance Certificate fee (**₱180.00** with documentary stamp per Service #13 of the Morong Citizen’s Charter 2025; turnaround time: 10 minutes).
 
 ### Release
 

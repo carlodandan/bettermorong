@@ -10,7 +10,8 @@ The **Office of the Municipal Assessor** in Morong, Rizal appraises real estate,
 | :---------------------- | :---------------------------------------------------------------------------------------------------- |
 | **Where to Transact**   | Office of the Municipal Assessor, Ground Floor, New Municipal Building, Sitio Paglabas, Morong, Rizal |
 | **When to Apply**       | Upon acquisition of land/building via purchase, donation, inheritance, or completion of construction  |
-| **Processing Standard** | 1 to 3 working days upon submission of complete legal conveyances                                     |
+| **Processing Standard** | 65 minutes for revised declarations; 17 to 30 minutes for certified copies and certifications         |
+| **Statutory Fees**      | ₱225.00 for transfer sworn statement; ₱180.00 per certified printout / certification with doc stamp   |
 | **Office Hours**        | Monday – Friday, 8:00 AM – 5:00 PM                                                                    |
 
 ---
@@ -56,20 +57,25 @@ If you have constructed a house, commercial building, warehouse, or perimeter fe
 
 The Municipal Assessor issues specialized certifications often requested for court proceedings, bank loans, scholarships, and building permit clearances:
 
-### 1. Certified True Copy (CTC) of Tax Declaration
+### 1. Certified True Copy (CTC) / Computer Printout of Tax Declaration
 
-- **Purpose**: Required for bank mortgages, BIR tax filings, property transfers, and civil litigation.
-- **Requirements**: Valid ID of registered owner, Tax Declaration number, and payment of statutory verification fee <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+- **Official Fee:** **₱180.00** per Tax Declaration (including Documentary Stamp Tax).
+- **Processing Time:** **17 minutes** (Service #2, Morong Citizen’s Charter 2025).
+- **Requirements:** Accomplished Request Form, latest Real Property Tax Receipt, valid ID of registered owner, and authorization letter if represented.
 
 ### 2. Certificate of Property Holdings / Non-Holding
 
-- **Purpose**: Certifies all parcels of real property registered in an individual’s name, or certifies that the applicant owns zero real estate in Morong (commonly required for indigent medical aid, scholarship applications, and socialized housing).
-- **Requirements**: Letter request, valid ID, and Barangay Certificate of Residency.
+- **Official Fee:** **₱180.00** with documentary stamp.
+- **Processing Time:** **30 minutes** (Service #3, Morong Citizen’s Charter 2025).
+- **Purpose:** Certifies all parcels of real property registered in an individual’s name, or certifies that the applicant owns zero real estate in Morong (commonly required for indigent medical aid, scholarship applications, and socialized housing).
+- **Requirements:** Letter request, valid ID, and Barangay Certificate of Residency.
 
 ### 3. Certificate of No Improvement
 
-- **Purpose**: Certifies that a specific titled lot is vacant and has no existing residential or commercial structure erected upon it.
-- **Requirements**: TCT copy, recent dated photos of the vacant lot, and inspection confirmation.
+- **Official Fee:** **₱180.00** with documentary stamp.
+- **Processing Time:** **30 minutes** (Service #3, Morong Citizen’s Charter 2025).
+- **Purpose:** Certifies that a specific titled lot is vacant and has no existing residential or commercial structure erected upon it.
+- **Requirements:** TCT copy, recent dated photos of the vacant lot, and inspection confirmation.
 
 ---
 

@@ -39,6 +39,9 @@ const TaxAndCedulaEstimator = lazy(
 const PopulationGrowthDashboard = lazy(
   () => import('../components/government/PopulationGrowthDashboard')
 );
+const CitizensCharterExplorer = lazy(
+  () => import('../components/government/CitizensCharterExplorer')
+);
 
 function getTransparencyBannerConfig(slug?: string): {
   badge: string;
@@ -82,9 +85,14 @@ function getTransparencyBannerConfig(slug?: string): {
         badge: 'Anti-Red Tape Authority & Ease of Doing Business',
         tags: [
           { label: 'Republic Act No. 11032', highlight: true },
-          { label: 'All Municipal Frontline Offices' },
+          { label: '115 Frontline Municipal Services' },
+          { label: '18 Local Government Offices' },
           { label: 'Guaranteed Processing Windows' },
         ],
+        action: {
+          label: 'Open Charter Explorer',
+          href: '#charter-explorer',
+        },
       };
     case 'downloadable-forms':
       return {
@@ -549,6 +557,19 @@ export default function Document({
               }
             >
               <LguFormsHub />
+            </Suspense>
+          </div>
+        )}
+        {documentSlug === 'citizens-charter-2025' && (
+          <div className="mt-8">
+            <Suspense
+              fallback={
+                <div className="p-8 text-center text-gray-500 bg-white border border-gray-200 rounded-xl animate-pulse">
+                  Loading 2025 Citizen’s Charter Explorer...
+                </div>
+              }
+            >
+              <CitizensCharterExplorer />
             </Suspense>
           </div>
         )}
