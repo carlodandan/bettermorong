@@ -44,7 +44,7 @@
 
 - ✅ **STARTER-KIT-README.md** - Complete setup guide
 - ✅ **CONTENT-GUIDE.md** - Content writing guidelines
-- ✅ **DEPLOYMENT-GUIDE.md** - Vercel deployment instructions
+- ✅ **DEPLOYMENT-GUIDE.md** - Cloudflare Pages deployment instructions
 - ✅ **env.example** - Environment configuration template
 
 ### **3. Setup Automation**
@@ -164,10 +164,7 @@ betterlocalgov/
 
 ### **Deployment Options**
 
-- Vercel (recommended)
-- Netlify
-- GitHub Pages
-- Traditional web hosting
+- Cloudflare Pages (Official & Recommended)
 
 ## 📊 **Benefits of This Starter Kit**
 

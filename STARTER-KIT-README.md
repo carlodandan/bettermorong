@@ -230,46 +230,44 @@ Brief description of the service.
    - Create translated versions of your content files
    - Use the same folder structure with language prefixes
 
-## 🚀 Deployment
+## 🚀 Deployment (Cloudflare Pages)
 
-### Deploy to Vercel (Recommended)
+BetterMorong is deployed on **Cloudflare Pages** for enterprise-grade edge performance, sub-50ms latency across the Philippines, zero server maintenance, and free automatic SSL for `.gov.ph` domains.
 
-1. **Connect to Vercel**
+### Method 1: Automated Git CI/CD (Recommended)
+
+1. **Connect to Cloudflare Pages**
    - Push your code to GitHub
-   - Connect your repository to Vercel
-   - Set environment variables in Vercel dashboard
+   - Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) > **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**
+   - Select your repository
 
-2. **Environment Variables**
-   Set these in your Vercel project settings:
+2. **Build Settings**
+   - **Framework preset**: `Vite`
+   - **Build command**: `pnpm run build`
+   - **Build output directory**: `dist`
 
+3. **Environment Variables**
+   Set these in your Cloudflare Pages project settings:
+
+   ```env
+   NODE_VERSION=20
+   VITE_GOVERNMENT_NAME=BetterMorong
+   VITE_WEBSITE_URL=https://bettermorong.org
+   VITE_CONTACT_EMAIL=info@morongrizal.gov.ph
+   VITE_CONTACT_PHONE=(02) 7212-5741
    ```
-   VITE_GOVERNMENT_NAME=Your City Name
-   VITE_GOVERNMENT_TYPE=City
-   VITE_REGION=Your Region
-   VITE_PROVINCE=Your Province
-   VITE_WEBSITE_URL=https://your-domain.vercel.app
-   VITE_CONTACT_EMAIL=info@your-city.gov.ph
-   VITE_CONTACT_PHONE=(032) 123-4567
-   ```
 
-3. **Deploy**
-   - Vercel will automatically deploy on every push to main branch
-   - Custom domain can be configured in Vercel dashboard
+4. **Deploy**
+   - Cloudflare Pages will automatically deploy every push to `main` (Production) and branch pushes to preview environments.
 
-### Deploy to Other Platforms
-
-#### Netlify
+### Method 2: Direct Command Line Deployment (Wrangler CLI)
 
 ```bash
-npm run build
-# Upload dist/ folder to Netlify
-```
+# Deploy to staging preview
+pnpm pages:deploy:staging
 
-#### GitHub Pages
-
-```bash
-npm run build
-# Push dist/ folder to gh-pages branch
+# Deploy directly to production
+pnpm pages:deploy:prod
 ```
 
 ## 🔧 Development
