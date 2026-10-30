@@ -8,6 +8,7 @@ The **Office of the Municipal Engineer** (serving concurrently as the **Office o
 
 | Detail              | Information                                                             |
 | :------------------ | :---------------------------------------------------------------------- |
+| **Department Head** | **Engr. Bayani Sunga** (Municipal Engineer)                             |
 | **Location**        | Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM                                      |
 | **Phone**           | (02) 7212-5741                                                          |

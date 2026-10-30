@@ -59,6 +59,24 @@ function App() {
                 }
               />
               <Route
+                path="/charter"
+                element={
+                  <Navigate
+                    to="/government/transparency-documents/citizens-charter-2025"
+                    replace
+                  />
+                }
+              />
+              <Route
+                path="/citizens-charter"
+                element={
+                  <Navigate
+                    to="/government/transparency-documents/citizens-charter-2025"
+                    replace
+                  />
+                }
+              />
+              <Route
                 path="/government/downloadable-forms"
                 element={
                   <Navigate

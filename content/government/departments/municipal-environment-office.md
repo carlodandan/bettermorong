@@ -8,6 +8,7 @@ The **Municipal Environment and Natural Resources Office (MENRO)** oversees envi
 
 | Detail              | Information                                                                      |
 | :------------------ | :------------------------------------------------------------------------------- |
+| **Department Head** | **Engr. Gem James R. Castillon** (MENR Officer)                                  |
 | **Location**        | Municipal Building Compound, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM                                               |
 | **Phone**           | (02) 7212-5741                                                                   |

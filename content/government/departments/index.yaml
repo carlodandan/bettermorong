@@ -61,3 +61,23 @@ pages:
   - name: 'Public Employment Service Office (PESO)'
     slug: 'public-employment-service-office'
     description: 'Job matching, municipal job fairs, student employment (SPES), DOLE-TUPAD emergency labor, and OFW assistance.'
+
+  - name: 'General Services Office (GSO)'
+    slug: 'general-services-office'
+    description: 'Management, custody, maintenance, and rental of municipal real and personal properties, public gymnasiums, and logistics.'
+
+  - name: 'Human Resource Management Office (HRMO)'
+    slug: 'human-resource-management-office'
+    description: 'Personnel administration, plantilla and job order recruitment, student internships, and Civil Service examination assistance.'
+
+  - name: 'Municipal Tourism Office'
+    slug: 'municipal-tourism-office'
+    description: 'Eco-tourism promotion, visitor assistance, heritage tours, media filming clearances, and local cultural coordination.'
+
+  - name: 'Municipal Budget Office'
+    slug: 'municipal-budget-office'
+    description: 'Annual municipal budget administration, certification of appropriation balances, expenditure tracking, and obligation reviews.'
+
+  - name: 'Office of the Municipal Accountant'
+    slug: 'municipal-accountant-office'
+    description: 'Municipal financial accounting, internal audit, certification of premium contributions, and financial disclosures.'

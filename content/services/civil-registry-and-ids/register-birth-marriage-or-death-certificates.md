@@ -44,7 +44,7 @@ If more than 30 days have elapsed since the date of birth, registration follows 
    - PhilHealth Member Data Record (MDR)
    - Barangay Certificate of Residency of the applicant
    - Marriage Certificate (if married)
-5. **Fee & Posting Period**: Statutory delayed registration fee <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 --> plus mandatory **ten (10) consecutive calendar days** notice of posting on the municipal bulletin board before final release.
+5. **Fee & Posting Period**: Timely registration within 30 days is **100% Free**; delayed registration fee is **₱230.00** (Filing fee ₱150 + Out-of-town ₱50 + Doc stamp ₱30 per Service #23, Morong Citizen’s Charter 2025) plus mandatory **ten (10) consecutive calendar days** notice of posting on the municipal bulletin board before final release.
 
 ---
 
@@ -76,7 +76,7 @@ If you need a copy of an existing Morong civil registry document for passport ap
 
 1. **Fill Out Request Slip**: Inquire at the LCRO counter with complete details (full name, exact date, and place of event).
 2. **Book Verification**: The registry officer searches the local registry archive book.
-3. **Payment**: Pay the certified true copy fee at the Municipal Treasurer’s Office revenue window <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+3. **Payment**: Pay the certified true copy fee at the Municipal Treasurer’s Office revenue window (**₱180.00** per copy with documentary stamp per Service #28, Morong Citizen’s Charter 2025; or **₱200.00** per copy if requested through the PSA BREQS Batch Request Entry System under Service #32).
 4. **Document Release**: Present the Official Receipt to the LCRO releasing window for issuance of the official stamped Certified True Copy.
 5. **PSA Electronic Endorsement**: If your record is missing or blurry in the national PSA database, request an official Electronic Endorsement at the Morong LCRO so local records are transmitted directly to PSA Central Office for fast-tracked security paper (SECPA) issuance.
 

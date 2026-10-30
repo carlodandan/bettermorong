@@ -8,6 +8,7 @@ The **Office of the Municipal Assessor** establishes and maintains a systematic 
 
 | Detail              | Information                                                             |
 | :------------------ | :---------------------------------------------------------------------- |
+| **Department Head** | **Ms. Emiline Garrovillas** (Municipal Assessor)                        |
 | **Location**        | Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM                                      |
 | **Phone**           | (02) 7212-5741                                                          |

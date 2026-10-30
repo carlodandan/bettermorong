@@ -80,7 +80,7 @@ Secure a **Police Clearance** from the Morong Municipal Police Station (PNP) or 
    - Police or NBI Clearance
    - Photocopy of current year Cedula
    - 1x1 or 2x2 ID photo (2 copies)
-3. Pay the official occupational permit fee at the Treasury window <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+3. Pay the official occupational permit fee at the Treasury window (**₱70.00** per Service #54 of the Morong Citizen’s Charter 2025; turnaround time: 5 minutes).
 4. Claim your official laminated **Mayor's Occupational Working Permit ID Card**, valid until December 31 of the current year.
 
 ---

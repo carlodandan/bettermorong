@@ -27,7 +27,10 @@ A clerical error is a harmless typographical mistake made by writing, typing, or
    - Voter Registration Record from COMELEC
    - Land Titles, Driver’s License, or valid Passport
 3. **Valid Government-Issued ID** of the petitioner.
-4. **Filing Fee**: Administrative filing fee paid at the Municipal Treasury <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
+4. **Filing Fee**: Statutory filing fees per Service #29 of the Morong Citizen’s Charter 2025:
+   - **Correction of Clerical Error (CCE - RA 9048):** **₱1,000.00**
+   - **Change of First Name (CFN - RA 9048):** **₱3,000.00**
+   - **Correction in Gender / Day or Month of Birth (RA 10172):** **₱3,000.00** (plus publication costs).
 
 ---
 

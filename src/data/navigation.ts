@@ -82,6 +82,10 @@ export const footerNavigation: FooterNavigation = {
           href: '/government/departments',
         },
         {
+          label: "Citizen's Charter (2025)",
+          href: '/government/transparency-documents/citizens-charter-2025',
+        },
+        {
           label: 'Join the Movement',
           href: '/join-us',
         },

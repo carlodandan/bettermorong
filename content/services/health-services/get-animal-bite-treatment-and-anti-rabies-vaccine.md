@@ -70,8 +70,8 @@ The healthcare worker will administer:
 
 ## Fees and Assistance
 
-- Consultations and public health anti-rabies vaccines provided through the Department of Health (DOH) rabies program are generally free or subject to nominal supply replenishment fees <!-- TODO(verify): Confirm exact fee in Morong Citizen's Charter 2025 -->.
-- For indigent patients needing emergency RIG or specialized wound care, PhilHealth Animal Bite Treatment Package benefits apply at accredited facilities (such as RPHS Morong Main).
+- Consultations, wound assessment, and public health anti-rabies vaccines provided at the Morong Municipal Health Office / Animal Bite Treatment Center (ABTC) are **100% Free** under Service #52 of the Morong Citizen’s Charter 2025 and the DOH National Rabies Prevention and Control Program.
+- For indigent patients needing emergency RIG or specialized inpatient wound debridement, PhilHealth Animal Bite Treatment Package benefits apply at accredited facilities (such as RPHS Morong Main).
 
 ---
 

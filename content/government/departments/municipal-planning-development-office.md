@@ -8,6 +8,7 @@ The **Office of the Municipal Planning and Development Coordinator (MPDO)** spea
 
 | Detail              | Information                                                                        |
 | :------------------ | :--------------------------------------------------------------------------------- |
+| **Department Head** | **Ms. Maribeth C. Felix** (MPDC Coordinator)                                       |
 | **Location**        | 2nd Floor, Municipal Building, Sitio Paglabas, Brgy. San Pedro, Morong, Rizal 1960 |
 | **Operating Hours** | Monday – Friday, 8:00 AM – 5:00 PM                                                 |
 | **Phone**           | (02) 7212-5741                                                                     |
