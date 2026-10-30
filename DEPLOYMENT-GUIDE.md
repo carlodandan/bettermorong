@@ -1,26 +1,25 @@
 # 🚀 BetterMorong — Deployment & Environment Guide
 
-This comprehensive guide covers deploying **BetterMorong** (Municipality of Morong, Rizal) with a primary focus on **Cloudflare Pages** (the recommended, zero-cost, enterprise-grade edge platform for Philippine local government websites) alongside secondary hosting alternatives.
+This comprehensive guide covers deploying **BetterMorong** (Municipality of Morong, Rizal) exclusively on **Cloudflare Pages**—the zero-cost, enterprise-grade edge platform for Philippine local government portals.
 
 ---
 
 ## 📑 Table of Contents
 
-1. [🌟 Recommended: Cloudflare Pages](#-recommended-cloudflare-pages)
+1. [🌟 Cloudflare Pages Architecture](#-cloudflare-pages-architecture)
 2. [🏗️ Staging/Preview vs. Production: Architecture & Separation](#️-stagingpreview-vs-production-architecture--separation)
 3. [🚀 Step-by-Step Deployment Methods](#-step-by-step-deployment-methods)
    - [Method 1: Automated Git CI/CD via Cloudflare Dashboard (Recommended)](#method-1-automated-git-cicd-via-cloudflare-dashboard-recommended)
    - [Method 2: Direct Command Line Deployment via Wrangler CLI](#method-2-direct-command-line-deployment-via-wrangler-cli)
 4. [🌐 Custom Domain Setup (`.gov.ph`)](#-custom-domain-setup-govph)
-5. [⚙️ Edge Configuration Files (`_redirects` & `_headers`)](#️-edge-configuration-files-_redirects--_headers)
-6. [🔄 Alternative Platforms (Vercel, Netlify, AWS S3)](#-alternative-platforms-vercel-netlify-aws-s3)
-7. [📋 Pre-Deployment QA Checklist](#-pre-deployment-qa-checklist)
+5. [⚙️ Edge Configuration Files (`_headers`)](#️-edge-configuration-files-_headers)
+6. [📋 Pre-Deployment QA Checklist](#-pre-deployment-qa-checklist)
 
 ---
 
-## 🌟 Recommended: Cloudflare Pages
+## 🌟 Cloudflare Pages Architecture
 
-**Cloudflare Pages** is the ideal deployment platform for BetterMorong because it offers:
+**Cloudflare Pages** is the sole and official deployment platform for BetterMorong because it offers:
 
 - **Free, Unlimited Edge Bandwidth**: No unexpected overage bills for local government budgets.
 - **Local Philippine Edge Nodes**: Manila and regional data centers ensure sub-50ms latency across Luzon and CALABARZON.
@@ -246,41 +245,6 @@ Enforces browser and CDN caching policies alongside security best practices:
 /robots.txt
   Cache-Control: public, max-age=86400, must-revalidate
 ```
-
----
-
-## 🔄 Alternative Platforms (Vercel, Netlify, AWS S3)
-
-While Cloudflare Pages is recommended, BetterMorong is a standards-compliant static Vite app that can be hosted on any static cloud provider.
-
-### Option A: Vercel
-
-1. Import repository at [vercel.com/new](https://vercel.com/new).
-2. Framework Preset: **Vite**.
-3. Build Command: `pnpm run build`.
-4. Output Directory: `dist`.
-5. Add `vercel.json` if SPA rewriting is needed:
-   ```json
-   {
-     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-   }
-   ```
-
-### Option B: Netlify
-
-1. Connect Git repository at [app.netlify.com](https://app.netlify.com).
-2. Build command: `pnpm run build`.
-3. Publish directory: `dist`.
-4. Netlify automatically reads the existing `public/_redirects` and `public/_headers` files.
-
-### Option C: AWS S3 + CloudFront
-
-1. Build locally: `pnpm run build`.
-2. Sync `dist/` to an S3 bucket: `aws s3 sync dist/ s3://your-bucket-name --delete`.
-3. Configure CloudFront Distribution with Custom Error Response:
-   - HTTP Error Code: `404`
-   - Response Page Path: `/index.html`
-   - HTTP Response Code: `200`
 
 ---
 
