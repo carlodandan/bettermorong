@@ -325,16 +325,22 @@ export function createMarkdownComponents(theme: TypographyTheme) {
       children?: ReactNode;
       href?: string;
     } & HTMLAttributes<HTMLAnchorElement>) => {
-      // Check if it's an external link
+      // Check if it's an external link or a static document/downloadable file
       const isExternal =
         href && (href.startsWith('http://') || href.startsWith('https://'));
+      const isStaticFile =
+        href &&
+        (href.startsWith('/files/') ||
+          href.startsWith('/forms/') ||
+          /\.(pdf|docx?|xlsx?|zip|csv)$/i.test(href));
+      const shouldOpenNewTab = isExternal || isStaticFile;
 
       return (
         <a
           href={href}
           className={theme.components.a}
-          target={isExternal ? '_blank' : undefined}
-          rel={isExternal ? 'noopener noreferrer' : undefined}
+          target={shouldOpenNewTab ? '_blank' : undefined}
+          rel={shouldOpenNewTab ? 'noopener noreferrer' : undefined}
           {...props}
         >
           {children}
