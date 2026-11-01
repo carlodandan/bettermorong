@@ -26,8 +26,6 @@ To support transparency, civic research, and public access, the complete 2025 Ci
 | Format                      | File Details                                      | Direct Download                                                           |
 | :-------------------------- | :------------------------------------------------ | :------------------------------------------------------------------------ |
 | **Official PDF (Complete)** | 253 pages, full municipal charter (2.3 MB)        | [📥 Download CITIZEN-CHARTER-2025.pdf](/files/CITIZEN-CHARTER-2025.pdf)   |
-| **Structured Markdown**     | 6,000+ lines, full table of contents & procedures | [📥 Download CITIZEN-CHARTER-2025.md](/files/CITIZEN-CHARTER-2025.md)     |
-| **Open Data JSON**          | 115 structured services, requirements & fees      | [📥 Download CITIZEN-CHARTER-2025.json](/files/CITIZEN-CHARTER-2025.json) |
 
 ---
 
@@ -70,9 +68,3 @@ If you experience undue processing delays, discourtesy, fixers, or unlawful fee 
    - Dial **8888** from any mobile or landline nationwide.
 4. **Contact Center ng Bayan (CCB)**:
    - SMS: **0908 881 6565** | Hotline: **1-6565**
-
----
-
-## 🔍 Interactive 2025 Citizen’s Charter Explorer
-
-Use the interactive search and filtering tool below to explore all 115 frontline services, step-by-step agency workflows, required documentary attachments, and official fees.
