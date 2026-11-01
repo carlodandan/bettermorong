@@ -134,6 +134,7 @@ export default defineConfig({
         globPatterns: [
           '**/*.{js,css,html,svg,png,jpg,jpeg,json,woff2,txt,ico,xml,webmanifest,md}',
         ],
+        navigateFallbackDenylist: [/^\/files\//, /^\/forms\//, /\.pdf$/i],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/api\.open-meteo\.com\/.*/i,
