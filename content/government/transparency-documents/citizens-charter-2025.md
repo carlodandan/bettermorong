@@ -23,9 +23,9 @@ Under national anti-red tape mandates, every resident, business owner, and visit
 
 To support transparency, civic research, and public access, the complete 2025 Citizen’s Charter is available in multiple formats:
 
-| Format                      | File Details                               | Direct Download                                                         |
-| :-------------------------- | :----------------------------------------- | :---------------------------------------------------------------------- |
-| **Official PDF (Complete)** | 253 pages, full municipal charter (2.3 MB) | [📥 Download CITIZEN-CHARTER-2025.pdf](/files/CITIZEN-CHARTER-2025.pdf) |
+| Format                      | File Details                                      | Direct Download                                                           |
+| :-------------------------- | :------------------------------------------------ | :------------------------------------------------------------------------ |
+| **Official PDF (Complete)** | 253 pages, full municipal charter (2.3 MB)        | [📥 Download CITIZEN-CHARTER-2025.pdf](/files/CITIZEN-CHARTER-2025.pdf)   |
 
 ---
 
