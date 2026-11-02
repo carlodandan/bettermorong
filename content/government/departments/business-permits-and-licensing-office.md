@@ -47,4 +47,3 @@ Processes verified applications for business closure, tax retirement assessments
 - [Apply for Barangay Business Clearance and Mayor's Business Permit](/services/business/apply-for-barangay-clearance-and-mayors-business-permits)
 - [Renew Permits and Pay Local Business Taxes](/services/business/renew-permits-and-pay-local-business-taxes)
 - [Get a Cedula and Individual Working Permit](/services/civil-registry-and-ids/get-cedula-and-individual-working-permit)
-- [Rent Stalls in Public Markets or Use LGU Cemeteries](/services/infrastructure-public-works/rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries)

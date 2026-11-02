@@ -282,15 +282,6 @@ const PAGE_KEYWORDS: Record<string, string[]> = {
     'reservation',
     'town plaza',
   ],
-  'rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries': [
-    'public market',
-    'palengke',
-    'market stall',
-    'cemetery',
-    'sementeryo',
-    'libingan',
-    'pwesto sa palengke',
-  ],
 
   // --- Garbage & Waste Disposal ---
   'check-garbage-collection-schedules-and-request-pickup': [
