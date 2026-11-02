@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
   X,
   Menu,
+  ExternalLink,
   ChevronDown,
   Globe,
   Search,
@@ -210,42 +211,68 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden lg:flex items-center space-x-8 pr-24">
+          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {mainNavigation.map(item => (
               <div key={item.label} className="relative group">
-                <a
-                  href={item.href}
-                  className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
-                >
-                  {t(`navbar.${item.label.replace(' ', '').toLowerCase()}`)}
-                  {item.children && (
-                    <ChevronDown className="ml-1 h-4 w-4 text-gray-800 group-hover:text-primary-600 transition-colors" />
-                  )}
-                </a>
-                {item.children && (
-                  <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div
-                      className="py-1"
-                      role="menu"
-                      aria-orientation="vertical"
+                {item.external ? (
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                    title="Budget Transparency Portal (opens in a new tab)"
+                  >
+                    <span>
+                      {t(
+                        `navbar.${item.label.replace(' ', '').toLowerCase()}`,
+                        item.label
+                      )}
+                    </span>
+                    <ExternalLink
+                      className="ml-1.5 h-3.5 w-3.5 text-gray-400 group-hover:text-primary-600 transition-colors"
+                      aria-hidden="true"
+                    />
+                  </a>
+                ) : (
+                  <>
+                    <a
+                      href={item.href}
+                      className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
                     >
-                      {item.children.map(child => (
-                        <Link
-                          key={child.label}
-                          to={child.href}
-                          className="text-left block px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600"
-                          role="menuitem"
+                      {t(
+                        `navbar.${item.label.replace(' ', '').toLowerCase()}`,
+                        item.label
+                      )}
+                      {item.children && (
+                        <ChevronDown className="ml-1 h-4 w-4 text-gray-800 group-hover:text-primary-600 transition-colors" />
+                      )}
+                    </a>
+                    {item.children && (
+                      <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                        <div
+                          className="py-1"
+                          role="menu"
+                          aria-orientation="vertical"
                         >
-                          {child.label}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
+                          {item.children.map(child => (
+                            <Link
+                              key={child.label}
+                              to={child.href}
+                              className="text-left block px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600"
+                              role="menuitem"
+                            >
+                              {child.label}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             ))}
           </div>
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
             <Link
               to="/philippines-hotlines"
               className="flex items-center text-red-700 hover:text-red-800 font-bold transition-colors"
@@ -307,32 +334,59 @@ const Navbar: React.FC = () => {
         <div className="container mx-auto px-2 pt-2 pb-4 space-y-1 border-t border-gray-200 bg-white">
           {mainNavigation.map(item => (
             <div key={item.label}>
-              <button
-                onClick={() => toggleSubmenu(item.label)}
-                className="w-full flex justify-between items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
-              >
-                {t(`navbar.${item.label.toLowerCase()}`)}
-                {item.children && (
-                  <ChevronDown
-                    className={`h-5 w-5 transition-transform ${
-                      activeMenu === item.label ? 'transform rotate-180' : ''
-                    }`}
+              {item.children ? (
+                <>
+                  <button
+                    onClick={() => toggleSubmenu(item.label)}
+                    className="w-full flex justify-between items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+                  >
+                    {t(`navbar.${item.label.toLowerCase()}`, item.label)}
+                    <ChevronDown
+                      className={`h-5 w-5 transition-transform ${
+                        activeMenu === item.label ? 'transform rotate-180' : ''
+                      }`}
+                    />
+                  </button>
+                  {activeMenu === item.label && (
+                    <div className="pl-6 py-2 space-y-1 bg-gray-50">
+                      {item.children.map(child => (
+                        <Link
+                          key={child.label}
+                          to={child.href}
+                          onClick={closeMenu}
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-600"
+                        >
+                          {child.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </>
+              ) : item.external ? (
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={closeMenu}
+                  className="w-full flex justify-between items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+                  title="Budget Transparency Portal (opens in a new tab)"
+                >
+                  <span>
+                    {t(`navbar.${item.label.toLowerCase()}`, item.label)}
+                  </span>
+                  <ExternalLink
+                    className="h-4 w-4 text-gray-400"
+                    aria-hidden="true"
                   />
-                )}
-              </button>
-              {item.children && activeMenu === item.label && (
-                <div className="pl-6 py-2 space-y-1 bg-gray-50">
-                  {item.children.map(child => (
-                    <Link
-                      key={child.label}
-                      to={child.href}
-                      onClick={closeMenu}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-500"
-                    >
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
+                </a>
+              ) : (
+                <Link
+                  to={item.href}
+                  onClick={closeMenu}
+                  className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  {t(`navbar.${item.label.toLowerCase()}`, item.label)}
+                </Link>
               )}
             </div>
           ))}
@@ -342,7 +396,14 @@ const Navbar: React.FC = () => {
             className="flex items-center gap-2 px-4 py-2 text-base font-bold text-red-700 hover:bg-red-50"
           >
             <PhoneCall className="h-4 w-4 text-red-600" aria-hidden="true" />
-            Emergency Hotlines
+            {t('navbar.hotlines')}
+          </Link>
+          <Link
+            to="/government/about-morong"
+            onClick={closeMenu}
+            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
+          >
+            {t('navbar.about')}
           </Link>
           <Link
             to="/join-us"
@@ -351,13 +412,6 @@ const Navbar: React.FC = () => {
           >
             <Users className="h-4 w-4 text-primary-600" aria-hidden="true" />
             {t('navbar.joinUs', 'Join Us')}
-          </Link>
-          <Link
-            to="/government/about-morong"
-            onClick={closeMenu}
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600"
-          >
-            {t('navbar.about')}
           </Link>
           <Link
             to="/search"

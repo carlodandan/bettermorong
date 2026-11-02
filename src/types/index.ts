@@ -16,6 +16,7 @@ export interface NavigationItem {
   label: string;
   href: string;
   children?: NavigationItem[];
+  external?: boolean;
 }
 
 export interface DownloadableForm {
