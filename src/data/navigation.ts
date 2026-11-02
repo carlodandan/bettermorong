@@ -34,6 +34,11 @@ export const mainNavigation: NavigationItem[] = [
         href: `/government/${category.slug}`,
       })),
   },
+  {
+    label: 'Budget',
+    href: 'https://budget.bettermorong.org/',
+    external: true,
+  },
 ];
 
 export interface FooterLink {
