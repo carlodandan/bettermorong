@@ -5,6 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2026-11-02
+
+### Added
+
+- **Budget Transparency Portal Integration**:
+  - Integrated direct navigation to the Morong Budget Transparency Portal (`https://budget.bettermorong.org/`) into the primary desktop header alongside Services and Government.
+  - Added external link indicator icon (`ExternalLink`), `target="_blank" rel="noopener noreferrer"`, and bilingual localization strings (`Budget` / `Badyet`) in `src/locales/en/common.json` and `src/locales/fil/common.json`.
+  - Added support for external links in the mobile navigation drawer, displaying external link badges without accordion toggling.
+- **Official 2025 Citizen’s Charter & Municipal Department Profiles**:
+  - Added the complete 253-page official 2025 Citizen’s Charter PDF (`public/files/CITIZEN-CHARTER-2025.pdf`).
+  - Added direct shortcut routes `/charter` and `/citizens-charter` redirecting to the official transparency document (`/government/transparency-documents/citizens-charter-2025`).
+  - Added 5 comprehensive municipal department profiles under `content/government/departments/`: General Services Office (GSO), Human Resource Management Office (HRMO), Municipal Accountant Office, Municipal Budget Office, and Municipal Tourism Office.
+  - Added reproducible data extraction and processing scripts in `scripts/extract-citizen-charter.py` and `scripts/generate-clean-charter.py`.
+- **Meta Pixel Analytics**:
+  - Added Meta Pixel tracking in `index.html` to monitor visitor engagement and event metrics.
+
+### Changed
+
+- **Statutory Fee Schedules & Department Data Updates**:
+  - Resolved placeholder statutory fees across civil registry guides, marriage license applications, cedula / working permits, animal bite / anti-rabies treatments, and real property tax declarations based on official municipal schedules.
+  - Updated department heads, mandates, vision, mission, strategic goals, and service pledges across municipal department profiles.
+  - Expanded search index keywords in `src/lib/searchIndex.ts` for GSO, HRMO, Tourism, Accounting, Budget, and Citizen’s Charter 2025.
+  - Improved desktop navbar responsiveness (`space-x-6 xl:space-x-8`) and removed static right padding (`pr-24`) to eliminate cramped layouts across medium-to-large displays (1024px+).
+  - Aligned mobile drawer item order to match desktop navigation sequence (`Services` → `Government` → `Budget` → `Hotlines` → `About` → `Join Us` → `Search`).
+
+### Fixed
+
+- **PWA Service Worker File Download & SPA Interception Fix**:
+  - Configured `navigateFallbackDenylist: [/^\/files\//, /^\/forms\//, /\.pdf$/i]` in `vite.config.ts` Workbox options so navigation requests for static PDF and file downloads bypass the SPA fallback (`index.html`) and load cleanly.
+  - Fixed issue where clicking Citizen’s Charter PDF in production triggered client-side routing resulting in 'Document Not Found: No document specified'.
+  - Updated `src/lib/markdownComponents.tsx` to automatically set `target="_blank"` and `rel="noopener noreferrer"` for local PDF and downloadable file assets (`/files/`, `/forms/`, `.pdf`, `.zip`, etc.).
+
+### Removed
+
+- **Legacy Platform Deployment Configurations**:
+  - Standardized deployment exclusively on Cloudflare Pages and removed legacy documentation/configurations for Vercel (`vercel.json`), Netlify, AWS S3, and GitHub Pages.
+  - Purged obsolete `terraform/` directory and Terraform-related `.gitignore` entries.
+- **Codebase Cleanups**:
+  - Removed unused `src/components/I18nTest.tsx` testing component.
+  - Cleaned up obsolete category index entries in `content/services/business/index.yaml` and `content/services/infrastructure-public-works/index.yaml`.
+
 ## [1.5.1] - 2026-10-30
 
 ### Added
